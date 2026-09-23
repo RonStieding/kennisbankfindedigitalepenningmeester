@@ -1,0 +1,244 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H02",
+    "number": 2,
+    "title": "Financiële administratie en bankzaken",
+    "heading_original": "Hoofdstuk 2 — Financiële administratie en bankzaken",
+    "description": "Een goede administratie laat zien welk geld de sportvereniging heeft, waar het vandaan komt en welke bedragen zij nog moet ontvangen of betalen."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H02-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Een goede administratie laat zien welk geld de sportvereniging heeft, waar het vandaan komt en welke bedragen zij nog moet ontvangen of betalen. Ze helpt de penningmeester bij het dagelijkse werk, het bestuur bij besluiten en de kascommissie bij haar controle.\n\nDe administratie hoeft niet ingewikkelder te zijn dan de vereniging nodig heeft. Ze moet wel actueel, begrijpelijk en controleerbaar blijven — ook voor iemand die haar later overneemt.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "6a7dfddbe612ac8f"
+    },
+    {
+      "id": "H02-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "1",
+      "title": "Hoe richt ik de boekhouding van een sportvereniging in?",
+      "heading_original": "1. Hoe richt ik de boekhouding van een sportvereniging in?",
+      "body": "Begin met een rekenschema: een lijst van de posten waaronder je inkomsten, kosten, bezittingen en schulden vastlegt. Een duidelijke indeling zorgt dat vergelijkbare bedragen steeds op dezelfde plek terechtkomen. Daardoor kun je de boekhouding gebruiken voor de begroting, tussentijdse rapportages en jaarstukken.\n\nDe bijgevoegde Rekenschema sportvereniging template gebruikt het aangeleverde benchmarkbestand als startpunt. De template heeft drie onderdelen:\n\n| **Onderdeel** | **Voorbeelden van rubrieken** |\n| --- | --- |\n| Baten | Bijdragen van leden, kantine, sponsoring, subsidies, evenementen en verhuur |\n| Lasten | Sportactiviteiten, huisvesting, personeel, vrijwilligers, kantine en verenigingskosten |\n| Balans | Bezittingen, geldmiddelen, eigen vermogen en schulden |\n\nLoop de template met een tweede bestuurslid door. Geef bij iedere post aan of de vereniging deze gebruikt. Vul daarna de eigen rekeningcode in als jullie boekhoudprogramma met rekeningnummers werkt. Noteer in de toelichtingskolom waar een post voor bedoeld is of hoe een bestaande boekhoudrekening op de benchmarkindeling aansluit.\n\nVoorbeeld: de vereniging boekt zaalhuur op rekening 4100. In de template kan bij Lasten → Huisvestingslasten → Huur zaal de eigen rekeningcode 4100 worden ingevuld. Zo blijft de bestaande boekhouding herkenbaar en wordt duidelijk waar die kosten in de rapportage thuishoren.\n\nDe kolom Relevantie volgens bron helpt bij het kiezen van posten. Een vermelding zoals teamsporten of eigen accommodatie is een aanwijzing uit de benchmark, geen regel die bepaalt hoe jouw vereniging moet boeken. Voeg ontbrekende posten toe aan de eigen boekhouding en leg vast hoe ze op de gekozen indeling aansluiten.\n\nLet op bij de balans en reserveringen: de template neemt de benamingen uit het aangeleverde schema als uitgangspunt. De juiste verwerking van bijvoorbeeld afschrijvingen, voorzieningen en reserves vraagt soms een aparte beoordeling bij de jaarafsluiting. Een bedrag opzij willen zetten maakt het niet automatisch tot een kostenpost.\n\nLeg vervolgens per boeking minimaal vast:\n\n- de datum en het bedrag;\n\n- van wie het geld komt of aan wie het is betaald;\n\n- waarvoor het bedrag bedoeld is;\n\n- bij welke post en eventueel welk team of evenement het hoort;\n\n- waar het bijbehorende bewijsstuk te vinden is.\n\nGebruik de gekozen posten consequent. Als je een vergoeding voor trainers de ene maand onder vrijwilligers en de volgende maand onder personeel boekt, worden vergelijkingen lastig. Bespreek een wijziging in de indeling daarom vooraf en zorg dat eerdere en nieuwe cijfers vergelijkbaar blijven.\n\nKies ten slotte een werkwijze die bij de vereniging past: een overzichtelijk spreadsheet kan voldoende zijn voor een kleine club; bij meer transacties of meerdere gebruikers kan boekhoudsoftware handiger zijn. Het rekenschema is in beide gevallen de indeling van de administratie. De template zelf is geen transactieregistratie.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "926a8b619fa28a1b"
+    },
+    {
+      "id": "H02-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "2",
+      "title": "Welke inkomsten en uitgaven moet ik vastleggen?",
+      "heading_original": "2. Welke inkomsten en uitgaven moet ik vastleggen?",
+      "body": "Leg alle inkomsten en uitgaven van de vereniging vast, ook kleine contante bedragen. Verwerk daarnaast bedragen die nog ontvangen of betaald moeten worden. Anders lijkt het financiële beeld gunstiger of ongunstiger dan het werkelijk is.\n\nEen betaling en een kostenpost zijn niet altijd hetzelfde. Betaalt de vereniging in december alvast de huur voor januari, dan gaat het geld in december van de bank, terwijl de huur betrekking heeft op januari. Dit onderscheid wordt vooral belangrijk bij de jaarafsluiting; hoofdstuk 3 werkt het verder uit.\n\nVergeet geldstromen buiten de gebruikelijke bankrekening niet, zoals contante ontvangsten bij een evenement, betalingen via een betaalprovider of geld dat een commissie beheert. Spreek af wie de gegevens daarvan aanlevert en hoe vaak dat gebeurt.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "882da6a5dd37710b"
+    },
+    {
+      "id": "H02-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "3",
+      "title": "Welke bewijsstukken moet ik bewaren en hoe organiseer ik die?",
+      "heading_original": "3. Welke bewijsstukken moet ik bewaren en hoe organiseer ik die?",
+      "body": "Bij iedere boeking moet terug te vinden zijn waarom het bedrag is ontvangen of betaald. Bewaar bijvoorbeeld facturen, bonnetjes, declaraties, subsidiebrieven, sponsorafspraken, kasoverzichten en bankafschriften. Bewaar bij een uitgave ook het akkoord als dat volgens de verenigingsregels nodig is.\n\nEen praktische werkwijze is om ieder bewijsstuk een herkenbaar nummer of een duidelijke bestandsnaam te geven. Verwijs in de boekhouding naar dat stuk. Bijvoorbeeld: bij de boeking voor nieuwe wedstrijdballen staat een verwijzing naar de leveranciersfactuur en het akkoord voor de aankoop.\n\nBewaar digitale documenten op een plek waar bevoegde bestuursleden bij kunnen en maak reservekopieën. Controleer bij een wisseling van boekhoudprogramma of oude gegevens leesbaar blijven. De administratie van een vereniging moet in beginsel zeven jaar worden bewaard; voor bepaalde gegevens, waaronder gegevens over onroerende zaken, kan een langere termijn gelden. [KVK – Bestuurder van een vereniging](https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/), [Belastingdienst – Administratie bewaren](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/administratie_bewaren/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – Bestuurder van een vereniging",
+          "url": "https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/"
+        },
+        {
+          "label": "Belastingdienst – Administratie bewaren",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/administratie_bewaren/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "4c45d0acdca8018d"
+    },
+    {
+      "id": "H02-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "4",
+      "title": "Hoe verwerk ik facturen, bonnetjes en declaraties?",
+      "heading_original": "4. Hoe verwerk ik facturen, bonnetjes en declaraties?",
+      "body": "Gebruik voor inkomende facturen een vaste volgorde:\n\n- Ontvang: zorg dat de factuur op een afgesproken adres of in een gedeelde omgeving binnenkomt.\n\n- Controleer: kloppen leverancier, bedrag, geleverde goederen of diensten en betaalgegevens?\n\n- Vraag akkoord: laat de aangewezen persoon bevestigen dat de uitgave is toegestaan.\n\n- Leg vast: registreer de factuur en de vervaldatum in de administratie.\n\n- Betaal: voer de betaling uit volgens de bankafspraken.\n\n- Controleer achteraf: koppel de betaling aan de factuur en markeer haar als betaald.\n\nVraag bij declaraties om de naam van de indiener, de reden van de uitgave, de datum, het bedrag en de bon of factuur. Spreek vooraf af welke uitgaven vrijwilligers mogen doen en wie hun declaraties goedkeurt.\n\nOntbreekt een bewijsstuk? Vraag eerst om een kopie of andere onderbouwing. Leg vast hoe het bedrag uiteindelijk is beoordeeld.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "2b4455533f6dd207"
+    },
+    {
+      "id": "H02-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "5",
+      "title": "Hoe controleer ik of de boekhouding aansluit op de bankrekening?",
+      "heading_original": "5. Hoe controleer ik of de boekhouding aansluit op de bankrekening?",
+      "body": "Vergelijk periodiek alle af- en bijschrijvingen op het bankafschrift met de boekhouding. Dit heet een bankafstemming. Controleer in beide richtingen:\n\n- Staat iedere bankmutatie in de boekhouding?\n\n- Is iedere als betaald geboekte factuur werkelijk van de bank afgeschreven?\n\n- Zijn ontvangen bedragen aan de juiste contributie, factuur of andere inkomstenbron gekoppeld?\n\n- Komt het banksaldo in de boekhouding overeen met het werkelijke banksaldo?\n\nWerk verschillen uit totdat duidelijk is waar ze vandaan komen. Een verschil kan ontstaan door een dubbele boeking, vergeten bankkosten, een verkeerd bedrag of een betaling die nog onderweg is. Corrigeer een fout zó dat later te zien blijft wat is aangepast en waarom.\n\nLaat daarnaast een ander bestuurslid de bankmutaties regelmatig bekijken. Die controle vult de afstemming door de penningmeester aan.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "0805f46f03152b71"
+    },
+    {
+      "id": "H02-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "6",
+      "title": "Hoe regel ik betalingen en wie mag ze goedkeuren?",
+      "heading_original": "6. Hoe regel ik betalingen en wie mag ze goedkeuren?",
+      "body": "Leg vast wie een uitgave mag aanvragen, wie haar goedkeurt, wie de betaling klaarzet en wie deze bij de bank autoriseert. Kijk daarbij naar de statuten, bestuursafspraken en de mogelijkheden van de bank. Banktoegang en toestemming voor een uitgave zijn verschillende zaken.\n\nStel passende betaallimieten in. Een tweede bestuurslid moet bankmutaties kunnen controleren; bij grotere bedragen kan de vereniging afspreken dat een tweede persoon de betaling autoriseert. Controleer of zulke afspraken ook in de bankinstellingen zijn verwerkt.\n\nGebruik voor ieder persoon een eigen banktoegang en deel geen inloggegevens. Werk bevoegdheden bij wanneer een bestuurder vertrekt. [KVK – Zakelijke rekening voor een vereniging](https://www.kvk.nl/geldzaken/zakelijke-rekening-openen-deze-documenten-heb-je-nodig/)\n\nPraktische controlevraag: wie merkt het op als vandaag een betaling wordt gedaan die niet voor de vereniging bedoeld is, en wanneer merkt die persoon dat op?",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – Zakelijke rekening voor een vereniging",
+          "url": "https://www.kvk.nl/geldzaken/zakelijke-rekening-openen-deze-documenten-heb-je-nodig/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "5e3b0353762c6ddb"
+    },
+    {
+      "id": "H02-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "7",
+      "title": "Hoe beheer ik contant geld, bijvoorbeeld uit de kantine of bij evenementen?",
+      "heading_original": "7. Hoe beheer ik contant geld, bijvoorbeeld uit de kantine of bij evenementen?",
+      "body": "Houd contant geld zo overzichtelijk mogelijk. Spreek af wie de kas beheert, hoeveel wisselgeld erin zit, wanneer er wordt geteld en wanneer geld op de bank wordt gestort.\n\nNoteer iedere ontvangst en uitgave, bewaar de bewijsstukken en vergelijk het berekende kassaldo met het geld dat werkelijk aanwezig is. Laat bij grotere bedragen twee personen samen tellen en de telling vastleggen. Noteer ook een kasverschil; verander de registratie niet om de kas achteraf passend te maken.\n\nBij kantineverkoop of een evenement is alleen het afgestorte bedrag vaak onvoldoende informatie. Leg ook vast wat er volgens de kassa, betaalterminal of verkoopregistratie is ontvangen en hoe dat aansluit op contant geld en pinbetalingen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a261d4d28460f512"
+    },
+    {
+      "id": "H02-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8",
+      "title": "Hoe houd ik de financiën van teams en commissies overzichtelijk?",
+      "heading_original": "8. Hoe houd ik de financiën van teams en commissies overzichtelijk?",
+      "body": "Geef teams en commissies vooraf duidelijkheid over hun budget en bevoegdheden. Spreek af welke aankopen eerst akkoord vereisen en wanneer zij bewijsstukken aanleveren.\n\nGebruik in de boekhouding een herkenbare aanduiding per team, commissie of activiteit als het bestuur die cijfers afzonderlijk wil zien. Laat geld dat een commissie beheert regelmatig verantwoorden: beginbedrag, ontvangsten, uitgaven en eindbedrag moeten op elkaar aansluiten.\n\nEen team- of commissiebudget is onderdeel van de financiën van de vereniging. Zorg dat de penningmeester deze bedragen kan opnemen in de totale administratie en rapportage.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a588ed74f6e6576d"
+    },
+    {
+      "id": "H02-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "9",
+      "title": "Welke boekhoudsoftware of andere hulpmiddelen passen bij onze vereniging?",
+      "heading_original": "9. Welke boekhoudsoftware of andere hulpmiddelen passen bij onze vereniging?",
+      "body": "Kies op basis van het werk dat de club daadwerkelijk heeft. Stel bij een spreadsheet of programma ten minste deze vragen:\n\n- Kunnen we de posten uit ons rekenschema goed vastleggen?\n\n- Kunnen we bankmutaties eenvoudig verwerken en controleren?\n\n- Zijn bewijsstukken aan boekingen te koppelen of duidelijk terug te vinden?\n\n- Kunnen bevoegde personen informatie inzien zonder alles te kunnen wijzigen?\n\n- Zijn gegevens te exporteren voor de kascommissie en een opvolger?\n\n- Zijn toegang, reservekopieën en ondersteuning goed geregeld?\n\nEen hulpmiddel vervangt geen werkafspraken. Ook met automatische bankkoppelingen moet iemand controleren of bedragen bij de juiste posten zijn geboekt.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "96130100209e86e6"
+    },
+    {
+      "id": "H02-P10",
+      "order": 10,
+      "kind": "vraag",
+      "number": "10",
+      "title": "Wat doe ik als er een betaling of boeking niet klopt?",
+      "heading_original": "10. Wat doe ik als er een betaling of boeking niet klopt?",
+      "body": "Onderzoek eerst wat er feitelijk is gebeurd. Vergelijk de boeking met het bankafschrift, het bewijsstuk en de eventuele goedkeuring. Vraag de betrokken persoon om uitleg als die ontbreekt.\n\nMaak vervolgens onderscheid tussen:\n\n- Een administratieve fout: bijvoorbeeld een verkeerd bedrag, een dubbele boeking of een verkeerde post uit het rekenschema. Corrigeer die met een duidelijke toelichting.\n\n- Een onduidelijke betaling: verzamel aanvullende informatie en laat het bedrag niet zonder verklaring staan.\n\n- Een betaling zonder toestemming of een vermoeden van misbruik: informeer direct de voorzitter of een ander aangewezen bestuurslid en bewaar de relevante stukken.\n\nDocumenteer wat is vastgesteld, welke correctie of maatregel is genomen en wie daarover heeft besloten.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "bcba3e1d192a632e"
+    },
+    {
+      "id": "H02-P11",
+      "order": 11,
+      "kind": "overzicht",
+      "number": null,
+      "title": "Werkritme voor de administratie",
+      "heading_original": "Werkritme voor de administratie",
+      "body": "| **Wanneer** | **Werkzaamheden** |\n| --- | --- |\n| Bij ontvangst van een stuk | Factuur, bon, declaratie of afspraak opslaan en doorzetten voor controle of akkoord |\n| Regelmatig gedurende de maand | Betalingen voorbereiden, ontvangsten verwerken en bankmutaties bekijken |\n| Na afloop van de maand | Bank en eventuele kas afstemmen; openstaande bedragen nalopen |\n| Voor iedere bestuursvergadering | Een kort overzicht maken van resultaten, beschikbare middelen en aandachtspunten |\n| Rond het einde van het boekjaar | Ontbrekende stukken opvragen en de administratie voorbereiden voor jaarstukken en kascontrole |",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a31e595219e9e6b1"
+    },
+    {
+      "id": "H02-P12",
+      "order": 12,
+      "kind": "checklist",
+      "number": null,
+      "title": "Checklist: staat onze administratie goed?",
+      "heading_original": "Checklist: staat onze administratie goed?",
+      "body": "- We hebben vastgelegd welke posten uit het rekenschema we gebruiken.\n\n- Onze eigen rekeningcodes zijn aan die posten gekoppeld.\n\n- Iedere boeking heeft een duidelijke omschrijving en een bewijsstuk.\n\n- Facturen en declaraties worden vóór betaling gecontroleerd en goedgekeurd.\n\n- Banktoegang, betaallimieten en bevoegdheden zijn vastgelegd.\n\n- Een tweede bestuurslid bekijkt regelmatig de bankmutaties.\n\n- Bank en eventuele kas worden periodiek met de administratie vergeleken.\n\n- Teams en commissies leveren hun financiële gegevens op afgesproken momenten aan.\n\n- De administratie is veilig bewaard, leesbaar en overdraagbaar.\n\n- Verschillen en correcties worden uitgezocht en gedocumenteerd.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "e4504fbbf3069d62"
+    }
+  ],
+  "attachments": []
+}

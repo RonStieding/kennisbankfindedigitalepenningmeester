@@ -1,0 +1,137 @@
+{
+  "schema": "fin-kennisbank/manifest@1",
+  "source": "Vragenlijst Fin – FinSport versie 2 (Word)",
+  "generated": "2026-09-19",
+  "chapters": [
+    {
+      "id": "H01",
+      "number": 1,
+      "title": "De rol van de penningmeester",
+      "description": "De penningmeester zorgt dat het bestuur zicht houdt op de financiën van de sportvereniging.",
+      "file": "H01.json",
+      "sections": 10,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H02",
+      "number": 2,
+      "title": "Financiële administratie en bankzaken",
+      "description": "Een goede administratie laat zien welk geld de sportvereniging heeft, waar het vandaan komt en welke bedragen zij nog moet ontvangen of betalen.",
+      "file": "H02.json",
+      "sections": 13,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H03",
+      "number": 3,
+      "title": "Begroting, liquiditeit en jaarrekening",
+      "description": "De begroting kijkt vooruit: wat verwacht de vereniging te ontvangen en uit te geven?",
+      "file": "H03.json",
+      "sections": 12,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H04",
+      "number": 4,
+      "title": "Contributie en ledenbetalingen",
+      "description": "Contributie is voor veel sportverenigingen een belangrijke, terugkerende inkomstenbron.",
+      "file": "H04.json",
+      "sections": 11,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H05",
+      "number": 5,
+      "title": "Overige inkomsten",
+      "description": "Naast contributie kan een sportvereniging geld ontvangen uit sponsoring, subsidies, donaties, acties, evenementen, kantineverkoop en verhuur.",
+      "file": "H05.json",
+      "sections": 11,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H06",
+      "number": 6,
+      "title": "Uitgaven, inkopen en contracten",
+      "description": "Een uitgave begint vaak al voordat er een factuur binnenkomt.",
+      "file": "H06.json",
+      "sections": 12,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H07",
+      "number": 7,
+      "title": "Vrijwilligers, trainers en personeel",
+      "description": "Sportverenigingen werken met mensen die vrijwillig helpen, kosten voor de club voorschieten, tegen betaling trainingen geven of in dienst zijn.",
+      "file": "H07.json",
+      "sections": 11,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H08",
+      "number": 8,
+      "title": "Accommodatie, materiaal en investeringen",
+      "description": "Een sportvereniging kan sporten in een gehuurde zaal, op gemeentelijke velden of in een eigen accommodatie.",
+      "file": "H08.json",
+      "sections": 11,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H09",
+      "number": 9,
+      "title": "Belastingen en fiscale regelingen",
+      "description": "Een sportvereniging heeft niet automatisch dezelfde belastingverplichtingen als een bedrijf.",
+      "file": "H09.json",
+      "sections": 12,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H10",
+      "number": 10,
+      "title": "Reserves, financiële risico’s en verzekeringen",
+      "description": "Een financieel gezonde sportvereniging kan haar gewone verplichtingen betalen én tegenvallers opvangen.",
+      "file": "H10.json",
+      "sections": 12,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H11",
+      "number": 11,
+      "title": "ALV, kascommissie en financiële verantwoording",
+      "description": "De penningmeester houdt de cijfers bij, maar het bestuur als geheel legt verantwoording af aan de leden.",
+      "file": "H11.json",
+      "sections": 12,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H12",
+      "number": 12,
+      "title": "Bestuur, regels en bevoegdheden",
+      "description": "De penningmeester voert veel financiële werkzaamheden uit, maar bestuurt de vereniging niet alleen.",
+      "file": "H12.json",
+      "sections": 11,
+      "version": "1.0",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "H13",
+      "number": 13,
+      "title": "Praktische jaarcyclus en overdracht",
+      "description": "Een goede financiële administratie draait op vaste gewoonten.",
+      "file": "H13.json",
+      "sections": 11,
+      "version": "1.0",
+      "date": "2026-09-19"
+    }
+  ]
+}

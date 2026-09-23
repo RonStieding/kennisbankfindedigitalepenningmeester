@@ -1,0 +1,223 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H03",
+    "number": 3,
+    "title": "Begroting, liquiditeit en jaarrekening",
+    "heading_original": "Hoofdstuk 3 — Begroting, liquiditeit en jaarrekening",
+    "description": "De begroting kijkt vooruit: wat verwacht de vereniging te ontvangen en uit te geven?"
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H03-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "De begroting kijkt vooruit: wat verwacht de vereniging te ontvangen en uit te geven? Een liquiditeitsplanning laat zien wanneer geld daadwerkelijk op de bankrekening binnenkomt en eraf gaat. De jaarrekening kijkt terug en laat zien wat het afgelopen boekjaar financieel heeft opgeleverd en hoe de vereniging er aan het einde van dat jaar voor staat.\n\nDeze drie overzichten beantwoorden verschillende vragen. Gebruik daarom dezelfde herkenbare posten uit het rekenschema van hoofdstuk 2, maar houd het doel van ieder overzicht duidelijk.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "50164316af1e7220"
+    },
+    {
+      "id": "H03-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "1",
+      "title": "Hoe maak ik een begroting voor het komende verenigingsjaar?",
+      "heading_original": "1. Hoe maak ik een begroting voor het komende verenigingsjaar?",
+      "body": "Begin met de plannen van de vereniging. Welke teams, trainingen, wedstrijden en activiteiten zijn voorzien? Zijn er veranderingen in ledenaantal, accommodatie, trainers of materiaal? Vertaal die plannen vervolgens naar bedragen.\n\nEen werkbare volgorde is:\n\n- Neem de werkelijke inkomsten en kosten van het afgelopen jaar als vertrekpunt.\n\n- Vraag bestuursleden en commissies welke activiteiten of veranderingen zij plannen.\n\n- Schat de inkomsten per bron, zoals contributie, sponsoring, subsidie en kantine.\n\n- Schat de kosten per post uit het rekenschema.\n\n- Neem bekende prijsveranderingen en nieuwe verplichtingen mee.\n\n- Bespreek wat de vereniging doet als een verwachte inkomstenbron uitvalt.\n\n- Leg het voorstel ter besluitvorming voor volgens de statuten en werkafspraken.\n\nMaak bij belangrijke aannames zichtbaar hoe je tot een bedrag komt. Bijvoorbeeld: verwacht aantal leden × contributie per categorie. Zo kan het bestuur de begroting beoordelen en later verklaren waarom de werkelijkheid afwijkt.\n\nGebruik in de begroting bij voorkeur dezelfde posten als in de jaarrekening. Dan zijn de bedragen gedurende het jaar goed te vergelijken.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "8d4a62931938181d"
+    },
+    {
+      "id": "H03-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "2",
+      "title": "Welke informatie heb ik nodig om realistisch te begroten?",
+      "heading_original": "2. Welke informatie heb ik nodig om realistisch te begroten?",
+      "body": "Verzamel ten minste:\n\n- de werkelijke cijfers van één of meer voorgaande jaren;\n\n- het huidige en verwachte ledenaantal;\n\n- vastgestelde contributietarieven en bondsafdrachten;\n\n- contracten voor huur, energie, verzekeringen, software en trainers;\n\n- plannen van teams en commissies;\n\n- afspraken met sponsors en subsidieverstrekkers;\n\n- gepland onderhoud en vervanging van materiaal;\n\n- bekende prijsstijgingen of wijzigingen in activiteiten.\n\nMaak onderscheid tussen zeker, waarschijnlijk en onzeker. Een getekend sponsorcontract geeft meer houvast dan een gesprek met een mogelijke sponsor. Neem onzekere inkomsten niet zonder toelichting op alsof ze al vaststaan.\n\nKijk ook naar het verloop door het jaar. De contributie kan bijvoorbeeld vroeg in het seizoen binnenkomen, terwijl accommodatiekosten maandelijks doorlopen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "3b177e2c06da2c99"
+    },
+    {
+      "id": "H03-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "3",
+      "title": "Wat is het verschil tussen een begroting, een jaarrekening en een liquiditeitsplanning?",
+      "heading_original": "3. Wat is het verschil tussen een begroting, een jaarrekening en een liquiditeitsplanning?",
+      "body": "| **Overzicht** | **Hoofdvraag** | **Periode** |\n| --- | --- | --- |\n| Begroting | Welke inkomsten en kosten verwachten we? | Komend boekjaar |\n| Liquiditeitsplanning | Hebben we op ieder moment genoeg geld om te betalen? | Meestal per maand of kwartaal |\n| Jaarrekening | Wat waren de werkelijke baten en lasten, en wat bezat of verschuldigde de vereniging aan het einde van het jaar? | Afgelopen boekjaar |\n\nHet verschil is belangrijk omdat geld ontvangen niet altijd hetzelfde is als een bate hebben, en geld betalen niet altijd hetzelfde is als een last hebben.\n\nOntvangt de vereniging bijvoorbeeld een lening, dan stijgt het banksaldo. Tegelijk ontstaat een schuld; de lening is geen opbrengst. Koopt de club een duurzaam gebruikt apparaat, dan daalt het banksaldo. Afhankelijk van de verwerking komt de aanschaf als bezitting op de balans en worden de kosten over meerdere jaren verdeeld.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a6a88c1489ae4899"
+    },
+    {
+      "id": "H03-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "4",
+      "title": "Hoe voorkom ik dat de vereniging tijdelijk te weinig geld heeft?",
+      "heading_original": "4. Hoe voorkom ik dat de vereniging tijdelijk te weinig geld heeft?",
+      "body": "Maak een eenvoudig overzicht per maand:\n\n| **Maand** | **Beginsaldo bank en kas** | **Verwachte ontvangsten** | **Verwachte betalingen** | **Verwacht eindsaldo** |\n| --- | --- | --- | --- | --- |\n| Januari | € … | € … | € … | € … |\n| Februari | € … | € … | € … | € … |\n| Maart | € … | € … | € … | € … |\n\nReken steeds: beginsaldo + ontvangsten − betalingen = eindsaldo. Het eindsaldo van de ene maand wordt het beginsaldo van de volgende.\n\nNeem grote betaalmomenten afzonderlijk op, zoals huur, bondsafdrachten, belastingen en investeringen. Houd ook rekening met contributie die later binnenkomt dan verwacht.\n\nWordt het verwachte saldo te laag? Bespreek tijdig maatregelen met het bestuur. Denk aan het verschuiven van een niet dringende aankoop, het sneller innen van openstaande bedragen of het maken van afspraken over betalingstermijnen. Kijk daarbij ook naar geld dat de vereniging voor een afgesproken doel moet gebruiken.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "c4c49aa25b64698d"
+    },
+    {
+      "id": "H03-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "5",
+      "title": "Hoe vergelijk ik tijdens het jaar de werkelijke cijfers met de begroting?",
+      "heading_original": "5. Hoe vergelijk ik tijdens het jaar de werkelijke cijfers met de begroting?",
+      "body": "Maak op vaste momenten een overzicht per post:\n\n| **Post** | **Begroting tot nu toe** | **Werkelijk tot nu toe** | **Verschil** | **Verwachting voor het hele jaar** |\n| --- | --- | --- | --- | --- |\n| Contributie | € … | € … | € … | € … |\n| Accommodatie | € … | € … | € … | € … |\n\nVergelijk bedragen met de begroting voor dezelfde periode. Het hele jaarbedrag delen door twaalf werkt niet altijd: contributie en seizoenskosten vallen vaak in specifieke maanden.\n\nLicht vooral verschillen toe die groot zijn of een besluit vragen. Een verschil kan komen door een andere prijs, meer of minder activiteiten, een veranderd ledenaantal of alleen door het moment waarop een factuur is verwerkt. Vermeld ook of het verschil naar verwachting aan het einde van het jaar blijft bestaan.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "218801b086a54158"
+    },
+    {
+      "id": "H03-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "6",
+      "title": "Wat doe ik als inkomsten tegenvallen of kosten hoger zijn dan gepland?",
+      "heading_original": "6. Wat doe ik als inkomsten tegenvallen of kosten hoger zijn dan gepland?",
+      "body": "Onderzoek eerst de oorzaak en de omvang. Gaat het om een tijdelijke verschuiving, zoals een subsidie die later wordt uitbetaald? Of ontstaat er een tekort over het hele jaar?\n\nMaak daarna een nieuwe verwachting voor de rest van het jaar. Laat het bestuur zien:\n\n- hoeveel het verwachte jaarresultaat verandert;\n\n- wat het gevolg is voor het banksaldo;\n\n- welke uitgaven of activiteiten nog beïnvloedbaar zijn;\n\n- welke besluiten volgens de verenigingsregels nodig zijn.\n\nLeg het besluit en de aangepaste verwachting vast. Zo blijft zichtbaar waarom de club anders handelt dan bij de oorspronkelijke begroting was voorzien. Controleer bij ingrijpende wijzigingen ook of de statuten of eerdere ALV-besluiten om goedkeuring van de leden vragen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ce898158d440fa49"
+    },
+    {
+      "id": "H03-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "7",
+      "title": "Hoe stel ik een balans en een overzicht van baten en lasten op?",
+      "heading_original": "7. Hoe stel ik een balans en een overzicht van baten en lasten op?",
+      "body": "Begin met een bijgewerkte administratie. Controleer of bank en kas aansluiten, of facturen en contributies goed zijn verwerkt en of er nog bedragen openstaan. Verwerk vervolgens posten die bij het boekjaar horen maar pas later worden betaald of ontvangen, en beoordeel afschrijvingen en andere jaarafsluitingsposten.\n\nDe financiële jaarstukken bevatten in ieder geval:\n\n- Een balans: bezittingen, vorderingen, geld, eigen vermogen en schulden op de laatste dag van het boekjaar.\n\n- Een staat van baten en lasten: de opbrengsten en kosten die bij het boekjaar horen.\n\n- Een toelichting: uitleg bij belangrijke posten, keuzes en verschillen.\n\nEen overzicht van alleen bankontvangsten en bankbetalingen is nuttig als hulpmiddel, maar vervangt deze stukken niet. Voor verenigingen beschrijft artikel 2:48 BW welke financiële stukken het bestuur ter goedkeuring aan de algemene vergadering voorlegt. [Burgerlijk Wetboek, artikel 2:48](https://wetten.overheid.nl/BWBR0003045/2024-03-13/), [NOC*NSF – Jaarverslag en jaarrekening](https://www.nocnsf.nl/handboek-wet-en-regelgeving/1-jaarverslag-en-jaarrekening)\n\nPlan de jaarafsluiting ruim vóór de ALV. Het bestuur moet de stukken kunnen bespreken en de kascommissie moet voldoende tijd krijgen om haar onderzoek te doen. De regels voor termijnen en besluitvorming staan in de wet en kunnen verder zijn uitgewerkt in de statuten.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, artikel 2:48",
+          "url": "https://wetten.overheid.nl/BWBR0003045/2024-03-13/"
+        },
+        {
+          "label": "NOC*NSF – Jaarverslag en jaarrekening",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/1-jaarverslag-en-jaarrekening"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "c5e1255f6256b86f"
+    },
+    {
+      "id": "H03-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8",
+      "title": "Hoe licht ik grote verschillen tussen begroting en werkelijkheid toe?",
+      "heading_original": "8. Hoe licht ik grote verschillen tussen begroting en werkelijkheid toe?",
+      "body": "Schrijf per belangrijk verschil op:\n\n- Wat is het verschil? Noem de post en het bedrag.\n\n- Waardoor is het ontstaan? Gebruik een concrete verklaring.\n\n- Is het eenmalig of terugkerend?\n\n- Wat betekent het voor volgend jaar?\n\nBijvoorbeeld: De accommodatiekosten waren € 3.000 hoger dan begroot doordat de zaalhuur halverwege het seizoen steeg. De hogere huur geldt ook volgend jaar en is daarom meegenomen in de nieuwe begroting.\n\nEen toelichting hoeft niet ieder klein verschil te bespreken. Ze moet leden en bestuur helpen begrijpen wat er financieel is gebeurd en welke gevolgen dat heeft.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "0d50d060f6d75d38"
+    },
+    {
+      "id": "H03-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "9",
+      "title": "Wanneer is een meerjarenbegroting nuttig?",
+      "heading_original": "9. Wanneer is een meerjarenbegroting nuttig?",
+      "body": "Een begroting voor meerdere jaren is vooral nuttig wanneer besluiten van vandaag later grote financiële gevolgen hebben. Denk aan:\n\n- een langdurig huurcontract;\n\n- het aannemen van personeel;\n\n- een verbouwing of nieuwe accommodatie;\n\n- het vervangen van velden of kostbaar materiaal;\n\n- een lening met rente en aflossing;\n\n- een subsidie die na enkele jaren stopt.\n\nLaat per jaar de verwachte inkomsten, kosten, investeringen, financiering en beschikbare middelen zien. Werk met duidelijke aannames, bijvoorbeeld over ledenaantal en huurontwikkeling. Een meerjarenbegroting is geen voorspelling die exact moet uitkomen; ze helpt het bestuur om de gevolgen van keuzes op tijd te zien.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "40a0ee3efd7bc4f2"
+    },
+    {
+      "id": "H03-P10",
+      "order": 10,
+      "kind": "vraag",
+      "number": "10",
+      "title": "Hoe bepaal ik of de vereniging financieel gezond is?",
+      "heading_original": "10. Hoe bepaal ik of de vereniging financieel gezond is?",
+      "body": "Kijk naar meerdere signalen tegelijk:\n\n- Resultaat: zijn de inkomsten over langere tijd voldoende om de kosten te dragen?\n\n- Liquiditeit: kan de vereniging haar rekeningen op tijd betalen?\n\n- Buffer: is er ruimte om een tegenvaller op te vangen?\n\n- Verplichtingen: welke schulden, contracten en toekomstige uitgaven liggen vast?\n\n- Afhankelijkheid: wat gebeurt er als een belangrijke sponsor of subsidie wegvalt?\n\n- Onderhoud en vervanging: kan de vereniging noodzakelijke toekomstige uitgaven betalen?\n\nEen overschot in één jaar betekent dus niet automatisch dat de club financieel sterk is. Omgekeerd kan een gepland tekort verantwoord zijn als het bestuur bewust beschikbare middelen inzet voor een afgesproken doel. Leg steeds uit waarom het resultaat ontstaat en wat het betekent voor de volgende jaren.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "2d9ede78298b25b8"
+    },
+    {
+      "id": "H03-P11",
+      "order": 11,
+      "kind": "checklist",
+      "number": null,
+      "title": "Checklist: begroting en jaarafsluiting",
+      "heading_original": "Checklist: begroting en jaarafsluiting",
+      "body": "- De begroting sluit aan op de activiteiten en plannen van de vereniging.\n\n- Belangrijke aannames, zoals ledenaantal en sponsorinkomsten, zijn vastgelegd.\n\n- Begroting en jaarstukken gebruiken herkenbare posten uit hetzelfde rekenschema.\n\n- Er is zicht op de verwachte bankstanden gedurende het jaar.\n\n- Het bestuur ontvangt tussentijds een vergelijking van begroting en werkelijkheid.\n\n- Grote verschillen en hun gevolgen worden toegelicht.\n\n- Bank, kas en openstaande bedragen zijn gecontroleerd vóór de jaarafsluiting.\n\n- De balans, staat van baten en lasten en toelichting zijn voorbereid.\n\n- Het bestuur en de kascommissie krijgen de stukken tijdig.\n\n- Grote toekomstige verplichtingen zijn ook in een meerjarenbeeld bekeken.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "d520686fcd16d0d6"
+    }
+  ],
+  "attachments": []
+}

@@ -1,0 +1,17 @@
+# Kennisbank Fin – Netlify-configuratie
+[build]
+  publish = "public"
+  # Geen build command nodig. Netlify installeert de pakketten uit package.json
+  # (voor de Functions) en voert de databasemigraties automatisch uit.
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"

@@ -1,0 +1,231 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H04",
+    "number": 4,
+    "title": "Contributie en ledenbetalingen",
+    "heading_original": "Hoofdstuk 4 — Contributie en ledenbetalingen",
+    "description": "Contributie is voor veel sportverenigingen een belangrijke, terugkerende inkomstenbron."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H04-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Contributie is voor veel sportverenigingen een belangrijke, terugkerende inkomstenbron. Een goed contributieproces begint daarom vóór het versturen van betaalverzoeken: de tarieven moeten duidelijk zijn, de ledengegevens moeten kloppen en iedereen moet weten wanneer en hoe er betaald wordt.\n\nDit hoofdstuk behandelt de financiële kant van contributie. De rechten en plichten van leden volgen daarnaast uit de wet, de statuten en de reglementen van de eigen vereniging.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ea600a16e054bc70"
+    },
+    {
+      "id": "H04-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "1",
+      "title": "Hoe bepalen we een passend contributiebedrag?",
+      "heading_original": "1. Hoe bepalen we een passend contributiebedrag?",
+      "body": "Begin bij de begroting uit hoofdstuk 3. Bepaal welke kosten de vereniging moet dekken en welke andere inkomsten redelijkerwijs te verwachten zijn. Het bedrag dat daarna overblijft, moet onder meer uit contributie worden betaald.\n\nEen eenvoudige eerste berekening is:\n\nBenodigde contributieopbrengst = verwachte kosten − overige verwachte inkomsten\n\nVerdeel dat bedrag vervolgens over de leden. Doe dit niet door automatisch één bedrag door het totale ledenaantal te delen. Niet ieder lid betaalt noodzakelijk hetzelfde tarief, en niet ieder lid is het hele jaar aangesloten.\n\nKijk bij het voorstel naar:\n\n- de verwachte aantallen leden per categorie;\n\n- bondsafdrachten per lid of team;\n\n- verschillen in trainingsuren en accommodatiegebruik;\n\n- kosten die voor alle leden gezamenlijk worden gemaakt;\n\n- bestaande kortingen of vrijstellingen;\n\n- de financiële toegankelijkheid van de vereniging;\n\n- de vraag of de tarieven ook de komende jaren houdbaar zijn.\n\nVoorbeeld: als de club € 60.000 aan kosten verwacht en € 24.000 aan andere inkomsten, is € 36.000 aan contributie nodig om de begroting sluitend te maken. Vervolgens rekent de penningmeester uit wat de voorgestelde tarieven voor jeugd-, senioren- en andere leden samen naar verwachting opleveren. Blijft de uitkomst onder € 36.000, dan moet het bestuur de tarieven, kosten of andere inkomsten opnieuw bekijken.\n\nLaat bij een contributievoorstel zien wat er voor een lid verandert én wat de verandering voor de totale begroting betekent.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "b06f68fd6ab9ae68"
+    },
+    {
+      "id": "H04-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "2",
+      "title": "Wie beslist over de hoogte en wijziging van de contributie?",
+      "heading_original": "2. Wie beslist over de hoogte en wijziging van de contributie?",
+      "body": "Controleer eerst de statuten en het huishoudelijk reglement. Daarin kan staan wie tarieven vaststelt, op welk moment dat gebeurt en of het bestuur binnen bepaalde grenzen tarieven mag aanpassen. Bij veel verenigingen beslist de algemene ledenvergadering over de contributie. [KVK – Bestuurder van een vereniging](https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/)\n\nDe penningmeester bereidt het voorstel meestal voor. Een bruikbaar voorstel bevat:\n\n- de huidige en voorgestelde tarieven;\n\n- de reden voor de wijziging;\n\n- de verwachte opbrengst per ledencategorie;\n\n- de gevolgen voor de begroting;\n\n- de ingangsdatum;\n\n- eventuele overgangsafspraken.\n\nLeg het besluit vast in de notulen en werk daarna de tarieflijst en ledencommunicatie bij. Maak duidelijk vanaf welk verenigingsjaar of seizoen het nieuwe tarief geldt. Een wijziging van financiële verplichtingen kan gevolgen hebben voor de mogelijkheden van leden om hun lidmaatschap te beëindigen; beoordeel dit aan de hand van de wet en de eigen statuten. [NOC*NSF – Opzegtermijn bij een sportvereniging](https://www.nocnsf.nl/handboek-wet-en-regelgeving/4-opzegtermijn)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – Bestuurder van een vereniging",
+          "url": "https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/"
+        },
+        {
+          "label": "NOC*NSF – Opzegtermijn bij een sportvereniging",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/4-opzegtermijn"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "6c7f028cb70f30be"
+    },
+    {
+      "id": "H04-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "3",
+      "title": "Welke contributievormen zijn mogelijk?",
+      "heading_original": "3. Welke contributievormen zijn mogelijk?",
+      "body": "Een vereniging kan tarieven laten verschillen als dat past bij haar activiteiten en regels. Veelvoorkomende vormen zijn:\n\n| **Vorm** | **Wanneer kan dit passen?** |\n| --- | --- |\n| Leeftijdstarief | Jeugdleden en volwassen leden gebruiken deels andere faciliteiten of de club wil jeugdsport toegankelijk houden. |\n| Tarief per activiteit | Leden volgen verschillende aantallen trainingen of nemen deel aan verschillende competities. |\n| Gezinstarief | Meerdere leden uit één huishouden sporten bij dezelfde vereniging. |\n| Deeltijd- of recreantentarief | Een ledencategorie heeft een duidelijk andere deelnamevorm. |\n| Vrijstelling of korting | Bijvoorbeeld voor ereleden of op basis van vastgelegd verenigingsbeleid. |\n| Aanvullende bijdrage | Specifieke kosten, zoals kleding, een trainingskamp of competitie, worden apart in rekening gebracht. |\n\nHoud de tariefstructuur begrijpelijk. Bij veel uitzonderingen wordt de ledenadministratie foutgevoeliger en is het voor leden lastig om te controleren wat zij moeten betalen.\n\nMaak bij ieder tarief duidelijk wat inbegrepen is en wat apart wordt berekend. Vermeld ook hoe de contributie wordt bepaald bij instroom gedurende het seizoen. Leg kortingen en uitzonderingen schriftelijk vast, zodat vergelijkbare gevallen gelijk worden behandeld.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a07d471f35abc770"
+    },
+    {
+      "id": "H04-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "4",
+      "title": "Hoe organiseer ik het versturen en innen van contributie?",
+      "heading_original": "4. Hoe organiseer ik het versturen en innen van contributie?",
+      "body": "Maak vóór de start van het seizoen een betaalplanning. Die bevat de tarieven, betaalmomenten, betaalmethoden en de persoon die de ledengegevens aanlevert.\n\nEen praktisch proces verloopt zo:\n\n- Controleer de ledenlijst. Zijn aanmeldingen, opzeggingen, leeftijden en ledencategorieën bijgewerkt?\n\n- Bereken de verschuldigde bedragen. Gebruik de vastgestelde tarieven en leg uitzonderingen vast.\n\n- Stuur een duidelijk betaalverzoek. Vermeld naam, periode, bedrag, vervaldatum, betaalwijze en contactpunt voor vragen.\n\n- Verwerk betalingen. Koppel ontvangen bedragen aan het juiste lid en de juiste periode.\n\n- Controleer openstaande posten. Zoek onduidelijke of ontbrekende betalingen uit voordat herinneringen worden verzonden.\n\n- Rapporteer aan het bestuur. Meld hoeveel is gefactureerd, ontvangen en nog openstaat.\n\nStuur betaalverzoeken niet alleen op basis van de ledenlijst van vorig jaar. Een actuele ledenadministratie is de basis. Laat bij voorkeur een andere persoon de aanmeldingen en opzeggingen beheren, terwijl de penningmeester de contributiebedragen en ontvangsten controleert.\n\nControle op volledigheid: bereken hoeveel contributie je op basis van het aantal leden per categorie zou moeten ontvangen. Vergelijk dit met wat daadwerkelijk in rekening is gebracht. Daarmee kun je ontbrekende leden, verkeerde tarieven en onterechte vrijstellingen ontdekken.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "4facd6e095e28f74"
+    },
+    {
+      "id": "H04-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "5",
+      "title": "Hoe werkt automatische incasso en waar moet ik op letten?",
+      "heading_original": "5. Hoe werkt automatische incasso en waar moet ik op letten?",
+      "body": "Bij automatische incasso geeft de betaler de vereniging toestemming om bedragen van een rekening af te schrijven. Daarvoor heeft de club een geldige machtiging en afspraken met de bank of betaaldienstverlener nodig. Een machtiging kan eenmalig of doorlopend zijn. [Betaalvereniging Nederland – Europese incasso](https://www.betaalvereniging.nl/kennisbank/ontvangen-van-betalingen/europese-incasso/)\n\nRegel in ieder geval:\n\n- een duidelijke machtiging op naam van de partij die incasseert;\n\n- correcte rekeninggegevens en een herkenbare omschrijving;\n\n- informatie aan leden over bedrag en incassomoment;\n\n- veilige opslag van machtigingen en bankgegevens;\n\n- controle op geweigerde of teruggeboekte incasso’s;\n\n- een werkwijze voor het stoppen of aanpassen van de incasso na een wijziging in het lidmaatschap.\n\nEen geslaagde incassorun betekent niet dat al het geld definitief binnen is. Bij een standaard Europese incasso kan een consument een afschrijving binnen acht weken terugboeken. Zonder geldige machtiging kan een afschrijving onder voorwaarden nog langer worden betwist. Controleer terugboekingen daarom ook ná de incassodatum. [Betaalvereniging Nederland – Europese incasso](https://www.betaalvereniging.nl/kennisbank/overboeken/europese-incasso/)\n\nEen terugboeking betekent niet automatisch dat de contributieverplichting vervalt. Onderzoek eerst waarom is teruggeboekt: een verkeerd bedrag, een onduidelijke afschrijving, onvoldoende saldo of een discussie over het lidmaatschap vragen ieder om een andere reactie.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Betaalvereniging Nederland – Europese incasso",
+          "url": "https://www.betaalvereniging.nl/kennisbank/ontvangen-van-betalingen/europese-incasso/"
+        },
+        {
+          "label": "Betaalvereniging Nederland – Europese incasso",
+          "url": "https://www.betaalvereniging.nl/kennisbank/overboeken/europese-incasso/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "573e36a9d5503d4f"
+    },
+    {
+      "id": "H04-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "6",
+      "title": "Wat doe ik bij een mislukte betaling of contributieachterstand?",
+      "heading_original": "6. Wat doe ik bij een mislukte betaling of contributieachterstand?",
+      "body": "Controleer eerst of er echt een achterstand is. Een betaling kan op een andere naam zijn gedaan, bij het verkeerde lid zijn geboekt of nog niet zijn verwerkt. Kijk ook of er een betalingsregeling of tegemoetkoming is afgesproken.\n\nAls het bedrag inderdaad openstaat, werk dan in stappen:\n\n- Stuur een vriendelijke herinnering met het bedrag en de betaalgegevens.\n\n- Neem contact op als betaling uitblijft en vraag of er een vergissing of probleem is.\n\n- Bevestig een eventuele betalingsafspraak schriftelijk.\n\n- Volg de afgesproken termijnen en leg betalingen vast.\n\n- Bespreek langdurige of grote achterstanden volgens het beleid van de vereniging.\n\nHoud het contact feitelijk en vertrouwelijk. Coaches of teamgenoten hebben doorgaans geen overzicht van iemands financiële situatie nodig om hun taak te doen.\n\nNeem maatregelen zoals het beperken van deelname of beëindigen van het lidmaatschap nooit automatisch op basis van een openstaand bedrag. Controleer welke mogelijkheden en procedure de statuten en reglementen bieden en laat het bevoegde orgaan beslissen. NOC*NSF beschrijft de regels rond beëindiging van het lidmaatschap afzonderlijk. [NOC*NSF – Einde van het lidmaatschap](https://www.nocnsf.nl/handboek-wet-en-regelgeving/4-einde-van-het-lidmaatschap)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – Einde van het lidmaatschap",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/4-einde-van-het-lidmaatschap"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "3019dd9b0ffa435b"
+    },
+    {
+      "id": "H04-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "7",
+      "title": "Hoe ga ik om met leden die de contributie niet kunnen betalen?",
+      "heading_original": "7. Hoe ga ik om met leden die de contributie niet kunnen betalen?",
+      "body": "Maak het voor leden eenvoudig om vertrouwelijk contact op te nemen vóórdat een achterstand groot wordt. Bespreek welke oplossing past bij de situatie. Mogelijkheden zijn bijvoorbeeld:\n\n- betalen in termijnen;\n\n- tijdelijk uitstel;\n\n- een korting of kwijtschelding volgens verenigingsbeleid;\n\n- hulp via een gemeentelijke regeling of een fonds.\n\nLeg vast wie over een uitzondering beslist, voor welke periode zij geldt en hoe zij in de administratie wordt verwerkt. Beperk de toegang tot persoonlijke informatie tot de mensen die deze nodig hebben.\n\nVoor kinderen en jongeren kan het [Jeugdfonds Sport & Cultuur](https://jeugdfondssportencultuur.nl/voor-wie/voor-ouders/) in sommige situaties contributie of lesgeld rechtstreeks aan de club betalen. De voorwaarden en aanvraagroute kunnen per plaats verschillen. Controleer daarom de regeling die voor het betreffende lid beschikbaar is. Behandel toegankelijkheid ook als begrotingsonderwerp. Als de vereniging structureel ruimte wil bieden voor vermindering van contributie, neem dan een realistische raming daarvoor op in de begroting.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Jeugdfonds Sport & Cultuur",
+          "url": "https://jeugdfondssportencultuur.nl/voor-wie/voor-ouders/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "9758eab556aae8af"
+    },
+    {
+      "id": "H04-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8",
+      "title": "Wanneer krijgt een lid contributie terug bij opzegging, blessure of seizoensonderbreking?",
+      "heading_original": "8. Wanneer krijgt een lid contributie terug bij opzegging, blessure of seizoensonderbreking?",
+      "body": "Ga niet alleen af op het moment waarop iemand stopt met sporten. Kijk eerst naar:\n\n- De statuten: wanneer eindigt het lidmaatschap en welke contributie blijft verschuldigd?\n\n- Het contributiebeleid: bestaat er een regeling voor tussentijdse instroom, blessure of bijzondere omstandigheden?\n\n- Het concrete geval: welke periode is al betaald en welke kosten heeft de vereniging al gemaakt?\n\n- Het bevoegde besluit: wie mag een uitzondering of restitutie goedkeuren?\n\nAls uitgangspunt eindigt een verenigingslidmaatschap doorgaans aan het einde van het boekjaar, tenzij de statuten anders bepalen. Ook bij tussentijdse beëindiging kan contributie voor het hele jaar verschuldigd blijven, tenzij de statuten anders regelen. De regels voor een sportvereniging verschillen hierin van die voor een gewoon sportschoolabonnement. [NOC*NSF – Opzegtermijn bij een sportvereniging](https://www.nocnsf.nl/handboek-wet-en-regelgeving/4-opzegtermijn)\n\nEen blessure leidt dus niet vanzelf tot terugbetaling. De vereniging kan daar wel een eigen regeling voor hebben. Leg zo’n regeling vooraf duidelijk uit aan leden en pas haar consequent toe.\n\nAls er restitutie wordt toegekend, controleer dan of de oorspronkelijke contributie volledig is betaald. Verwerk de terugbetaling bij het juiste lid en boekjaar, en bewaar het besluit waarop zij berust.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – Opzegtermijn bij een sportvereniging",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/4-opzegtermijn"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "08bea09728d0ea03"
+    },
+    {
+      "id": "H04-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "9",
+      "title": "Hoe stem ik ledenadministratie en financiële administratie op elkaar af?",
+      "heading_original": "9. Hoe stem ik ledenadministratie en financiële administratie op elkaar af?",
+      "body": "De ledenadministratie vertelt wie lid is en in welke categorie. De financiële administratie vertelt wat in rekening is gebracht, betaald of nog openstaat. Deze twee administraties moeten regelmatig op elkaar worden aangesloten.\n\nVergelijk bijvoorbeeld maandelijks of rond ieder contributiemoment:\n\n- nieuwe leden en vertrokken leden;\n\n- wijzigingen van leeftijds- of tariefcategorie;\n\n- leden met korting of vrijstelling;\n\n- verwachte contributie per categorie;\n\n- verstuurde betaalverzoeken;\n\n- ontvangen betalingen en openstaande bedragen.\n\nGebruik een uniek lidnummer of andere vaste verwijzing, zodat betalingen aan het juiste lid worden gekoppeld. Spreek af wie wijzigingen invoert en wanneer de penningmeester daarvan bericht krijgt.\n\nMaak aan het einde van het jaar een aansluiting tussen de ledenlijst, de vastgestelde tarieven en de totale contributieopbrengst. Verklaar verschillen, zoals instroom tijdens het seizoen, kortingen, vooruitbetaalde contributie en nog openstaande bedragen. Dit helpt het bestuur bij de nieuwe begroting en maakt de jaarcontrole beter uitvoerbaar.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "88231e4d4a1c1182"
+    },
+    {
+      "id": "H04-P10",
+      "order": 10,
+      "kind": "checklist",
+      "number": null,
+      "title": "Checklist: is het contributieproces op orde?",
+      "heading_original": "Checklist: is het contributieproces op orde?",
+      "body": "- De actuele contributietarieven en ingangsdatum zijn vastgelegd.\n\n- Leden kunnen eenvoudig vinden wat zij moeten betalen en hoe zij kunnen opzeggen.\n\n- De ledenadministratie is bijgewerkt vóór het versturen van betaalverzoeken.\n\n- Kortingen en uitzonderingen hebben een vastgelegde grondslag en goedkeuring.\n\n- Betalingen worden aan het juiste lid en de juiste periode gekoppeld.\n\n- Machtigingen voor automatische incasso worden veilig bewaard.\n\n- Mislukte en teruggeboekte incasso’s worden opgevolgd.\n\n- Er is een vertrouwelijke route voor leden met betalingsproblemen.\n\n- Restituties worden volgens de verenigingsregels beoordeeld en vastgelegd.\n\n- De verwachte contributieopbrengst wordt vergeleken met de geboekte opbrengst.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ec9f919beea98888"
+    }
+  ],
+  "attachments": []
+}

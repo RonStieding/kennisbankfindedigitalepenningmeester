@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Hoofdstuk – Kennisbank Fin</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/fin.css">
+  <script type="module" src="/js/hoofdstuk.js"></script>
+</head>
+<body>
+  <a class="sr-only" href="#main">Naar de inhoud</a>
+  <header class="kopbalk">
+    <div class="wrap">
+      <a class="merk" href="/" aria-label="Kennisbank Fin – naar de startpagina">
+        <img data-logo src="/assets/logo/finsport-logo-wit.svg" alt="FinSport">
+        <span class="logo-tekst" hidden>FinSport</span>
+        <span class="naam">Kennisbank Fin</span>
+      </a>
+      <form class="zoek-globaal" id="zoek-globaal" role="search">
+        <label for="zoek-globaal-veld" class="sr-only">Zoeken in alle hoofdstukken</label>
+        <input id="zoek-globaal-veld" type="search" placeholder="Zoeken in alle hoofdstukken" autocomplete="off">
+      </form>
+      <ul class="menu">
+        <li><a href="/voorstellen.html">Openstaande voorstellen <span class="teller" data-teller-voorstellen>0</span></a></li>
+        <li><span class="uit" title="Volgt in bouwstap 4">Testset</span></li>
+        <li><span class="uit" title="Volgt in bouwstap 5">Export</span></li>
+        <li class="gebruiker" id="gebruiker" aria-live="polite"></li>
+      </ul>
+    </div>
+  </header>
+  
+  <main id="main">
+    <div id="hoofdstuk"><div class="wrap"><p class="hulp" style="padding:32px 0">Hoofdstuk laden…</p></div></div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,211 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H01",
+    "number": 1,
+    "title": "De rol van de penningmeester",
+    "heading_original": "Hoofdstuk 1 — De rol van de penningmeester",
+    "description": "De penningmeester zorgt dat het bestuur zicht houdt op de financiën van de sportvereniging."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H01-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "De penningmeester zorgt dat het bestuur zicht houdt op de financiën van de sportvereniging. Hoeveel geld komt er binnen? Welke betalingen staan nog open? En kan de vereniging haar plannen betalen? De penningmeester houdt deze informatie bij, legt haar begrijpelijk uit en wijst het bestuur op financiële gevolgen van besluiten.\n\nDe penningmeester is lid van het bestuur. De uitvoering van veel financiële taken kan bij één persoon liggen, maar het bestuur blijft samen verantwoordelijk voor het besturen van de vereniging. Welke taken en bevoegdheden de penningmeester precies heeft, hangt af van de statuten en de afspraken binnen de club. [NOC*NSF – Rol van de penningmeester](https://www.nocnsf.nl/handboek-wet-en-regelgeving/8-rol-van-de-penningmeester)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – Rol van de penningmeester",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/8-rol-van-de-penningmeester"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "3a03254b5df140a3"
+    },
+    {
+      "id": "H01-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "1",
+      "title": "Wat doet een penningmeester van een sportvereniging?",
+      "heading_original": "1. Wat doet een penningmeester van een sportvereniging?",
+      "body": "De werkzaamheden vallen in vier groepen uiteen:\n\n| **Taak** | **Wat betekent dit in de praktijk?** |\n| --- | --- |\n| Administreren | Inkomsten, uitgaven, facturen, declaraties en financiële afspraken overzichtelijk vastleggen. |\n| Beheren | Betalingen, contributieontvangsten, bankrekeningen en eventuele contante kas volgen. |\n| Vooruitkijken | Een begroting voorbereiden en aangeven wat plannen of tegenvallers financieel betekenen. |\n| Uitleggen en verantwoorden | Het bestuur informeren, financiële stukken voor de ALV voorbereiden en vragen van de kascommissie beantwoorden. |\n\nDe penningmeester hoeft dit niet allemaal alleen te doen. Een ledenadministrateur kan bijvoorbeeld de ledengegevens beheren en een boekhouder kan helpen met de jaarstukken. Spreek steeds af wie het werk uitvoert en wie het resultaat controleert.\n\nDe rol vraagt ook initiatief. Als het bestuur een extra team wil inschrijven, trainers wil betalen of een accommodatie wil verbouwen, helpt de penningmeester om vooraf de kosten en de gevolgen voor de beschikbare middelen te beoordelen. [NOC*NSF – Taken van de penningmeester](https://www.nocnsf.nl/handboek-wet-en-regelgeving/8-taken-van-de-penningmeester)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – Taken van de penningmeester",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/8-taken-van-de-penningmeester"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "237b9283e14f994a"
+    },
+    {
+      "id": "H01-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "2",
+      "title": "Welke financiële taken zijn mijn verantwoordelijkheid en welke zijn van het hele bestuur?",
+      "heading_original": "2. Welke financiële taken zijn mijn verantwoordelijkheid en welke zijn van het hele bestuur?",
+      "body": "De penningmeester bereidt financiële informatie en voorstellen voor. Het bestuur gebruikt die informatie om besluiten te nemen en houdt zicht op de financiële situatie. Andere bestuursleden kunnen hun financiële verantwoordelijkheid dus niet volledig aan de penningmeester overlaten. [NOC*NSF – Bestuurstaak](https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak)\n\nEen mogelijke verdeling is:\n\n| **Penningmeester** | **Bestuur** |\n| --- | --- |\n| Houdt de administratie bij of coördineert dit werk | Spreekt af hoe de administratie wordt gecontroleerd |\n| Maakt een conceptbegroting en financiële rapportages | Bespreekt de cijfers en kiest financiële prioriteiten |\n| Signaleert betalingsachterstanden en risico’s | Besluit welke maatregelen nodig zijn |\n| Bereidt jaarstukken voor en licht ze toe | Behandelt de stukken en legt verantwoording af aan de leden |\n\nLeg de taakverdeling vast in een bestuursbesluit of werkafspraak. Vermeld wie de penningmeester vervangt bij ziekte of vakantie en hoe die persoon toegang krijgt tot de informatie die dan nodig is.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – Bestuurstaak",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "4c789f0068e2b6a9"
+    },
+    {
+      "id": "H01-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "3",
+      "title": "Welke documenten en toegang heb ik nodig als ik begin?",
+      "heading_original": "3. Welke documenten en toegang heb ik nodig als ik begin?",
+      "body": "Vraag je voorganger en het bestuur om een overdracht van de volgende zaken:\n\n- Verenigingsregels: statuten, huishoudelijk reglement en afspraken over uitgaven, betalingen en rapportages.\n\n- Financiële stukken: de laatste begroting, jaarstukken, tussentijdse overzichten en opmerkingen van de kascommissie.\n\n- Administratie: toegang tot de boekhouding, facturen, bonnetjes en eerdere bankafschriften.\n\n- Actuele verplichtingen: openstaande facturen, contributieachterstanden, contracten, leningen en toegezegde subsidies.\n\n- Bank en kas: een overzicht van rekeningen, passen, betaalrechten, limieten en eventuele contante kassen.\n\n- Planning: terugkerende betaalmomenten, aangiften, subsidievoorwaarden en data van bestuur, kascommissie en ALV.\n\n- Contactpersonen: degene die ledengegevens, kantinegeld, evenementen of team- en commissiebudgetten beheert.\n\nControleer samen met het bestuur of de bestuursgegevens bij KVK en de gegevens bij de bank moeten worden aangepast. Een bestuurswissel kan ook gevolgen hebben voor de UBO-registratie. [KVK – Bestuurswissel doorgeven](https://www.kvk.nl/wijzigen/bestuurswissel-doorgeven/)\n\nGebruik waar mogelijk een eigen account. Laat de toegang van een vertrekkende bestuurder aanpassen of beëindigen zodra de overdracht is afgerond. Controleer ook of de vereniging zelf toegang houdt tot de administratie en reservekopieën, zodat die informatie niet alleen op de privécomputer van één vrijwilliger staat.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – Bestuurswissel doorgeven",
+          "url": "https://www.kvk.nl/wijzigen/bestuurswissel-doorgeven/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "8a87f08092a9246d"
+    },
+    {
+      "id": "H01-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "4",
+      "title": "Hoe krijg ik snel inzicht in de financiële situatie?",
+      "heading_original": "4. Hoe krijg ik snel inzicht in de financiële situatie?",
+      "body": "Begin met een overzicht dat je aan het bestuur kunt laten zien. Beantwoord daarin vijf vragen:\n\n- Hoeveel geld staat er nu op de bankrekeningen en in kas?\n\n- Welke bedragen moeten we nog betalen?\n\n- Welke bedragen verwachten we nog te ontvangen?\n\n- Welke grote inkomsten en uitgaven volgen later in het seizoen?\n\n- Welke financiële zorgen of besluiten liggen er al?\n\nVergelijk daarna de bankstanden met de boekhouding. Kijk ook naar de begroting en de cijfers van het vorige jaar. Een banksaldo vertelt op zichzelf niet hoeveel de vereniging kan uitgeven: een deel van dat geld kan nodig zijn voor huur, vergoedingen of andere verplichtingen.\n\nKom je cijfers tegen die niet aansluiten? Noteer wat je hebt gecontroleerd, wat nog onduidelijk is en wie kan helpen het verschil te verklaren. Bespreek belangrijke verschillen met het bestuur.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "c2c3cbc11054ec94"
+    },
+    {
+      "id": "H01-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "5",
+      "title": "Hoe verdeel ik financiële taken met andere bestuursleden en commissies?",
+      "heading_original": "5. Hoe verdeel ik financiële taken met andere bestuursleden en commissies?",
+      "body": "Leg voor elke geldstroom vast:\n\n- wie de gegevens aanlevert of een uitgave aanvraagt;\n\n- wie de aanvraag of factuur goedkeurt;\n\n- wie de betaling uitvoert of de ontvangst verwerkt;\n\n- wie achteraf controleert of alles klopt.\n\nBijvoorbeeld: de ledenadministrateur verwerkt nieuwe leden en opzeggingen. De penningmeester gebruikt die gegevens om contributie te innen en vergelijkt de verwachte contributie met de werkelijke ontvangsten. Bij een factuur bevestigt iemand met kennis van de aankoop dat de levering klopt; daarna wordt de betaling volgens de bankafspraken uitgevoerd.\n\nZorg ook dat een tweede bestuurslid de bankmutaties regelmatig kan bekijken. Laat niet alle stappen van aanvragen, goedkeuren, betalen en controleren ongezien bij één persoon liggen. Welke verdeling werkbaar is, hangt af van de grootte van de club en het aantal beschikbare vrijwilligers.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "fcb65e00a2975fc7"
+    },
+    {
+      "id": "H01-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "6",
+      "title": "Welke financiële besluiten mag ik zelf nemen?",
+      "heading_original": "6. Welke financiële besluiten mag ik zelf nemen?",
+      "body": "Dat hangt af van de statuten, reglementen en bestuursafspraken. Er bestaat geen algemeen bedrag waaronder iedere penningmeester zelfstandig mag beslissen. Controleer ook of een besluit van de ALV of voorafgaande goedkeuring van het bestuur nodig is. [NOC*NSF – Bestuurstaak](https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak)\n\nMaak onderscheid tussen:\n\n- een uitgave goedkeuren: besluiten dat de vereniging iets aanschaft;\n\n- een contract tekenen: namens de vereniging een verplichting aangaan;\n\n- een betaling uitvoeren: geld overmaken via de bank.\n\nDit kunnen bevoegdheden van verschillende personen zijn. Banktoegang betekent niet automatisch dat iemand iedere uitgave mag goedkeuren. Leg daarom vast welke bedragen en soorten uitgaven vooraf akkoord vereisen, wie dat akkoord geeft en hoe het wordt vastgelegd. De bevoegdheid om de vereniging naar buiten toe te vertegenwoordigen hangt onder meer af van de statuten en de registratie bij KVK. [KVK – Bestuurder van een vereniging](https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – Bestuurstaak",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak"
+        },
+        {
+          "label": "KVK – Bestuurder van een vereniging",
+          "url": "https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "d33e678644c5e3ea"
+    },
+    {
+      "id": "H01-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "7",
+      "title": "Wanneer moet ik het bestuur informeren of om een besluit vragen?",
+      "heading_original": "7. Wanneer moet ik het bestuur informeren of om een besluit vragen?",
+      "body": "Geef het bestuur regelmatig een kort financieel overzicht. Meld het daarnaast direct wanneer:\n\n- de vereniging mogelijk niet op tijd kan betalen;\n\n- inkomsten achterblijven of kosten duidelijk hoger worden dan begroot;\n\n- een grote uitgave of een langdurig contract wordt voorgesteld;\n\n- een subsidievoorwaarde mogelijk niet wordt gehaald;\n\n- een betaling, kasverschil of boeking niet te verklaren is;\n\n- een keuze gevolgen heeft voor contributie, reserves of toekomstige jaren.\n\nBeschrijf bij zo’n melding wat er is gebeurd, wat het financiële gevolg kan zijn, welke opties er zijn en welk besluit nodig is. Zo kan het bestuur tijdig handelen.\n\nDenk ook vooruit naar de kascommissie. Maak met haar en het bestuur op tijd afspraken over wanneer de financiële stukken beschikbaar zijn, wie vragen beantwoordt en waar de commissie de benodigde informatie kan inzien. De kascommissie controleert namens de leden; een goed voorbereide administratie maakt die controle eenvoudiger.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "54943903214261e6"
+    },
+    {
+      "id": "H01-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8",
+      "title": "Welke kennis en hulpmiddelen heb ik nodig?",
+      "heading_original": "8. Welke kennis en hulpmiddelen heb ik nodig?",
+      "body": "Je hoeft geen professionele boekhouder te zijn. Je moet wel de financiële situatie kunnen volgen, afwijkingen herkennen en vragen kunnen stellen als iets niet duidelijk is. De belangrijkste basisvaardigheden zijn:\n\n- inkomsten, uitgaven, bezittingen en verplichtingen uit elkaar houden;\n\n- een begroting lezen en vergelijken met de werkelijke cijfers;\n\n- bankmutaties met de administratie vergelijken;\n\n- bewijsstukken en besluiten terugvinden;\n\n- cijfers in gewone taal uitleggen aan bestuur en leden.\n\nGebruik hulpmiddelen die ook je opvolger kan begrijpen: een overzichtelijke boekhouding, een gedeelde financiële kalender, een geordend digitaal archief en een vast format voor de bestuursrapportage. Zorg voor een vervanger en maak regelmatig een reservekopie van de administratie.\n\nVraag hulp aan een boekhouder of andere deskundige als de vereniging bijvoorbeeld personeel heeft, een grote accommodatie beheert of ingewikkelde fiscale vragen tegenkomt. Het bestuur blijft ook dan verantwoordelijk voor het gebruik van de financiële informatie.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "f65540b0df5d5534"
+    },
+    {
+      "id": "H01-P09",
+      "order": 9,
+      "kind": "checklist",
+      "number": null,
+      "title": "Startchecklist voor de nieuwe penningmeester",
+      "heading_original": "Startchecklist voor de nieuwe penningmeester",
+      "body": "- Ik heb de statuten en financiële werkafspraken gelezen.\n\n- Ik weet wie uitgaven mag goedkeuren, contracten mag tekenen en betalingen mag uitvoeren.\n\n- Ik heb de laatste begroting, jaarstukken en bevindingen van de kascommissie ontvangen.\n\n- Ik heb toegang tot de boekhouding, bankinformatie en bewijsstukken.\n\n- Ik ken de openstaande bedragen en komende grote betalingen.\n\n- Ik weet wie ledengegevens, kantinegeld en commissiebudgetten beheert.\n\n- Een tweede bestuurslid kan de bankmutaties controleren.\n\n- Er is een regeling voor mijn afwezigheid en voor reservekopieën van de administratie.\n\n- De bestuursregistratie en banktoegang worden waar nodig bijgewerkt.\n\n- Ik heb met het bestuur en de kascommissie afspraken gemaakt over rapportage en planning.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "0a3f54bd646dc6df"
+    }
+  ],
+  "attachments": []
+}

@@ -1,0 +1,243 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H06",
+    "number": 6,
+    "title": "Uitgaven, inkopen en contracten",
+    "heading_original": "Hoofdstuk 6 — Uitgaven, inkopen en contracten",
+    "description": "Een uitgave begint vaak al voordat er een factuur binnenkomt."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H06-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Een uitgave begint vaak al voordat er een factuur binnenkomt. Iemand vraagt een offerte aan, bestelt materiaal of spreekt met een leverancier af dat een dienst volgend seizoen doorloopt. Op dat moment kan de vereniging al een financiële verplichting aangaan.\n\nGoed kostenbeheer betekent daarom meer dan rekeningen op tijd betalen. Het bestuur moet weten welke kosten eraan komen, wie ze mag goedkeuren en wat de vereniging voor het geld krijgt. De penningmeester helpt dit overzicht te bewaren.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "df935a4931a9d16b"
+    },
+    {
+      "id": "H06-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "1",
+      "title": "Hoe krijg ik inzicht in alle vaste en variabele kosten?",
+      "heading_original": "1. Hoe krijg ik inzicht in alle vaste en variabele kosten?",
+      "body": "Gebruik de lastenposten uit het rekenschema van hoofdstuk 2 en vergelijk de kosten van de afgelopen jaren. Maak daarnaast een overzicht van lopende contracten en verplichtingen die nog niet volledig in de boekhouding zichtbaar zijn.\n\nVerdeel de kosten voor de planning in drie groepen:\n\n| **Groep** | **Voorbeelden** | **Waarop letten?** |\n| --- | --- | --- |\n| Terugkerende kosten | Huur, verzekeringen, software, bondsafdracht | Verlenging, prijswijziging en betaaldatum |\n| Kosten die meebewegen | Wedstrijdballen, scheidsrechters, kantine-inkoop | Aantal leden, teams, wedstrijden en verkopen |\n| Incidentele kosten | Verbouwing, nieuw materiaal, jubileum | Apart besluit en gevolgen voor toekomstige jaren |\n\nKijk niet alleen naar wat vorig jaar is betaald. Een factuur kan laat binnenkomen, een verzekering kan jaarlijks worden betaald en een contract kan een nieuwe prijs krijgen. Vergelijk daarom de boekhouding met contracten, begroting en plannen van commissies.\n\nMaak voor het bestuur een kostenoverzicht waarin per belangrijke post de begroting, werkelijke kosten, nog verwachte kosten en verklaring van verschillen staan. Zo wordt zichtbaar of een overschrijding een eenmalige tegenvaller is of volgend jaar terugkomt.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "9555bb5abbc87cfc"
+    },
+    {
+      "id": "H06-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "2",
+      "title": "Wie mag namens de vereniging iets bestellen of een contract afsluiten?",
+      "heading_original": "2. Wie mag namens de vereniging iets bestellen of een contract afsluiten?",
+      "body": "Controleer de statuten, het huishoudelijk reglement en de bestuursbesluiten. Maak vervolgens een praktische bevoegdhedenlijst: wie mag een aankoop aanvragen, wie mag de uitgave goedkeuren, wie mag namens de vereniging een contract tekenen en wie mag betalen?\n\nDeze handelingen zijn verschillend. Een trainer kan materialen nodig hebben en de bestelling voorbereiden, zonder bevoegd te zijn om namens de vereniging een duur contract te sluiten. Ook banktoegang geeft niet vanzelf toestemming om een uitgave te besluiten.\n\nEen werkafspraak kan bijvoorbeeld onderscheid maken tussen gewone uitgaven binnen een vastgesteld teambudget en grotere of nieuwe verplichtingen. De genoemde bedragen in zo’n afspraak zijn keuzes van de vereniging; er bestaat geen algemene bestedingsgrens die voor iedere penningmeester geldt.\n\nLaat vóór ondertekening van een belangrijk contract controleren wie de vereniging mag vertegenwoordigen en of vooraf toestemming van bestuur of ALV nodig is. De statuten kunnen bevoegdheden en financiële grenzen bevatten. Voor bepaalde bijzondere overeenkomsten, bijvoorbeeld rond onroerend goed, gelden aanvullende regels. [KVK – De vereniging](https://www.kvk.nl/starten/de-vereniging/), [NOC*NSF – Bestuurstaak](https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak)\n\nLeg een akkoord vast vóórdat de bestelling wordt geplaatst. Achteraf goedkeuren laat weinig ruimte over om nog een andere keuze te maken.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – De vereniging",
+          "url": "https://www.kvk.nl/starten/de-vereniging/"
+        },
+        {
+          "label": "NOC*NSF – Bestuurstaak",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "57d7903123591bc0"
+    },
+    {
+      "id": "H06-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "3",
+      "title": "Wanneer vragen we meerdere offertes aan?",
+      "heading_original": "3. Wanneer vragen we meerdere offertes aan?",
+      "body": "Meerdere offertes helpen bij uitgaven waarvan prijs, kwaliteit of voorwaarden moeilijk te beoordelen zijn. Denk aan onderhoud, kleding voor meerdere teams, een nieuw kassasysteem of een meerjarig dienstverleningscontract.\n\nSpreek als bestuur af vanaf welke bedragen of bij welke soorten opdrachten je meerdere offertes vraagt. Er is voor een gewone sportvereniging geen universele grens die altijd past. Een bestaande leverancier kan voor een kleine, dringende reparatie logisch zijn; bij een grote verbouwing is een bredere vergelijking verstandig.\n\nZorg dat leveranciers dezelfde opdrachtomschrijving ontvangen. Vergelijk vervolgens niet alleen de prijs, maar ook:\n\n- wat precies wordt geleverd;\n\n- kwaliteit en verwachte levensduur;\n\n- leverdatum;\n\n- onderhoud en garantie;\n\n- bijkomende kosten;\n\n- betaalvoorwaarden;\n\n- looptijd en beëindiging van de overeenkomst.\n\nReken waar nodig de totale kosten over meerdere jaren uit. Een goedkoop apparaat met een duur onderhoudscontract kan uiteindelijk meer kosten dan een duurder alternatief.\n\nLeg de keuze kort vast, ook als niet de laagste offerte wint. Bijvoorbeeld: leverancier B is gekozen omdat de prijs onderhoud en vervangende apparatuur omvat. Heeft een bestuurder of vrijwilliger een persoonlijk belang bij een leverancier, bespreek dat dan vóór het besluit en volg de regels voor belangenconflicten. [KVK – Belangen die botsen bij bestuursbesluiten](https://www.kvk.nl/wetten-en-regels/stemmen-in-bestuur-van-vereniging-en-belangen-die-botsen/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – Belangen die botsen bij bestuursbesluiten",
+          "url": "https://www.kvk.nl/wetten-en-regels/stemmen-in-bestuur-van-vereniging-en-belangen-die-botsen/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ea95df09c38cad57"
+    },
+    {
+      "id": "H06-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "4",
+      "title": "Hoe beoordeel ik of een grote uitgave betaalbaar en verstandig is?",
+      "heading_original": "4. Hoe beoordeel ik of een grote uitgave betaalbaar en verstandig is?",
+      "body": "Beantwoord met het bestuur vier vragen:\n\n- Waarom is de uitgave nodig? Welk probleem wordt opgelost of welk doel bereikt?\n\n- Wat kost de keuze in totaal? Neem aanschaf, installatie, onderhoud, verzekering en vervanging mee.\n\n- Wanneer moet worden betaald? Controleer de liquiditeitsplanning, niet alleen het jaarresultaat.\n\n- Welke alternatieven zijn er? Denk aan repareren, huren, gefaseerd aanschaffen of uitstellen.\n\nEen begrote uitgave is niet automatisch betaalbaar op het moment van bestellen. Subsidie of sponsoring kan later binnenkomen dan de factuur moet worden betaald. Maak bij een grote aankoop daarom ook een overzicht van de betaalmomenten.\n\nLet op de btw in offertes. Voor activiteiten die van btw zijn vrijgesteld, kan de vereniging de btw op bijbehorende kosten doorgaans niet terugvragen. Vergelijk offertes daarom op de kosten die de vereniging werkelijk draagt, vaak inclusief btw. Bij gemengde activiteiten kan de behandeling ingewikkelder zijn. [Belastingdienst – Btw-vrijstellingen voor verenigingen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/btw-vrijstellingen)\n\nEen grote aanschaf kan bovendien een investering zijn die in de jaarstukken over meerdere jaren wordt verwerkt. Dat verandert niets aan het feit dat de leverancier op de afgesproken datum betaald moet worden. Hoofdstuk 8 behandelt investeringen uitgebreider.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Btw-vrijstellingen voor verenigingen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/btw-vrijstellingen"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "42ae3b32c5e124ac"
+    },
+    {
+      "id": "H06-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "5",
+      "title": "Hoe controleer en betaal ik inkomende facturen?",
+      "heading_original": "5. Hoe controleer en betaal ik inkomende facturen?",
+      "body": "Gebruik een vaste route van ontvangst tot betaling:\n\n| **Stap** | **Controlevraag** |\n| --- | --- |\n| Ontvangst | Is de factuur aan de vereniging gericht en is zij centraal terug te vinden? |\n| Inhoud | Zijn goederen of diensten daadwerkelijk geleverd? |\n| Afspraak | Kloppen prijs, aantallen en voorwaarden met offerte of contract? |\n| Goedkeuring | Heeft de juiste persoon de uitgave goedgekeurd? |\n| Dubbele betaling | Is dezelfde factuur al eerder ontvangen of betaald? |\n| Betaalgegevens | Klopt het rekeningnummer met de bekende gegevens van de leverancier? |\n| Boeking | Staat de factuur op de juiste post en in het juiste boekjaar? |\n| Betaling | Is de overboeking uitgevoerd en aan de factuur gekoppeld? |\n\nBewaar de factuur met de bijbehorende goedkeuring. Voor verenigingen met btw-verplichtingen is een goed herleidbare registratie van ontvangen facturen ook van belang voor de btw-administratie. [Belastingdienst – Ontvangen facturen administreren](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/wat_administreert_u_voor_de_btw/ontvangen_facturen_administreren)\n\nBij een onjuiste factuur: neem contact op met de leverancier en vraag om correctie. Pas het bedrag op de ontvangen factuur niet zelf aan.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Ontvangen facturen administreren",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/wat_administreert_u_voor_de_btw/ontvangen_facturen_administreren"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "15d747759bf071f6"
+    },
+    {
+      "id": "H06-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "6",
+      "title": "Hoe leg ik afspraken met leveranciers, trainers en verhuurders vast?",
+      "heading_original": "6. Hoe leg ik afspraken met leveranciers, trainers en verhuurders vast?",
+      "body": "Bewaar per leverancier de ondertekende overeenkomst, offerte, opdrachtbevestiging en eventuele algemene voorwaarden op één vindbare plek. Leg daarnaast de belangrijkste gegevens vast in een contractenoverzicht:\n\n| **Gegeven** | **Voorbeeld** |\n| --- | --- |\n| Leverancier en contactpersoon | Verhuurder sporthal |\n| Wat levert de leverancier? | Gebruik zaal op dinsdagavond |\n| Begin- en einddatum | Per sportseizoen |\n| Prijs en prijsaanpassing | Bedrag per uur en jaarlijkse wijziging |\n| Betaalmoment | Maandelijkse factuur |\n| Opzegtermijn | Volgens contract |\n| Verantwoordelijke binnen de club | Accommodatiebeheerder |\n| Datum om contract te beoordelen | Ruim vóór de opzegdeadline |\n\nLees ook de voorwaarden buiten de prijsafspraak. Wie betaalt schade of extra schoonmaak? Wat gebeurt er als de activiteit uitvalt? Mag de prijs tussentijds wijzigen? Wordt het contract automatisch verlengd?\n\nBij afspraken met trainers is bovendien van belang welke werkrelatie de vereniging met hen heeft. De financiële en fiscale gevolgen daarvan horen bij hoofdstuk 7. Gebruik niet zonder beoordeling een gewone leveranciersovereenkomst voor iemand die feitelijk als werknemer werkt.\n\nDe mogelijkheden om een contract te beëindigen hangen onder meer af van de overeenkomst en toepasselijke voorwaarden. [KVK – Hoe je van een overeenkomst afkomt](https://www.kvk.nl/wetten-en-regels/hoe-je-van-een-overeenkomst-afkomt/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – Hoe je van een overeenkomst afkomt",
+          "url": "https://www.kvk.nl/wetten-en-regels/hoe-je-van-een-overeenkomst-afkomt/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "52913fe850d40205"
+    },
+    {
+      "id": "H06-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "7",
+      "title": "Hoe houd ik overzicht over lopende contracten en opzegtermijnen?",
+      "heading_original": "7. Hoe houd ik overzicht over lopende contracten en opzegtermijnen?",
+      "body": "Werk het contractenoverzicht bij zodra een overeenkomst wordt gesloten of gewijzigd. Zet een herinnering ruim vóór de datum waarop de vereniging moet besluiten over voortzetten of opzeggen. Als de opzegtermijn bijvoorbeeld drie maanden is, moet de beoordeling eerder plaatsvinden dan drie maanden voor het einde.\n\nControleer minstens één keer per jaar:\n\n- gebruikt de vereniging de dienst nog?\n\n- klopt de gefactureerde prijs met de overeenkomst?\n\n- verandert de behoefte volgend seizoen?\n\n- zijn er dubbele abonnementen of diensten?\n\n- loopt er een tijdelijke korting af?\n\n- is er een goedkoper of beter passend alternatief?\n\nStuur een opzegging of wijziging via de afgesproken route en bewaar een bevestiging. Een mondeling gesprek of een opmerking tijdens een bestuursvergadering beëindigt niet vanzelf een contract.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "73aba5e6485a9fbc"
+    },
+    {
+      "id": "H06-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8",
+      "title": "Hoe gaan we om met onverwachte uitgaven die niet in de begroting staan?",
+      "heading_original": "8. Hoe gaan we om met onverwachte uitgaven die niet in de begroting staan?",
+      "body": "Breng eerst de urgentie, totale kosten en beschikbare ruimte in beeld. Een kapotte verwarmingsinstallatie vraagt een ander besluit dan een wens voor extra trainingsmateriaal.\n\nVolg daarna de bevoegdheden van de vereniging:\n\n- Laat iemand vaststellen wat er nodig is en welke alternatieven bestaan.\n\n- Controleer of er een reserve, verzekering, garantie of subsidie van toepassing kan zijn.\n\n- Bereken het gevolg voor begroting en banksaldo.\n\n- Vraag het vereiste akkoord van bestuur of ALV.\n\n- Leg het besluit en de reden vast.\n\n- Pas de verwachting voor de rest van het jaar aan.\n\nSpreek vooraf af hoe het bestuur in een spoedsituatie bereikbaar is en wie dan mag handelen. Controleer ook in spoedgevallen achteraf de factuur en de uitvoering.\n\nMeld een onverwachte uitgave bij de eerstvolgende financiële rapportage. Zo ziet het bestuur of andere plannen moeten worden aangepast.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "0e227e3703b3b2d0"
+    },
+    {
+      "id": "H06-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "9",
+      "title": "Hoe kunnen we kosten besparen zonder de activiteiten van de club te schaden?",
+      "heading_original": "9. Hoe kunnen we kosten besparen zonder de activiteiten van de club te schaden?",
+      "body": "Begin bij kosten waar de club weinig voor terugkrijgt, zoals ongebruikte abonnementen, dubbele diensten, dure betaalmethoden of contracten die niet meer passen. Vergelijk daarnaast terugkerende tarieven en onderzoek of gezamenlijk inkopen met andere clubs zinvol is.\nBeoordeel iedere besparing op het totale effect. Een goedkopere leverancier kan extra werk voor vrijwilligers veroorzaken of materiaal leveren dat sneller vervangen moet worden. Een korting op onderhoud kan later tot een veel grotere reparatie leiden.\n\nBesparen is een bestuurskeuze. De penningmeester laat zien wat financieel mogelijk is; betrokken vrijwilligers en commissies beoordelen wat de keuze voor de sportactiviteiten betekent.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "88eaf420a758b70c"
+    },
+    {
+      "id": "H06-P10",
+      "order": 10,
+      "kind": "voorbeeld",
+      "number": null,
+      "title": "Praktisch voorbeeld: van aanvraag tot betaling",
+      "heading_original": "Praktisch voorbeeld: van aanvraag tot betaling",
+      "body": "Een team wil voor € 1.200 aan trainingsmateriaal kopen.\n\n- De teamverantwoordelijke beschrijft wat nodig is en vraagt offertes volgens de clubafspraken.\n\n- De penningmeester controleert het beschikbare budget en de gevolgen voor het banksaldo.\n\n- Het bevoegde bestuurslid of het bestuur kiest een aanbod en legt het akkoord vast.\n\n- Een aangewezen persoon bevestigt na levering dat het materiaal compleet is.\n\n- De penningmeester vergelijkt factuur, offerte en akkoord, boekt de factuur en bereidt de betaling voor.\n\n- De betaling wordt volgens de bankafspraken goedgekeurd.\n\n- Na betaling worden factuur en bankmutatie aan elkaar gekoppeld.\n\nZo is later duidelijk waarom de aankoop is gedaan, wie haar heeft goedgekeurd, wat is geleverd en wat is betaald.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "1719847021460efb"
+    },
+    {
+      "id": "H06-P11",
+      "order": 11,
+      "kind": "checklist",
+      "number": null,
+      "title": "Checklist: uitgaven en contracten",
+      "heading_original": "Checklist: uitgaven en contracten",
+      "body": "- We hebben inzicht in terugkerende, meebewegende en incidentele kosten.\n\n- Aankoop-, goedkeurings-, teken- en betaalbevoegdheden zijn vastgelegd.\n\n- Voor grotere opdrachten vergelijken we offertes op totale kosten en kwaliteit.\n\n- Bij grote uitgaven controleren we zowel begroting als liquiditeit.\n\n- Facturen worden vergeleken met bestelling, levering en akkoord.\n\n- Nieuwe of gewijzigde betaalgegevens van leveranciers worden extra gecontroleerd.\n\n- Lopende contracten staan in een overzicht met een tijdige beoordelingsdatum.\n\n- Onverwachte uitgaven worden volgens de juiste procedure besloten en gemeld.\n\n- Het bestuur bekijkt jaarlijks waar kosten zonder verlies aan kwaliteit kunnen dalen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "13853666a60cb6c2"
+    }
+  ],
+  "attachments": []
+}

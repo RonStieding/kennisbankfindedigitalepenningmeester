@@ -1,0 +1,240 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H05",
+    "number": 5,
+    "title": "Overige inkomsten",
+    "heading_original": "Hoofdstuk 5 — Overige inkomsten",
+    "description": "Naast contributie kan een sportvereniging geld ontvangen uit sponsoring, subsidies, donaties, acties, evenementen, kantineverkoop en verhuur."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H05-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Naast contributie kan een sportvereniging geld ontvangen uit sponsoring, subsidies, donaties, acties, evenementen, kantineverkoop en verhuur. Die inkomsten verschillen sterk van elkaar. Een subsidie kan aan een specifiek doel zijn verbonden, terwijl een sponsor juist een tegenprestatie verwacht. Kantineomzet brengt weer inkoopkosten met zich mee.\n\nHoud daarom per inkomstenbron bij wat is afgesproken, wat al is ontvangen, welke kosten ertegenover staan en of het geld vrij te besteden is. Gebruik daarvoor de passende posten uit het rekenschema van hoofdstuk 2.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "99671ebb1ce97972"
+    },
+    {
+      "id": "H05-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "1",
+      "title": "Welke inkomstenbronnen kan een sportvereniging naast contributie hebben?",
+      "heading_original": "1. Welke inkomstenbronnen kan een sportvereniging naast contributie hebben?",
+      "body": "Mogelijke inkomstenbronnen zijn:\n\n| **Inkomstenbron** | **Voorbeelden** | **Belangrijkste aandachtspunt** |\n| --- | --- | --- |\n| Subsidies en fondsen | Bijdrage voor sportmateriaal, toegankelijkheid of accommodatie | Voorwaarden, termijnen en verantwoording |\n| Sponsoring | Geld voor shirtreclame of een reclamebord | Afgesproken tegenprestatie |\n| Donaties | Een gift van een lid, bedrijf of supporter | Is het werkelijk een gift zonder tegenprestatie? |\n| Acties | Crowdfunding of verkoopactie | Opbrengst na aftrek van kosten |\n| Evenementen | Toernooi, kamp of clubfeest | Begroting per activiteit en financiële afrekening |\n| Kantine en verkoop | Eten, drinken en clubartikelen | Inkoop, voorraad, kas en btw |\n| Verhuur of gebruik door derden | Veld, zaal of clubhuis | Toestemming, contract, kosten en btw |\n\nNiet iedere bron past bij iedere vereniging. Een club zonder eigen accommodatie heeft bijvoorbeeld minder mogelijkheden voor verhuur. Kies inkomstenactiviteiten die passen bij de mensen en middelen die de vereniging beschikbaar heeft.\n\nMaak in de begroting onderscheid tussen vaste of redelijk voorspelbare inkomsten en onzekere inkomsten. Reken een plan niet sluitend met een sponsorbijdrage waarover nog geen afspraak is gemaakt.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "33d684542b6aade9"
+    },
+    {
+      "id": "H05-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "2",
+      "title": "Hoe vind en beoordeel ik subsidies die bij onze vereniging passen?",
+      "heading_original": "2. Hoe vind en beoordeel ik subsidies die bij onze vereniging passen?",
+      "body": "Begin bij het doel van de uitgave. Wil de club bijvoorbeeld sportmateriaal aanschaffen, de accommodatie verbeteren of meer mensen laten sporten? Zoek vervolgens naar regelingen van de gemeente, provincie, sportbond, fondsen of het Rijk die bij dat doel passen.\n\nBeoordeel een regeling vóórdat je tijd in de aanvraag steekt. Controleer:\n\n- of de vereniging en de activiteit in aanmerking komen;\n\n- welke kosten worden vergoed en welke niet;\n\n- of de aanvraag vóór of na de uitgave moet plaatsvinden;\n\n- hoeveel eigen geld de club moet bijdragen;\n\n- welke documenten en offertes nodig zijn;\n\n- wanneer het besluit en de betaling worden verwacht;\n\n- welke verplichtingen na toekenning blijven gelden.\n\nEen voorbeeld van een landelijke regeling voor bepaalde kosten van sportaccommodaties en sportmaterialen is BOSA. Openstelling, budget en voorwaarden kunnen wijzigen. Controleer daarom altijd de actuele informatie bij [DUS-I – BOSA](https://www.dus-i.nl/subsidies/sport/stimulering-bouw-en-onderhoud-sportaccommodaties) voordat het bestuur een investering op de subsidie baseert.\n\nBeslisregel voor de begroting: vermeld een aangevraagde subsidie als onzeker zolang er geen toekenningsbesluit is. Laat zien hoe de club de uitgave betaalt als de aanvraag wordt afgewezen of later wordt uitbetaald.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "DUS-I – BOSA",
+          "url": "https://www.dus-i.nl/subsidies/sport/stimulering-bouw-en-onderhoud-sportaccommodaties"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a2b8ef5678eaf8a7"
+    },
+    {
+      "id": "H05-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "3",
+      "title": "Hoe vraag ik subsidie aan en hoe verantwoord ik de besteding?",
+      "heading_original": "3. Hoe vraag ik subsidie aan en hoe verantwoord ik de besteding?",
+      "body": "Wijs één persoon aan die de aanvraag coördineert. De penningmeester levert de financiële informatie aan en bewaakt samen met de projectverantwoordelijke de voorwaarden.\n\nGebruik per subsidie een dossier met:\n\n| **Vast te leggen** | **Waarom?** |\n| --- | --- |\n| Regeling en contactpersoon | Zodat duidelijk is welke voorwaarden gelden |\n| Aanvraag en ingediende begroting | Om later te vergelijken met de uitvoering |\n| Toekenningsbrief of beschikking | Hierin staan bedrag, periode en verplichtingen |\n| Facturen en betaalbewijzen | Om de gemaakte kosten te onderbouwen |\n| Activiteiten- of projectverslag | Om te laten zien wat is uitgevoerd |\n| Deadlines voor meldingen en eindverantwoording | Om terugvordering door gemiste voorwaarden te voorkomen |\n\nBoek de subsidie op een herkenbare post en houd de bijbehorende kosten afzonderlijk bij als de regeling dat vraagt. Een toekenning en een bankontvangst zijn niet hetzelfde: het geld kan later of in delen binnenkomen. Neem dat verschil ook mee in de liquiditeitsplanning.\n\nVerandert het project, kost het minder dan gepland of wordt een voorwaarde mogelijk niet gehaald? Controleer de beschikking en neem tijdig contact op met de subsidieverstrekker. Wacht niet tot de eindverantwoording.\n\nVoor de btw maakt het uit waarvoor een subsidie wordt verstrekt. Een algemene bijdrage voor een voorziening wordt anders behandeld dan een vergoeding voor een concrete levering of dienst. [Belastingdienst – Subsidies en giften](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/subsidies-en-giften)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Subsidies en giften",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/subsidies-en-giften"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "7600ec05c1462439"
+    },
+    {
+      "id": "H05-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "4",
+      "title": "Hoe leg ik afspraken met sponsors goed vast?",
+      "heading_original": "4. Hoe leg ik afspraken met sponsors goed vast?",
+      "body": "Sponsoring betekent meestal dat de club een bijdrage ontvangt en daar iets voor terugdoet, zoals een logo op kleding, een reclamebord of zichtbaarheid op de website. Leg afspraken schriftelijk vast, ook als de sponsor een bekende van de vereniging is. [NOC*NSF – Wat is sponsoring?](https://www.nocnsf.nl/handboek-wet-en-regelgeving/18-wat-is-sponsoring-precies)\n\nEen sponsorovereenkomst vermeldt bij voorkeur:\n\n- naam van de sponsor en van de vereniging;\n\n- de bijdrage in geld of goederen;\n\n- de precieze tegenprestatie van de club;\n\n- begin- en einddatum;\n\n- betaalmomenten;\n\n- wie kleding, borden of andere materialen betaalt;\n\n- wie zorgt voor plaatsing en verwijdering van reclame;\n\n- wat gebeurt als een team, evenement of seizoen verandert;\n\n- hoe en wanneer de overeenkomst eindigt.\n\nHoud een sponsoroverzicht bij met de contractwaarde, gefactureerde bedragen, ontvangen betalingen en nog uit te voeren tegenprestaties. Zo voorkom je dat een verlenging of betaling wordt vergeten.\n\nBekijk ook of de sponsor past bij de uitstraling en afspraken van de club. Bij reclame kunnen aanvullende regels gelden, afhankelijk van het product, de doelgroep en de plek waar reclame zichtbaar is.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – Wat is sponsoring?",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/18-wat-is-sponsoring-precies"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a8395f297bde0c5a"
+    },
+    {
+      "id": "H05-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "5",
+      "title": "Hoe verwerk ik sponsorbijdragen in geld of in natura?",
+      "heading_original": "5. Hoe verwerk ik sponsorbijdragen in geld of in natura?",
+      "body": "Bij een bijdrage in geld leg je het contract vast, stuur je zo nodig een factuur en controleer je de betaling. Bij een bijdrage in natura ontvangt de club bijvoorbeeld kleding, materialen of producten. Leg dan vast wat is geleverd, voor welk doel en welke reclame of andere prestatie de vereniging daarvoor levert.\n\nVoorbeeld: een bedrijf levert trainingspakken in ruil voor zijn logo op de pakken. Dat is niet hetzelfde als een vrijblijvende gift. De club ontvangt goederen en levert een tegenprestatie. Laat bij twijfel beoordelen welke waarde en btw-behandeling voor beide prestaties moeten worden gebruikt.\n\nMaak het onderscheid helder:\n\n- Gift: er staat geen rechtstreekse tegenprestatie tegenover.\n\n- Sponsoring: de vereniging levert wel een tegenprestatie, vaak reclame.\n\nDit onderscheid is ook voor de btw belangrijk. De Belastingdienst behandelt giften en sponsoring verschillend; voor fondsenwervende activiteiten kan onder voorwaarden een vrijstelling gelden. [Belastingdienst – Subsidies en giften](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/subsidies-en-giften), [Belastingdienst – Fondsenwervende activiteiten](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/fondsenwervende_activiteiten/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Subsidies en giften",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/subsidies-en-giften"
+        },
+        {
+          "label": "Belastingdienst – Fondsenwervende activiteiten",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/fondsenwervende_activiteiten/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "6d7c61caa3feb23d"
+    },
+    {
+      "id": "H05-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "6",
+      "title": "Hoe organiseer en registreer ik donaties en acties?",
+      "heading_original": "6. Hoe organiseer en registreer ik donaties en acties?",
+      "body": "Spreek vooraf af hoe donaties kunnen worden gedaan, wie ze registreert en wie de ontvangst bevestigt. Een bankbetaling met een duidelijke omschrijving is eenvoudiger te volgen dan contant geld. Leg vast of de gever een bestemming heeft genoemd, bijvoorbeeld voor de jeugdafdeling of voor nieuwe doelen. Rapporteer daarna hoe dat geld is gebruikt.\n\nMaak voor een actie vooraf een kleine begroting:\n\nVerwachte netto-opbrengst = verwachte ontvangsten − kosten van de actie\n\nNeem ook betaal- en platformkosten, inkoop en eventuele prijzen mee. Tel na afloop de ontvangsten en uitgaven apart op en vergelijk ze met de verwachting.\n\nBij een loterij of bingo kunnen vergunningen of meldingen nodig zijn. Controleer dit vóór de aankondiging bij de gemeente en de [Kansspelautoriteit](https://kansspelautoriteit.nl/gemeenten-en-kansspelen). Veronderstel niet dat een actie zonder regels kan worden gehouden omdat de opbrengst naar de vereniging gaat.\n\nZeg tegen donateurs alleen dat hun gift fiscaal aftrekbaar is als dat voor de betreffende gift en vereniging is gecontroleerd. De voorwaarden daarvoor verschillen per situatie. [Belastingdienst – Giften aan een vereniging](https://www.belastingdienst.nl/wps/wcm/connect/nl/aftrek-en-kortingen/content/gift-aftrekken)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Kansspelautoriteit",
+          "url": "https://kansspelautoriteit.nl/gemeenten-en-kansspelen"
+        },
+        {
+          "label": "Belastingdienst – Giften aan een vereniging",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/aftrek-en-kortingen/content/gift-aftrekken"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "5f742ffd61a5f5e5"
+    },
+    {
+      "id": "H05-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "7",
+      "title": "Hoe bepaal ik of een evenement financieel iets oplevert?",
+      "heading_original": "7. Hoe bepaal ik of een evenement financieel iets oplevert?",
+      "body": "Maak voor ieder groter evenement een eigen begroting en afrekening. Neem alle inkomsten en kosten op, ook als verschillende commissies ze regelen.\n\n| **Inkomsten** | **Kosten** |\n| --- | --- |\n| Deelnamegelden en kaartverkoop | Huur van locatie of materiaal |\n| Evenementsponsoring | Inkoop van eten en drinken |\n| Verkoopopbrengst | Prijzen, beveiliging en promotie |\n| Eventuele subsidie | Betaalkosten, vergunningen en overige kosten |\n\nBereken na afloop het verschil tussen de werkelijke inkomsten en kosten. Controleer daarnaast of alle verkopen zijn ontvangen en alle facturen zijn verwerkt. Een evenement met veel bezoekers kan toch weinig opleveren als de kosten hoog zijn.\n\nMaak vooraf ook een tegenvallerscenario. Hoeveel deelnemers zijn minimaal nodig om de kosten te dekken? Wie mag besluiten om het evenement door te laten gaan als de voorverkoop achterblijft?\n\nHoud contant geld, pinbetalingen en eventuele online ticketverkoop afzonderlijk bij en sluit ze aan op de totale verkoopregistratie.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "8e3ca8a4f4080096"
+    },
+    {
+      "id": "H05-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8",
+      "title": "Hoe beheer ik de inkomsten uit kantine, verkoop of verhuur?",
+      "heading_original": "8. Hoe beheer ik de inkomsten uit kantine, verkoop of verhuur?",
+      "body": "Kantine en verkoop. Registreer niet alleen wat op de bank binnenkomt, maar ook de verkoop volgens de kassa of betaalterminal, contante ontvangsten, inkopen en voorraad. Spreek af wie telt, afstort en verschillen onderzoekt. Zo kun je naast de omzet ook beoordelen wat de verkoop daadwerkelijk oplevert.\n\nVerhuur. Leg vast wie welke ruimte of faciliteit gebruikt, op welke data, tegen welke vergoeding en wie bijkomende kosten draagt. Controleer of de vereniging de ruimte mag verhuren of aan derden beschikbaar mag stellen. Maak ook afspraken over schade, schoonmaak, verzekering en annulering.\n\nBtw. De fiscale behandeling kan per activiteit verschillen. Sportdiensten van een vereniging zonder winstoogmerk kunnen zijn vrijgesteld, terwijl bijvoorbeeld verkoop, reclame en bepaalde verhuuractiviteiten anders worden behandeld. Voor kantine en andere fondsenwervende activiteiten gelden eigen voorwaarden. Beoordeel de geldstromen daarom afzonderlijk in plaats van alle verenigingsinkomsten dezelfde btw-code te geven. [Belastingdienst – Sportorganisaties en sportclubs](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/sportorganisaties/vrijstelling_voor_sportorganisaties_en_sportclubs), [Belastingdienst – Fondsenwervende activiteiten](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/fondsenwervende_activiteiten/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Sportorganisaties en sportclubs",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/sportorganisaties/vrijstelling_voor_sportorganisaties_en_sportclubs"
+        },
+        {
+          "label": "Belastingdienst – Fondsenwervende activiteiten",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/fondsenwervende_activiteiten/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "11ba9fbb1ff18981"
+    },
+    {
+      "id": "H05-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "9",
+      "title": "Hoe voorkom ik dat de vereniging te afhankelijk wordt van één inkomstenbron?",
+      "heading_original": "9. Hoe voorkom ik dat de vereniging te afhankelijk wordt van één inkomstenbron?",
+      "body": "Maak jaarlijks een overzicht van de inkomsten per bron en vergelijk dat met eerdere jaren. Stel vervolgens de vraag: wat gebeurt er als een belangrijke bron volgend jaar wegvalt?\n\nEen grote sponsorbijdrage kan een activiteit mogelijk maken, maar geeft ook een risico als de overeenkomst afloopt. Een subsidie voor een tijdelijk project is geen veilige basis voor kosten die ieder jaar terugkomen. En kantineopbrengsten kunnen veranderen door minder bezoekers of hogere inkoopkosten.\n\nBespreek daarom met het bestuur:\n\n- welke inkomsten zeker zijn en welke tijdelijk of onzeker;\n\n- welke vaste kosten afhankelijk zijn geworden van tijdelijke inkomsten;\n\n- wanneer sponsor- en subsidieafspraken aflopen;\n\n- of de vereniging voldoende buffer heeft om bij te sturen;\n\n- welke activiteiten kunnen worden aangepast als inkomsten tegenvallen.\n\nHet doel is niet om zoveel mogelijk verschillende inkomstenbronnen te hebben. Het doel is dat de vereniging begrijpt welke inkomsten nodig zijn voor haar vaste verplichtingen en welke ruimte er is voor extra plannen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "cc6be33e1c4d4105"
+    },
+    {
+      "id": "H05-P10",
+      "order": 10,
+      "kind": "checklist",
+      "number": null,
+      "title": "Checklist: overige inkomsten",
+      "heading_original": "Checklist: overige inkomsten",
+      "body": "- Iedere inkomstenbron heeft een herkenbare post in de administratie.\n\n- Toegezegde, gefactureerde en ontvangen bedragen worden onderscheiden.\n\n- Subsidiebeschikkingen, voorwaarden en deadlines worden centraal bewaard.\n\n- Sponsorafspraken en tegenprestaties zijn schriftelijk vastgelegd.\n\n- Bij bijdragen in natura is duidelijk wat de club ontvangt en terugdoet.\n\n- Donaties met een bestemming zijn afzonderlijk te volgen.\n\n- Grotere acties en evenementen hebben een begroting én een afrekening.\n\n- Kantineverkopen sluiten aan op kas, pin en voorraad.\n\n- Verhuurafspraken zijn vastgelegd en toegestaan.\n\n- De btw-behandeling is per soort activiteit beoordeeld.\n\n- Het bestuur ziet welke inkomsten tijdelijk of onzeker zijn.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "d71b529e8e93d631"
+    }
+  ],
+  "attachments": []
+}

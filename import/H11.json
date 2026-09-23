@@ -1,0 +1,238 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H11",
+    "number": 11,
+    "title": "ALV, kascommissie en financiële verantwoording",
+    "heading_original": "Hoofdstuk 11 — ALV, kascommissie en financiële verantwoording",
+    "description": "De penningmeester houdt de cijfers bij, maar het bestuur als geheel legt verantwoording af aan de leden."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H11-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "De penningmeester houdt de cijfers bij, maar het bestuur als geheel legt verantwoording af aan de leden. De algemene ledenvergadering (ALV) beoordeelt de financiële stukken en kan vragen stellen over het gevoerde beleid. De kascommissie onderzoekt de financiële stukken namens de leden en brengt daarover verslag uit.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "bb5ba3759bd82051"
+    },
+    {
+      "id": "H11-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "11.1",
+      "title": "Welke financiële stukken presenteren we aan de ALV?",
+      "heading_original": "11.1 Welke financiële stukken presenteren we aan de ALV?",
+      "body": "Voor een gewone vereniging legt het bestuur jaarlijks de balans en de staat van baten en lasten met toelichting ter goedkeuring voor aan de ALV. Het bestuur brengt ook verslag uit over de gang van zaken en het gevoerde beleid. Volgens de wet gebeurt dit binnen zes maanden na afloop van het boekjaar, tenzij de ALV de termijn verlengt. Controleer daarnaast de statuten: die kunnen aanvullende afspraken bevatten. [Burgerlijk Wetboek, Boek 2, artikel 48](https://wetten.overheid.nl/BWBR0003045/)\n\nGeef de leden voor een begrijpelijke bespreking bij voorkeur ook:\n\n- de begroting van het afgelopen jaar naast de werkelijke cijfers;\n\n- de cijfers van het voorgaande jaar;\n\n- een toelichting op belangrijke verschillen, schulden en reserves;\n\n- de begroting voor het komende jaar, als deze volgens de statuten of verenigingsafspraken door de ALV wordt behandeld;\n\n- het verslag van de kascommissie.\n\nStuur de stukken tijdig mee met de vergaderinformatie of maak duidelijk waar leden ze kunnen inzien. De penningmeester bereidt de uitleg voor, maar laat het bestuur de stukken vooraf samen bespreken en vaststellen als bestuursvoorstel.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikel 48",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "229f830e50a580dd"
+    },
+    {
+      "id": "H11-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "11.2",
+      "title": "Hoe leg ik de jaarstukken begrijpelijk uit?",
+      "heading_original": "11.2 Hoe leg ik de jaarstukken begrijpelijk uit?",
+      "body": "Begin bij de vragen die leden meestal hebben: Wat kwam er binnen? Waaraan is het geld besteed? Staat de vereniging er financieel goed voor? Wat betekent dit voor volgend seizoen?\n\nEen korte toelichting kan deze volgorde volgen:\n\n- Resultaat: wat is het overschot of tekort van het jaar?\n\n- Belangrijkste oorzaken: welke inkomsten of kosten weken duidelijk af van de begroting?\n\n- Balans: hoeveel geld, bezittingen, vorderingen en schulden heeft de vereniging?\n\n- Beschikbare middelen: welke grote betalingen komen eraan en welk deel van het geld heeft al een bestemming?\n\n- Vooruitblik: welke financiële keuzes vraagt het komende jaar?\n\nLeg termen meteen uit. Bijvoorbeeld: “We sluiten het jaar af met een overschot van € 4.000. Dat betekent niet dat we € 4.000 extra kunnen uitgeven: een deel van de ontvangen contributie is nodig voor kosten aan het begin van volgend seizoen.”\n\nGebruik een eenvoudige tabel of grafiek als die de hoofdlijn verduidelijkt. Laat kleine boekingsdetails in de bijlage; leden kunnen er tijdens de vergadering wel naar vragen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "267227a67fd1d22d"
+    },
+    {
+      "id": "H11-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "11.3",
+      "title": "Hoe beantwoord ik vragen over tekorten, overschotten en reserves?",
+      "heading_original": "11.3 Hoe beantwoord ik vragen over tekorten, overschotten en reserves?",
+      "body": "Geef eerst de oorzaak, daarna de gevolgen en ten slotte het voorstel van het bestuur.\n\n| **Vraag van leden** | **Wat licht je toe?** |\n| --- | --- |\n| Waarom is er een tekort? | Welke inkomsten vielen tegen of welke kosten waren hoger dan gepland? Was dit eenmalig of structureel? |\n| Wat doen we met een overschot? | Welk deel is nodig voor komende verplichtingen, een buffer of een gepland project? |\n| Waarom heeft de vereniging reserves? | Voor welk risico of toekomstig doel is het bedrag bestemd? |\n| Kunnen we de contributie verlagen? | Wat betekent dit voor de begroting en liquiditeit in de komende jaren? |\n\nVergelijk niet alleen met het vorige jaar, maar ook met de goedgekeurde begroting. Als bijvoorbeeld de energiekosten sterk stegen, vermeld dan de stijging en de maatregelen voor het volgende jaar. Verberg een terugkerend tekort niet achter een eenmalige subsidie of een vrijval uit een reserve.\n\nEen reserve is een post in het eigen vermogen; zij is niet automatisch gelijk aan vrij beschikbaar banksaldo. Dit onderscheid kwam aan bod in hoofdstuk 10.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "0f75a0db18f496d5"
+    },
+    {
+      "id": "H11-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "11.4",
+      "title": "Wat doet de kascommissie?",
+      "heading_original": "11.4 Wat doet de kascommissie?",
+      "body": "Als er geen raad van commissarissen is en geen accountantsverklaring over de getrouwheid van de stukken aan de ALV wordt overgelegd, benoemt de ALV jaarlijks een commissie van ten minste twee leden die geen bestuurslid zijn. De commissie onderzoekt de financiële stukken en brengt verslag uit aan de ALV. Het bestuur moet haar de gevraagde informatie geven en boeken, bewijsstukken en andere gegevensdragers voor inzage beschikbaar stellen. [Burgerlijk Wetboek, Boek 2, artikel 48 lid 2](https://wetten.overheid.nl/BWBR0003045/)\n\nDe commissie kijkt onder meer of de gepresenteerde cijfers aansluiten op de administratie, of belangrijke bezittingen en schulden goed zijn weergegeven en of de toelichting voldoende duidelijk is. Zij bepaalt zelf welke controles nodig zijn. De kascommissie stelt de jaarstukken niet op en verleent geen decharge; dat zijn taken van respectievelijk het bestuur en de ALV.\n\nDe aangeleverde Kascommissiegids geeft praktische voorbeelden van controles op ontvangsten, betalingen, balansposten en de toelichting bij de jaarstukken. ",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikel 48 lid 2",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "e90355c73dcad049"
+    },
+    {
+      "id": "H11-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "11.5",
+      "title": "Hoe bereiden we de controle door de kascommissie voor?",
+      "heading_original": "11.5 Hoe bereiden we de controle door de kascommissie voor?",
+      "body": "Maak direct na het boekjaar een planning met de commissie. Spreek af wanneer het concept van de jaarstukken klaar is, wanneer de commissie de stukken krijgt en wanneer haar vragen beantwoord moeten zijn. Plan voldoende tijd om fouten nog vóór verzending aan de leden te herstellen.\n\nZorg dat ten minste het volgende beschikbaar is:\n\n- balans, staat van baten en lasten, begroting en toelichting;\n\n- volledige boekhouding en bankafschriften;\n\n- facturen, declaraties en onderbouwing van ontvangsten;\n\n- een overzicht van openstaande contributie en facturen;\n\n- een specificatie van bezittingen, schulden en reserves;\n\n- relevante contracten, subsidieafspraken en bestuursbesluiten;\n\n- een verklaring van opvallende verschillen met begroting en vorig jaar.\n\nLaat de commissie waar mogelijk de bankinformatie en andere oorspronkelijke gegevens raadplegen, in plaats van uitsluitend een door de penningmeester gemaakte samenvatting. Beantwoord vragen feitelijk en leg eventuele correcties vast. In de Penningmeestergids en Kascommissiegids wordt een tijdige, complete overdracht van de financiële stukken als belangrijke voorwaarde voor een goede controle beschreven. ",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "c3687ee716ee4722"
+    },
+    {
+      "id": "H11-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "11.6",
+      "title": "Wat doen we met bevindingen van de kascommissie?",
+      "heading_original": "11.6 Wat doen we met bevindingen van de kascommissie?",
+      "body": "Maak onderscheid tussen fouten in de jaarstukken, onduidelijkheden en aanbevelingen voor de werkwijze.\n\n- Fout in de cijfers: onderzoek de oorzaak, corrigeer de administratie en pas zo nodig de conceptstukken aan.\n\n- Onduidelijke toelichting: vul de uitleg aan, zodat leden de cijfers kunnen beoordelen.\n\n- Aanbeveling voor betere controle: bespreek in het bestuur wat wordt ingevoerd, wie dit doet en wanneer.\n\nBespreek belangrijke punten met de commissie vóór de ALV. De commissie behoudt haar eigen oordeel en rapporteert zelf aan de leden. Als zij onvoldoende informatie krijgt of een belangrijk verschil onopgelost blijft, moet dat duidelijk worden in haar verslag. [Burgerlijk Wetboek, Boek 2, artikel 48 lid 2](https://wetten.overheid.nl/BWBR0003045/)\n\nHoud een korte actielijst bij. Daardoor kan het bestuur bij de volgende ALV laten zien wat met eerdere aanbevelingen is gedaan.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikel 48 lid 2",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "47624ac1d7d1b8cd"
+    },
+    {
+      "id": "H11-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "11.7",
+      "title": "Over welke financiële onderwerpen moet de ALV besluiten?",
+      "heading_original": "11.7 Over welke financiële onderwerpen moet de ALV besluiten?",
+      "body": "De ALV behandelt in elk geval de jaarlijkse financiële verantwoording die het bestuur volgens de wet voorlegt. Welke andere besluiten aan de leden zijn voorbehouden, volgt uit de wet, statuten en reglementen. Denk afhankelijk van de vereniging aan de begroting, contributie, grote investeringen of het gebruik van reserves. Zet elk besluitpunt afzonderlijk en helder op de agenda. [Burgerlijk Wetboek, Boek 2, artikelen 40 en 48](https://wetten.overheid.nl/BWBR0003045/)\n\nMaak vooral onderscheid tussen:\n\n- Goedkeuring van de financiële stukken: de leden beoordelen de verantwoording over het afgelopen jaar.\n\n- Besluit over een voorstel voor de toekomst: bijvoorbeeld een contributiewijziging of investering.\n\n- Decharge van het bestuur: een afzonderlijk oordeel over de verantwoording van het bestuur.\n\nGoedkeuring van cijfers is niet vanzelf hetzelfde als decharge. Als het bestuur de ALV om decharge vraagt, zet dit dan uitdrukkelijk op de agenda en leg het besluit apart vast. [KVK – regels en taken van een verenigingsbestuurder](https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikelen 40 en 48",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        },
+        {
+          "label": "KVK – regels en taken van een verenigingsbestuurder",
+          "url": "https://www.kvk.nl/wetten-en-regels/bestuurder-van-een-vereniging-dit-zijn-de-regels-en-taken/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "5ebf87b1794091ed"
+    },
+    {
+      "id": "H11-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "11.8",
+      "title": "Hoe leggen we financiële besluiten en goedkeuringen vast?",
+      "heading_original": "11.8 Hoe leggen we financiële besluiten en goedkeuringen vast?",
+      "body": "Formuleer vóór de vergadering precies waarover gestemd wordt. Bij een investering is “akkoord met renovatie” te vaag. Beschrijf liever het project, het maximale bedrag, de financieringsbron, eventuele voorwaarden en wie het bestuur machtigt om verplichtingen aan te gaan.\n\nNeem in de notulen op:\n\n- de tekst of duidelijke strekking van het voorstel;\n\n- de uitslag van de stemming volgens de statutaire regels;\n\n- voorwaarden of grenzen die de ALV heeft gesteld;\n\n- wie het besluit uitvoert;\n\n- bij jaarstukken: welke versie is goedgekeurd;\n\n- het afzonderlijke besluit over decharge, als dit op de agenda stond.\n\nBewaar de vastgestelde stukken en het verslag van de kascommissie bij de notulen. Zo is later terug te vinden wat de leden daadwerkelijk hebben beoordeeld en besloten.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "b48a497d91cc59e9"
+    },
+    {
+      "id": "H11-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "11.9",
+      "title": "Hoe informeren we leden gedurende het jaar?",
+      "heading_original": "11.9 Hoe informeren we leden gedurende het jaar?",
+      "body": "Een ALV hoeft niet het eerste moment te zijn waarop leden horen dat de vereniging financieel moet bijsturen. Deel tussentijds een korte, begrijpelijke update wanneer belangrijke zaken veranderen, bijvoorbeeld bij een grote investering, een onverwacht tekort of een voorstel om de contributie aan te passen.\n\nBeantwoord in zo’n update drie vragen: Wat is er veranderd? Wat betekent dit voor de vereniging? Welke beslissing of vervolgstap komt eraan? Vermeld bedragen en tijdstippen waar die bekend zijn. Als de uitkomst nog onzeker is, zeg dan wat nog moet worden onderzocht en wanneer leden nieuwe informatie krijgen.\n\nStem de informatie af met het bestuur en deel geen persoonsgegevens of vertrouwelijke contractdetails die leden niet nodig hebben om de financiële situatie te begrijpen. Regelmatige uitleg maakt het eenvoudiger voor leden om tijdens de ALV gerichte vragen te stellen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "d56734e081bf48b9"
+    },
+    {
+      "id": "H11-P10",
+      "order": 10,
+      "kind": "overzicht",
+      "number": null,
+      "title": "Planning rond de jaarlijkse ALV",
+      "heading_original": "Planning rond de jaarlijkse ALV",
+      "body": "| **Moment** | **Actie** |\n| --- | --- |\n| Na afloop van het boekjaar | Boekhouding afsluiten en ontbrekende stukken verzamelen. |\n| Ruim vóór de ALV | Conceptjaarstukken en toelichting in het bestuur bespreken. |\n| Vóór verzending aan leden | Kascommissie tijd geven voor onderzoek, vragen en verslag; noodzakelijke correcties verwerken. |\n| Bij de oproep voor de ALV | Agenda, stukken en duidelijke besluitvoorstellen beschikbaar stellen volgens de statuten. |\n| Tijdens de ALV | Cijfers toelichten, vragen beantwoorden, kascommissie laten rapporteren en besluiten apart vastleggen. |\n| Na de ALV | Vastgestelde stukken, notulen en actiepunten bewaren en opvolgen. |",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "b95ea8a5677d1a98"
+    },
+    {
+      "id": "H11-P11",
+      "order": 11,
+      "kind": "kern",
+      "number": null,
+      "title": "Kern van dit hoofdstuk",
+      "heading_original": null,
+      "body": "Kern van dit hoofdstuk: goede verantwoording begint vóór de ALV. Zorg voor begrijpelijke jaarstukken, geef de kascommissie tijd en toegang voor haar onderzoek, en laat de leden helder zien welke besluiten zij nemen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "e4c4bf25fa33bc3b"
+    }
+  ],
+  "attachments": []
+}

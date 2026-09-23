@@ -1,0 +1,13 @@
+{
+  "name": "kennisbank-fin",
+  "private": true,
+  "type": "module",
+  "description": "Kennisbank van Fin, de digitale penningmeester van FinSport",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/blobs": "^11.0.3"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H07",
+    "number": 7,
+    "title": "Vrijwilligers, trainers en personeel",
+    "heading_original": "Hoofdstuk 7 — Vrijwilligers, trainers en personeel",
+    "description": "Sportverenigingen werken met mensen die vrijwillig helpen, kosten voor de club voorschieten, tegen betaling trainingen geven of in dienst zijn."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H07-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Sportverenigingen werken met mensen die vrijwillig helpen, kosten voor de club voorschieten, tegen betaling trainingen geven of in dienst zijn. Voor de penningmeester kunnen al deze betalingen op elkaar lijken. Toch maken het doel van de betaling en de manier waarop iemand werkt veel verschil.\n\nBeoordeel daarom vóór de eerste betaling welke afspraak de vereniging met iemand heeft. Leg die afspraak vast en controleer gedurende het jaar of de betalingen ermee overeenkomen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "84bc4f6815b96d1e"
+    },
+    {
+      "id": "H07-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "1",
+      "title": "Wanneer kan iemand een vrijwilligersvergoeding ontvangen?",
+      "heading_original": "1. Wanneer kan iemand een vrijwilligersvergoeding ontvangen?",
+      "body": "Een vrijwilligersvergoeding is bedoeld voor iemand die het werk niet als beroep voor de vereniging doet en daarvoor geen marktconforme beloning ontvangt. Sportorganisaties kunnen onder voorwaarden de vrijwilligersregeling toepassen. De vereniging hoeft voor iemand die onder deze regeling valt geen loonaangifte te doen. [Belastingdienst – Vrijwilligersregeling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling)\n\nVoor 2026 noemt de Belastingdienst een grens van € 220 per maand én € 2.200 per kalenderjaar. Bij een vergoeding per uur of activiteit gebruikt de Belastingdienst ook bedragen om te beoordelen of de vergoeding niet marktconform is: € 5,75 per uur voor iemand van 21 jaar of ouder en € 3,40 per uur voor iemand jonger dan 21 jaar. Een hoger uurbedrag sluit de regeling niet in alle gevallen uit, maar vraagt een onderbouwing dat de vergoeding nog steeds niet marktconform is. [Belastingdienst – Vrijwilligersregeling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling)\n\nLet op het verschil tussen een kalenderjaar en een sportseizoen. Loopt een seizoen van augustus tot juni, dan controleer je de vergoedingen afzonderlijk voor de twee kalenderjaren. Betaalt de club één bedrag ineens, beoordeel dan ook op welke maanden het vrijwilligerswerk betrekking heeft.\n\nStel voor iedere vrijwilliger vast welke werkzaamheden worden gedaan, welke vergoeding is afgesproken en wie die afspraak heeft goedgekeurd. Kijk naar het totaal van alle vergoedingen van de vereniging aan dezelfde persoon.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Vrijwilligersregeling",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "9565ae92adedb630"
+    },
+    {
+      "id": "H07-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "2",
+      "title": "Wat is het verschil tussen een vrijwilligersvergoeding en een vergoeding van gemaakte kosten?",
+      "heading_original": "2. Wat is het verschil tussen een vrijwilligersvergoeding en een vergoeding van gemaakte kosten?",
+      "body": "Een vrijwilligersvergoeding is een afgesproken tegemoetkoming voor iemands inzet. Een vergoeding van werkelijke kosten betaalt uitgaven terug die iemand voor het vrijwilligerswerk heeft gemaakt. Denk aan aantoonbare reiskosten. Daarnaast kan iemand iets voor de vereniging kopen, zoals sportmateriaal, en dat bedrag terugkrijgen.\n\nDie situaties moet je uit elkaar houden:\n\n| **Betaling** | **Voorbeeld** | **Wat leg je vast?** |\n| --- | --- | --- |\n| Vrijwilligersvergoeding | Een afgesproken bedrag per maand voor bardiensten | Afspraak, periode en betaald bedrag |\n| Werkelijke onkosten | Aantoonbare reiskosten voor een taak | Doel, berekening en onderbouwing |\n| Aankoop voor de club | Een vrijwilliger schiet wedstrijdballen voor | Bon of factuur, akkoord en terugbetaling |\n\nDe combinatie van een vrijwilligersvergoeding met onkostenvergoedingen of verstrekkingen in natura kan invloed hebben op de grensbedragen. Als iemand alleen werkelijke kosten vergoed krijgt, gelden de grensbedragen voor de vrijwilligersvergoeding volgens de Belastingdienst niet op dezelfde manier. Aankopen die een vrijwilliger namens de vereniging voorschiet en die de club terugbetaalt, tellen niet mee als vrijwilligersvergoeding. Controleer de voorwaarden zorgvuldig voordat je verschillende betalingen combineert. [Belastingdienst – Soorten vergoedingen en grensbedragen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling)\n\nBoek een aankoop voor de club op de passende kostenpost uit hoofdstuk 2, bijvoorbeeld materialen. Boek haar niet automatisch als vrijwilligersvergoeding omdat het geld toevallig aan een vrijwilliger is overgemaakt.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Soorten vergoedingen en grensbedragen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "4f921b92b740f7a1"
+    },
+    {
+      "id": "H07-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "3",
+      "title": "Hoe leg ik vergoedingen en declaraties goed vast?",
+      "heading_original": "3. Hoe leg ik vergoedingen en declaraties goed vast?",
+      "body": "Maak voor vergoedingen een overzicht per persoon en per kalenderjaar. Registreer daarin de betaalde bedragen, betaaldata, eventuele verstrekkingen in natura en afspraken over kosten. Zo kun je vóór een nieuwe betaling zien of een grens of afspraak in zicht komt.\n\nEen declaratie bevat minimaal:\n\n- naam van de persoon;\n\n- datum en reden van de uitgave;\n\n- bedrag en berekening;\n\n- bon, factuur of andere passende onderbouwing;\n\n- akkoord van de daarvoor aangewezen persoon;\n\n- datum van terugbetaling.\n\nLaat niemand zijn eigen vergoeding of declaratie als enige goedkeuren. Leg bij bestuursleden vast wie een betaling aan hen beoordeelt.\n\nVerstrekkingen in natura kunnen ook meetellen. Een cadeau, maaltijd of vrijwilligersfeest is dus niet altijd administratief ‘gratis’ voor de ontvanger. De Belastingdienst beschrijft welke verstrekkingen voor de vrijwilligersregeling meetellen en hoe de waarde wordt bepaald. [Belastingdienst – Vrijwilligersregeling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Vrijwilligersregeling",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "83f54b59b5148aab"
+    },
+    {
+      "id": "H07-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "4",
+      "title": "Wanneer is iemand vrijwilliger, zelfstandige of werknemer?",
+      "heading_original": "4. Wanneer is iemand vrijwilliger, zelfstandige of werknemer?",
+      "body": "De naam boven een contract of factuur beslist dit niet alleen. Kijk vooral naar wat is afgesproken en hoe het werk in de praktijk gebeurt.\n\n| **Situatie** | **Kenmerkende vraag** |\n| --- | --- |\n| Vrijwilliger | Doet iemand het werk buiten zijn beroep en zonder marktconforme beloning? |\n| Zelfstandige opdrachtnemer | Voert iemand een opdracht werkelijk zelfstandig uit en draagt die persoon ondernemersrisico? |\n| Werknemer | Betaalt de club voor persoonlijke arbeid en kan zij bepalen hoe, waar of wanneer het werk gebeurt? |\n\nBij een arbeidsrelatie zijn alle feiten en omstandigheden van belang. De Belastingdienst noemt als kenmerken van loondienst onder meer beloning, persoonlijke arbeid en de mogelijkheid om instructies te geven. Vooral bij een betaalde trainer kan een dienstverband aan de orde zijn. [Belastingdienst – Vrijwilligers, personeel en loonheffingen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/), [Belastingdienst – Wanneer is sprake van loondienst?](https://www.belastingdienst.nl/wps/wcm/connect/nl/arbeidsrelaties/content/wanneer-is-sprake-van-loondienst)\n\nEen factuur van een zzp’er geeft dus niet vanzelf zekerheid dat de club geen werkgever is. Beoordeel de werkrelatie samen met de betrokken persoon vóór de opdracht begint en opnieuw als de werkzaamheden veranderen. De Belastingdienst biedt hiervoor uitleg en hulpmiddelen. [Belastingdienst – Arbeidsrelaties](https://www.belastingdienst.nl/wps/wcm/connect/nl/arbeidsrelaties/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Vrijwilligers, personeel en loonheffingen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/"
+        },
+        {
+          "label": "Belastingdienst – Wanneer is sprake van loondienst?",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/arbeidsrelaties/content/wanneer-is-sprake-van-loondienst"
+        },
+        {
+          "label": "Belastingdienst – Arbeidsrelaties",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/arbeidsrelaties/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "8df2c7797e4809af"
+    },
+    {
+      "id": "H07-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "5",
+      "title": "Wat moet de vereniging regelen als zij personeel in dienst neemt?",
+      "heading_original": "5. Wat moet de vereniging regelen als zij personeel in dienst neemt?",
+      "body": "Als de vereniging werknemer van iemand wordt, moet zij meer regelen dan een maandelijkse betaling. Maak duidelijke afspraken over functie, uren, loon, looptijd en overige arbeidsvoorwaarden. Controleer ook of een cao van toepassing is.\n\nMeld de vereniging tijdig aan als werkgever bij de Belastingdienst. Houd een loonadministratie bij en doe aangifte loonheffingen. De Belastingdienst geeft aan dat een vereniging zich bij de eerste werknemer uiterlijk moet aanmelden op de dag waarop die werknemer begint. [Belastingdienst – Aanmelden als werkgever](https://www.belastingdienst.nl/wps/wcm/connect/nl/personeel-en-loon/content/aanmelden-als-werkgever), [Belastingdienst – Loonaangifte doen](https://www.belastingdienst.nl/wps/wcm/connect/nl/personeel-en-loon/content/loonaangifte-aangifte-loonheffingen)\n\nNeem in de planning ook verplichtingen mee die tijdens het dienstverband kunnen ontstaan, zoals vakantie, ziekte, pensioen of kosten bij beëindiging van het contract. Welke regels precies gelden, hangt af van de arbeidsrelatie en de toepasselijke afspraken. NOC*NSF geeft een overzicht van de onderwerpen waarmee een sportvereniging als werkgever te maken krijgt. [NOC*NSF – De sportvereniging als werkgever](https://www.nocnsf.nl/handboek-wet-en-regelgeving/10-de-sportvereniging-als-werkgever)\n\nLaat de loonadministratie bij voorkeur uitvoeren of controleren door iemand met ervaring. Het bestuur blijft verantwoordelijk voor juiste en tijdige betalingen en aangiften.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Aanmelden als werkgever",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/personeel-en-loon/content/aanmelden-als-werkgever"
+        },
+        {
+          "label": "Belastingdienst – Loonaangifte doen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/personeel-en-loon/content/loonaangifte-aangifte-loonheffingen"
+        },
+        {
+          "label": "NOC*NSF – De sportvereniging als werkgever",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/10-de-sportvereniging-als-werkgever"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ec30944d2516a2d5"
+    },
+    {
+      "id": "H07-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "6",
+      "title": "Hoe verwerk ik betalingen aan trainers, coaches en scheidsrechters?",
+      "heading_original": "6. Hoe verwerk ik betalingen aan trainers, coaches en scheidsrechters?",
+      "body": "Beoordeel iedere functie en afspraak afzonderlijk. Een trainer die wekelijks volgens een rooster werkt en instructies van de club volgt, kan in een andere situatie zitten dan een deskundige die zelfstandig één clinic verzorgt. Een scheidsrechter die incidenteel als vrijwilliger helpt, kan weer anders worden betaald.\n\nGebruik vóór de eerste betaling deze vragen:\n\n- Wie geeft de opdracht en aan wie is de betaling verschuldigd?\n\n- Welke werkzaamheden worden verricht en gedurende welke periode?\n\n- Moet deze persoon het werk zelf doen?\n\n- Wie bepaalt rooster, werkwijze en vervanging?\n\n- Is de betaling een kostenvergoeding, een vrijwilligersvergoeding, loon of een vergoeding voor een zelfstandige opdracht?\n\n- Welke gegevens, bewijsstukken en aangiften zijn nodig?\n\nLeg het antwoord en de gekozen behandeling vast. Betaal een zelfstandige op basis van de afgesproken opdracht en factuur; betaal een werknemer via de loonadministratie. Volg bij een vrijwilliger de afspraken en controleer de vrijwilligersregeling.\n\nControleer bij officials of trainers die via een sportbond worden ingezet ook wie de opdrachtgever en betaler is. De club moet haar eigen betalingen juist verwerken, maar niet zonder aanleiding betalingen van een andere organisatie als eigen personeelskosten behandelen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "fa59fca109988f2e"
+    },
+    {
+      "id": "H07-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "7",
+      "title": "Welke kosten horen bij personeel, naast het afgesproken loon?",
+      "heading_original": "7. Welke kosten horen bij personeel, naast het afgesproken loon?",
+      "body": "Het afgesproken brutoloon is niet hetzelfde als de totale kosten voor de vereniging. Maak bij een nieuwe functie een berekening waarin, voor zover van toepassing, ook staan:\n\n- werkgeverslasten en loonheffingen;\n\n- vakantiegeld en doorbetaalde vrije dagen;\n\n- pensioenbijdragen;\n\n- kosten bij ziekte en vervanging;\n\n- opleidingen, materialen en werkkleding;\n\n- administratie en ondersteuning bij salarisverwerking;\n\n- verplichtingen uit een toepasselijke cao.\n\nControleer bij werknemers ook het actuele minimumloon. Dat bedrag kan gedurende het jaar veranderen en verschilt voor jongere werknemers naar leeftijd. [Rijksoverheid – Bedragen minimumloon 2026](https://www.rijksoverheid.nl/themas/werk/minimumloon/bedragen-minimumloon/bedragen-minimumloon-2026)\n\nBegroot het hele jaar en de hele afspraak. Een trainer die alleen tijdens het sportseizoen aanwezig is, kan toch kosten of verplichtingen veroorzaken buiten de maanden waarin trainingen plaatsvinden. Laat het bestuur daarom de totale kosten en de gevolgen voor latere jaren zien voordat het een functie toezegt.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Rijksoverheid – Bedragen minimumloon 2026",
+          "url": "https://www.rijksoverheid.nl/themas/werk/minimumloon/bedragen-minimumloon/bedragen-minimumloon-2026"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "2ef601f90b16cae9"
+    },
+    {
+      "id": "H07-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8",
+      "title": "Welke afspraken maken we vooraf over vergoedingen en betaalmomenten?",
+      "heading_original": "8. Welke afspraken maken we vooraf over vergoedingen en betaalmomenten?",
+      "body": "Leg bij iedere betaalde of vergoede rol ten minste vast:\n\n- welke werkzaamheden de persoon doet;\n\n- op welke periode de afspraak betrekking heeft;\n\n- welk bedrag of welke berekening geldt;\n\n- welke kosten apart mogen worden gedeclareerd;\n\n- welk bewijs daarvoor nodig is;\n\n- wanneer betaling plaatsvindt;\n\n- wie de werkzaamheden en de betaling goedkeurt;\n\n- wat gebeurt bij afwezigheid, wijziging of beëindiging.\n\nGebruik afspraken die passen bij de werkelijke relatie. Een vrijwilligersafspraak is iets anders dan een arbeidsovereenkomst of een opdracht aan een zelfstandige.\n\nSpreek bij vergoedingen per wedstrijd of activiteit af wie de daadwerkelijk verrichte activiteiten bevestigt. Bij maandelijkse betalingen controleer je of de afspraak nog geldt. Zo ontstaan er geen betalingen die blijven doorlopen nadat iemand is gestopt.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "aebe60e44b135083"
+    },
+    {
+      "id": "H07-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "9",
+      "title": "Wat doe ik als een betaling of vergoeding achteraf onjuist blijkt?",
+      "heading_original": "9. Wat doe ik als een betaling of vergoeding achteraf onjuist blijkt?",
+      "body": "Onderzoek eerst welke fout is gemaakt:\n\n- Is het verkeerde bedrag betaald?\n\n- Is er aan de verkeerde persoon betaald?\n\n- Is een declaratie dubbel verwerkt?\n\n- Is een grens van de vrijwilligersregeling overschreden?\n\n- Is een betaalde kracht mogelijk als zelfstandige behandeld terwijl de werkrelatie op loondienst lijkt?\n\nBewaar de oorspronkelijke afspraak, betalingen en onderbouwing. Bereken daarna het juiste bedrag en leg vast welke correctie nodig is. Bespreek een mogelijke fiscale of arbeidsrechtelijke fout tijdig met een loonadministrateur of adviseur; alleen een boeking in de financiële administratie aanpassen lost zo’n fout niet altijd op.\n\nKomt een vrijwilligersvergoeding boven de voorwaarden van de regeling uit, ga dan niet uit van de gedachte dat alleen het bedrag boven de grens aandacht nodig heeft. De gevolgen kunnen betrekking hebben op de gehele vergoeding en op eventuele aangifte- of informatieverplichtingen. Controleer de actuele uitleg van de Belastingdienst. [Belastingdienst – Vrijwilligersregeling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling)\n\nInformeer het bestuur over de fout, de financiële gevolgen en de gekozen oplossing. Pas ook het werkproces aan als dezelfde fout anders opnieuw kan ontstaan.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – Vrijwilligersregeling",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "dc7e2f8315271e5a"
+    },
+    {
+      "id": "H07-P10",
+      "order": 10,
+      "kind": "checklist",
+      "number": null,
+      "title": "Checklist: betalingen aan mensen",
+      "heading_original": "Checklist: betalingen aan mensen",
+      "body": "- Voor iedere rol is vooraf beoordeeld of het gaat om vrijwilligerswerk, een zelfstandige opdracht of loondienst.\n\n- Werkzaamheden, bedragen, declaraties en betaalmomenten zijn schriftelijk afgesproken.\n\n- Vrijwilligersvergoedingen worden per persoon en per kalenderjaar gevolgd.\n\n- Vergoedingen voor werkelijke kosten en aankopen voor de club zijn afzonderlijk herkenbaar.\n\n- Niemand keurt uitsluitend zijn eigen betaling goed.\n\n- De werkelijke werkwijze van ingehuurde zelfstandigen past bij de gemaakte afspraken.\n\n- Voor werknemers zijn werkgeversregistratie, loonadministratie en aangiften geregeld.\n\n- De begroting bevat de totale kosten van betaalde functies.\n\n- Fouten en wijzigingen worden tijdig onderzocht en vastgelegd.\n\n- Tijdgebonden grensbedragen worden ieder jaar opnieuw gecontroleerd.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a51a5c8df2acee1a"
+    }
+  ],
+  "attachments": []
+}

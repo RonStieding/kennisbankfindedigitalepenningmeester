@@ -1,0 +1,224 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H10",
+    "number": 10,
+    "title": "Reserves, financiële risico’s en verzekeringen",
+    "heading_original": "Hoofdstuk 10 — Reserves, financiële risico’s en verzekeringen",
+    "description": "Een financieel gezonde sportvereniging kan haar gewone verplichtingen betalen én tegenvallers opvangen."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H10-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Een financieel gezonde sportvereniging kan haar gewone verplichtingen betalen én tegenvallers opvangen. Daarvoor heeft zij inzicht nodig in toekomstige uitgaven, een passende buffer en afspraken over risico’s. Verzekeringen kunnen grote schade beperken, maar vervangen goed financieel beheer niet.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "33e94356468478fa"
+    },
+    {
+      "id": "H10-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "10.1",
+      "title": "Hoeveel geld moet de vereniging als buffer aanhouden?",
+      "heading_original": "10.1 Hoeveel geld moet de vereniging als buffer aanhouden?",
+      "body": "Er bestaat geen vast bedrag dat voor iedere sportvereniging passend is. Een club die een sportzaal huurt en vooral contributie ontvangt, loopt andere risico’s dan een vereniging met een eigen clubhuis, werknemers en wisselende sponsorinkomsten.\n\nBepaal de buffer in drie stappen:\n\n- Breng de onvermijdelijke betalingen in beeld. Denk aan huur, bondskosten, lonen, verzekeringen en aflossingen.\n\n- Schat realistische tegenvallers. Wat gebeurt er bij ledenverlies, een lagere subsidie, schade of een onverwachte reparatie?\n\n- Bepaal hoeveel tijd nodig is om bij te sturen. Contributie verhogen of een huurcontract beëindigen kan meestal niet van de ene op de andere dag.\n\nLeg vervolgens vast welk bedrag het bestuur als algemene buffer wil aanhouden en bespreek dit bij de begroting en jaarrekening met de leden. Herzie het bedrag als de activiteiten of verplichtingen veranderen. De aangeleverde Penningmeestergids benadrukt terecht dat de benodigde buffer afhangt van de risico’s en verplichtingen van de vereniging. \n\nLet op: een algemene reserve op de balans is niet automatisch geld dat direct op de bank beschikbaar is. Een deel van het vermogen kan vastzitten in een clubhuis of materiaal. Controleer daarom naast het eigen vermogen ook hoeveel geld de vereniging op korte termijn daadwerkelijk kan gebruiken.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "26b6e7994daae853"
+    },
+    {
+      "id": "H10-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "10.2",
+      "title": "Voor welke toekomstige uitgaven maken we een aparte reserve?",
+      "heading_original": "10.2 Voor welke toekomstige uitgaven maken we een aparte reserve?",
+      "body": "Een aparte bestemmingsreserve helpt om zichtbaar te maken dat het bestuur geld wil aanhouden voor een concreet doel. Denk aan vervanging van een sportvloer, renovatie van kleedkamers of de aanschaf van kostbaar materiaal.\n\nLeg bij iedere bestemmingsreserve vast:\n\n| **Vraag** | **Voorbeeld** |\n| --- | --- |\n| Waarvoor is het bedrag bedoeld? | Vervanging van de sportvloer |\n| Wanneer verwachten we de uitgave? | Over vier jaar |\n| Wat gaat het naar verwachting kosten? | Gebaseerd op een actuele raming |\n| Hoe bouwen we het bedrag op? | Jaarlijks volgens de meerjarenbegroting |\n| Wie mag de bestemming wijzigen? | Volgens statuten en bestuurs- of ALV-besluit |\n\nEen interne bestemmingsreserve blijft onderdeel van het eigen vermogen. Zij is iets anders dan een schuld of een boekhoudkundige voorziening. Ook kan een subsidieverstrekker voorwaarden verbinden aan geld dat de vereniging heeft ontvangen. Houd zulke externe verplichtingen afzonderlijk bij.\n\nVoorbeeld: als over vier jaar naar verwachting € 20.000 nodig is voor een nieuwe vloer, kan de vereniging plannen om jaarlijks € 5.000 beschikbaar te houden. Controleer ieder jaar of die raming nog klopt én of het geld tegen de betaaldatum werkelijk beschikbaar zal zijn. De meerjarenplanning voor onderhoud en vervanging komt ook aan bod in hoofdstuk 8.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "7e53d6ba69931648"
+    },
+    {
+      "id": "H10-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "10.3",
+      "title": "Hoe onderscheiden we vrij besteedbaar geld van geld met een bestemming?",
+      "heading_original": "10.3 Hoe onderscheiden we vrij besteedbaar geld van geld met een bestemming?",
+      "body": "Bekijk het banksaldo samen met de komende verplichtingen. Op de bank kan bijvoorbeeld € 45.000 staan, terwijl daarvan binnenkort € 12.000 nodig is voor huur en bondsafdrachten, € 8.000 moet worden besteed volgens een subsidiebeschikking en € 15.000 is gepland voor onderhoud. Het volledige banksaldo is dan niet vrij voor een nieuw project.\n\nMaak hiervoor een kort overzicht:\n\nBanksaldo + verwachte ontvangsten − openstaande rekeningen − komende vaste betalingen − bedragen met een afgesproken bestemming = voorlopig beschikbare ruimte.\n\nDat is een hulpmiddel voor besluitvorming, geen vervanging van de balans of liquiditeitsplanning. Neem ook de timing mee: een subsidie die pas na afloop van een project wordt betaald, kan vandaag geen factuur financieren.\n\nVermeld in de toelichting op de jaarrekening welke reserves er zijn, waarvoor zij dienen en hoe hun standen zijn veranderd. Zo kunnen bestuur, kascommissie en leden beoordelen welke ruimte de vereniging echt heeft.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "0c864dc4f7b72c46"
+    },
+    {
+      "id": "H10-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "10.4",
+      "title": "Welke financiële risico’s loopt onze vereniging?",
+      "heading_original": "10.4 Welke financiële risico’s loopt onze vereniging?",
+      "body": "Maak jaarlijks met het bestuur een korte risico-inventarisatie. Veelvoorkomende risico’s zijn:\n\n- Inkomsten: ledenverlies, contributieachterstanden of wegvallende subsidies en sponsors.\n\n- Kosten: stijgende huur, energieprijzen of loonkosten.\n\n- Accommodatie en materiaal: schade, groot onderhoud of vervanging eerder dan gepland.\n\n- Verplichtingen: langdurige contracten, leningen en betalingen aan werknemers.\n\n- Administratie: fouten, dubbele betalingen, verlies van gegevens of misbruik van banktoegang.\n\n- Aansprakelijkheid: schade of letsel waarvoor de vereniging mogelijk verantwoordelijk wordt gehouden.\n\nGebruik per risico vier vragen: Hoe waarschijnlijk is het? Wat kan het kosten? Hoe kunnen we de kans verkleinen? Hoe betalen we de schade als het toch gebeurt? Die laatste vraag kan leiden tot een buffer, een verzekering of een aanpassing van de activiteit.\n\n| **Risico** | **Mogelijk gevolg** | **Maatregel** | **Wie volgt dit op?** |\n| --- | --- | --- | --- |\n| Wegvallen hoofdsponsor | Minder inkomsten volgend seizoen | Alternatieve inkomsten zoeken en uitgaven tijdig aanpassen | Bestuur |\n| Schade aan clubhuis | Grote herstelkosten | Onderhoud en polisdekking controleren | Accommodatiebeheerder |\n| Onjuiste betaling | Geldverlies en herstelwerk | Betaalrechten beperken en bankmutaties laten nakijken | Penningmeester en tweede bestuurslid |\n\nEen eenvoudig overzicht is voldoende:",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ba3c5606cb58e1e9"
+    },
+    {
+      "id": "H10-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "10.5",
+      "title": "Hoe verkleinen we de kans op fouten, misbruik of fraude?",
+      "heading_original": "10.5 Hoe verkleinen we de kans op fouten, misbruik of fraude?",
+      "body": "Zorg dat betalingen controleerbaar zijn. Leg vast wie een aankoop mag goedkeuren, wie de betaling klaarzet en wie de bankmutaties achteraf bekijkt. Pas betaal- en wijzigingslimieten toe die passen bij de omvang van de vereniging.\n\nPraktische maatregelen zijn:\n\n- laat een tweede bestuurslid regelmatig de bankmutaties rechtstreeks inzien;\n\n- controleer bij een nieuw of gewijzigd rekeningnummer de wijziging via een bekend contactkanaal;\n\n- betaal facturen op basis van een controleerbaar bewijsstuk en een akkoord van de juiste persoon;\n\n- vergelijk bank, boekhouding en eventuele contante kas periodiek;\n\n- geef bestuurders eigen toegangsrechten en trek rechten van vertrokken vrijwilligers tijdig in;\n\n- laat de kascommissie beschikken over de stukken die zij voor haar controle nodig heeft.\n\nDe twee aangeleverde gidsen leggen nadruk op onafhankelijke inzage in bankmutaties, duidelijke betaalbevoegdheden en controle van betalingen aan de hand van bewijsstukken. \n\nDe controle moet ook bij een kleine club uitvoerbaar zijn. Spreek liever een eenvoudige controle af die iedere maand echt plaatsvindt dan een uitgebreide procedure die niemand volgt.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "925646c0f9e1e8e1"
+    },
+    {
+      "id": "H10-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "10.6",
+      "title": "Wat doen we bij een onverklaarde of mogelijk ongeoorloofde betaling?",
+      "heading_original": "10.6 Wat doen we bij een onverklaarde of mogelijk ongeoorloofde betaling?",
+      "body": "Behandel een afwijking eerst als een feit dat onderzocht moet worden. Een verkeerd bedrag kan een vergissing, een dubbele betaling of misbruik zijn.\n\n- Leg vast wat is opgevallen. Noteer datum, bedrag, rekeningnummer en welke stukken ontbreken of afwijken.\n\n- Controleer de onderbouwing. Zoek de factuur, declaratie, goedkeuring en eventuele correspondentie.\n\n- Voorkom verdere schade. Neem bij een mogelijk onbevoegde bankbetaling direct contact op met de bank en laat toegangsrechten zo nodig aanpassen.\n\n- Informeer het bestuur zorgvuldig. Betrek personen die onafhankelijk van de betaling kunnen handelen. Beschuldig niemand voordat de feiten zijn vastgesteld.\n\n- Beslis over vervolg en herstel. Denk aan terugvordering, correctie van de administratie, melding bij de verzekeraar of nader onderzoek. Vraag bij een ernstig vermoeden van fraude juridisch advies over de vervolgstappen.\n\nBewaar de oorspronkelijke gegevens en noteer wie welke beslissing heeft genomen. Laat degene op wie de twijfel betrekking heeft niet als enige het onderzoek of de herstelbetaling afhandelen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "06325d50f65c5cf3"
+    },
+    {
+      "id": "H10-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "10.7",
+      "title": "Welke verzekeringen zijn voor onze vereniging relevant?",
+      "heading_original": "10.7 Welke verzekeringen zijn voor onze vereniging relevant?",
+      "body": "Begin bij de risico’s van de eigen club en controleer daarna welke dekking al via de sportbond, gemeente, verhuurder of een bestaande polis bestaat. [NOC*NSF](https://www.nocnsf.nl/handboek-wet-en-regelgeving/3-verzekeringen) adviseert verenigingen om per risico te beoordelen of zij de financiële gevolgen zelf kunnen dragen en of een verzekering die gevolgen daadwerkelijk dekt.\n\n| **Verzekering** | **Welk risico onderzoekt de vereniging?** |\n| --- | --- |\n| Aansprakelijkheidsverzekering | Schade aan anderen door activiteiten van de vereniging. |\n| Bestuurdersaansprakelijkheidsverzekering | Bepaalde aanspraken wegens bestuurlijke fouten; dekking en uitsluitingen verschillen. |\n| Opstalverzekering | Schade aan een gebouw dat de vereniging bezit of waarvoor zij volgens afspraken het risico draagt. |\n| Inventaris- of inboedelverzekering | Schade aan materiaal, apparatuur en inrichting. |\n| Vrijwilligers- of ongevallenverzekering | Bepaalde gevolgen van ongevallen of schade rond vrijwilligersactiviteiten. |\n| Evenementenverzekering | Specifieke risico’s van een groot evenement die bestaande polissen niet dekken. |\n| Rechtsbijstandverzekering | Juridische hulp bij bepaalde geschillen. |\n\nDit is een controlelijst, geen advies om alle polissen af te sluiten. Kijk onder meer naar het verzekerd bedrag, eigen risico, uitsluitingen, gedekte activiteiten en wie als verzekerde geldt. Een bestuurdersaansprakelijkheidsverzekering dekt bijvoorbeeld niet vanzelf opzet of fraude. [NOC*NSF – verzekeringen](https://www.nocnsf.nl/handboek-wet-en-regelgeving/3-verzekeringen)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/3-verzekeringen"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "5cf31b8c19a9dab2"
+    },
+    {
+      "id": "H10-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "10.8",
+      "title": "Hoe beoordelen we of een verzekering nog past?",
+      "heading_original": "10.8 Hoe beoordelen we of een verzekering nog past?",
+      "body": "Controleer de verzekeringen minimaal één keer per jaar en ook na een belangrijke verandering, zoals een verbouwing, nieuwe sportactiviteit, extra evenement of uitbreiding met personeel.\n\nLoop per polis deze vragen na:\n\n- Wat is verzekerd? Zijn gebouw, inventaris, activiteiten en betrokken personen juist omschreven?\n\n- Voor welk bedrag? Sluit de verzekerde waarde nog aan bij mogelijke herstel- of vervangingskosten?\n\n- Wat is uitgesloten? Zijn er situaties waarvoor de club zelf de schade moet dragen?\n\n- Welke voorwaarden gelden? Denk aan onderhoud, beveiliging of tijdig melden van schade.\n\n- Is er overlap? Biedt de sportbond of gemeente al een collectieve verzekering?\n\n- Wie meldt schade en wanneer? Leg vast wie de verzekeraar benadert en welke gegevens nodig zijn.\n\nBewaar polissen, verlengingsdata en contactgegevens op een plek die ook voor een tweede bestuurslid bereikbaar is. Controleer na een verbouwing de verzekerde waarde opnieuw. [NOC*NSF – beheer van de verzekeringsportefeuille](https://www.nocnsf.nl/handboek-wet-en-regelgeving/3-verzekeringen)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "NOC*NSF – beheer van de verzekeringsportefeuille",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/3-verzekeringen"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "3e58c9b3425d957b"
+    },
+    {
+      "id": "H10-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "10.9",
+      "title": "Wat doen we als de vereniging structureel geld tekortkomt?",
+      "heading_original": "10.9 Wat doen we als de vereniging structureel geld tekortkomt?",
+      "body": "Maak eerst onderscheid tussen een tijdelijk tekort aan geld en een structureel tekort in de exploitatie. Bij een tijdelijk tekort komen ontvangsten later binnen dan betalingen. Bij een structureel tekort zijn de gewone inkomsten onvoldoende om de terugkerende kosten te dragen. Een reserve kan tijd geven om bij te sturen, maar lost een structureel tekort niet op.\n\nWerk met het bestuur een herstelplan uit:\n\n- Maak een actuele liquiditeitsplanning en stel vast welke betalingen wanneer verschuldigd zijn.\n\n- Zoek de oorzaak: minder leden, te lage contributie, gestegen kosten of een activiteit die jaarlijks verlies maakt.\n\n- Bepaal welke uitgaven kunnen worden uitgesteld en welke verplichtingen contractueel vastliggen.\n\n- Vergelijk haalbare maatregelen, zoals kosten beperken, activiteiten aanpassen, nieuwe inkomsten zoeken of een contributievoorstel.\n\n- Leg per maatregel vast wie beslist, wanneer deze ingaat en wat het verwachte financiële effect is.\n\n- Informeer de leden en vraag de ALV om een besluit wanneer de statuten of de aard van de maatregel dat vereisen.\n\nWacht bij dreigende betalingsproblemen niet tot de jaarrekening. Bespreek ze meteen in het bestuur en zoek tijdig deskundige hulp als de vereniging haar verplichtingen mogelijk niet kan nakomen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "f46588d84b21360b"
+    },
+    {
+      "id": "H10-P10",
+      "order": 10,
+      "kind": "checklist",
+      "number": null,
+      "title": "Jaarlijkse controle voor de penningmeester",
+      "heading_original": "Jaarlijkse controle voor de penningmeester",
+      "body": "- De hoogte van de algemene buffer is gekoppeld aan actuele risico’s en verplichtingen.\n\n- Voor grote toekomstige uitgaven bestaat een bijgewerkt meerjarenoverzicht.\n\n- Het bestuur weet welk deel van het geld op korte termijn beschikbaar is.\n\n- De belangrijkste risico’s en maatregelen hebben een eigenaar.\n\n- Een tweede persoon controleert de bankmutaties.\n\n- Verzekerde waarden, activiteiten, uitsluitingen en collectieve dekking zijn nagekeken.\n\n- De liquiditeitsplanning laat ook een tegenvallend scenario zien.\n\n- Bestuur en leden krijgen een duidelijke toelichting op reserves en financiële risico’s.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "300fc1e9ca875dcc"
+    },
+    {
+      "id": "H10-P11",
+      "order": 11,
+      "kind": "kern",
+      "number": null,
+      "title": "Kern van dit hoofdstuk",
+      "heading_original": null,
+      "body": "Kern van dit hoofdstuk: kies een buffer op basis van de risico’s van de eigen vereniging, plan grote uitgaven vooruit en controleer of geld werkelijk beschikbaar is. Beperk risico’s met heldere afspraken en gebruik verzekeringen voor schade die de vereniging niet zelf kan dragen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "f614f58914fcbbea"
+    }
+  ],
+  "attachments": []
+}

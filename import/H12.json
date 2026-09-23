@@ -1,0 +1,248 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H12",
+    "number": 12,
+    "title": "Bestuur, regels en bevoegdheden",
+    "heading_original": "Hoofdstuk 12 — Bestuur, regels en bevoegdheden",
+    "description": "De penningmeester voert veel financiële werkzaamheden uit, maar bestuurt de vereniging niet alleen."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H12-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "De penningmeester voert veel financiële werkzaamheden uit, maar bestuurt de vereniging niet alleen. Het bestuur neemt besluiten, bewaakt de financiële situatie en legt daarover verantwoording af aan de leden. Heldere bevoegdheden beschermen de vereniging én de vrijwilligers die namens haar handelen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "60a1c713e02a13e8"
+    },
+    {
+      "id": "H12-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "12.1",
+      "title": "Welke financiële afspraken staan in de statuten en reglementen?",
+      "heading_original": "12.1 Welke financiële afspraken staan in de statuten en reglementen?",
+      "body": "Begin bij de statuten. Daarin staat onder meer hoe besluiten worden genomen en wie de vereniging mag vertegenwoordigen. Een huishoudelijk of financieel reglement kan praktische afspraken verder uitwerken. Zo’n reglement mag niet in strijd zijn met de wet of de statuten.\n\nZoek als penningmeester in ieder geval op:\n\n- wie namens de vereniging contracten mag ondertekenen;\n\n- of bestuurders alleen of gezamenlijk mogen handelen;\n\n- welke besluiten goedkeuring van de ALV nodig hebben;\n\n- hoe bestuur en ALV besluiten nemen en vastleggen;\n\n- wie beslist over contributie en begroting;\n\n- wat er gebeurt als bestuurders tijdelijk ontbreken of niet kunnen handelen.\n\nVoor overeenkomsten over bijvoorbeeld de aankoop of verkoop van onroerend goed gelden bijzondere wettelijke regels: controleer vooraf of de statuten het bestuur die bevoegdheid geven en of er voorwaarden aan zijn verbonden. [Burgerlijk Wetboek, Boek 2, artikelen 44 en 45](https://wetten.overheid.nl/BWBR0003045/)\n\nMaak van de relevante bepalingen een korte werkinstructie voor het bestuur. Verwijs daarin naar de statuten, zodat bij twijfel altijd de oorspronkelijke tekst kan worden geraadpleegd.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikelen 44 en 45",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "feb197e7414c5f36"
+    },
+    {
+      "id": "H12-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "12.2",
+      "title": "Wie mag een uitgave goedkeuren, een contract tekenen en een betaling doen?",
+      "heading_original": "12.2 Wie mag een uitgave goedkeuren, een contract tekenen en een betaling doen?",
+      "body": "Dit zijn drie verschillende handelingen:\n\n| **Handeling** | **Betekenis** |\n| --- | --- |\n| Uitgave goedkeuren | Besluiten dat de vereniging iets mag aanschaffen of een verplichting mag aangaan. |\n| Contract tekenen | De vereniging tegenover een leverancier of andere partij verbinden. |\n| Betaling uitvoeren | Geld overmaken via de bank. |\n\nToegang tot internetbankieren betekent dus niet vanzelf dat iemand een uitgave mag goedkeuren. En een bestuursbesluit geeft niet automatisch iedere bestuurder de bevoegdheid om alleen een contract te tekenen. De vertegenwoordigingsbevoegdheid volgt uit de wet en de statuten; de bank richt daarnaast eigen toegangsrechten in op basis van de verenigingsgegevens. [Burgerlijk Wetboek, Boek 2, artikel 45](https://wetten.overheid.nl/BWBR0003045/), [KVK – bankrekening voor een vereniging](https://www.kvk.nl/geldzaken/zakelijke-rekening-openen-deze-documenten-heb-je-nodig/)\n\nLeg in een bevoegdhedenoverzicht vast wie wat mag doen en wanneer vooraf een bestuurs- of ALV-besluit nodig is. Controleer daarbij ook of de geregistreerde bevoegdheden bij KVK en de instellingen bij de bank overeenkomen met de actuele statuten.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikel 45",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        },
+        {
+          "label": "KVK – bankrekening voor een vereniging",
+          "url": "https://www.kvk.nl/geldzaken/zakelijke-rekening-openen-deze-documenten-heb-je-nodig/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "e353fab40b6517ed"
+    },
+    {
+      "id": "H12-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "12.3",
+      "title": "Hoe richten we controle op betalingen in die bij de club past?",
+      "heading_original": "12.3 Hoe richten we controle op betalingen in die bij de club past?",
+      "body": "Kies een werkwijze die de vereniging consequent kan uitvoeren. Een kleine club heeft vaak geen aparte financiële afdeling, maar kan wel voorkomen dat één persoon ongemerkt een betaling aanvraagt, goedkeurt, uitvoert én controleert.\n\nEen werkbare basis is:\n\n- Iemand bevestigt dat de aankoop is afgesproken en geleverd.\n\n- Een bevoegde persoon keurt de factuur of declaratie goed.\n\n- De betaling wordt volgens de bankafspraken uitgevoerd.\n\n- Een ander bestuurslid bekijkt periodiek de bankmutaties en opvallende betalingen.\n\nStel daarnaast passende betaallimieten in en spreek af hoe een wijziging van een rekeningnummer wordt gecontroleerd. Leg voor contant geld vast wie telt, wie registreert en hoe verschillen worden onderzocht. De aangeleverde Penningmeestergids en Kascommissiegids geven praktische voorbeelden van onafhankelijke bankinzage en controle van betalingen aan de hand van bewijsstukken. \n\nBespreek minstens jaarlijks of de controles nog passen bij de omvang van de vereniging. Een nieuwe kantine, betaald personeel of een groot bouwproject kan extra afspraken nodig maken.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "8474ef94db1b240f"
+    },
+    {
+      "id": "H12-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "12.4",
+      "title": "Hoe gaan we om met belangenconflicten bij financiële besluiten?",
+      "heading_original": "12.4 Hoe gaan we om met belangenconflicten bij financiële besluiten?",
+      "body": "Een tegenstrijdig belang kan ontstaan als een bestuurder persoonlijk voordeel heeft bij een besluit en dat belang botst met het belang van de vereniging. Bijvoorbeeld: het bestuur kiest een aannemer en één bestuurslid heeft een financieel belang in een van de bedrijven.\n\nLaat de betrokken bestuurder het belang direct melden. Leg in de notulen vast wat is gemeld, wie de offertes of andere opties heeft beoordeeld en hoe het besluit tot stand is gekomen. Een bestuurder met een direct of indirect tegenstrijdig persoonlijk belang neemt volgens de wet niet deel aan de beraadslaging en besluitvorming. Kan het bestuur daardoor geen besluit nemen, dan geldt de wettelijke of statutaire vervangende besluitroute. [Burgerlijk Wetboek, Boek 2, artikel 44 lid 6](https://wetten.overheid.nl/BWBR0003045/), [KVK – belangen die botsen](https://www.kvk.nl/wetten-en-regels/stemmen-in-bestuur-van-vereniging-en-belangen-die-botsen/)\n\nEen bekende van een bestuurder als leverancier kiezen is niet automatisch verboden. Zorg wel dat de keuze aantoonbaar in het belang van de vereniging is, de prijs en voorwaarden zijn beoordeeld en de juiste personen hebben besloten.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikel 44 lid 6",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        },
+        {
+          "label": "KVK – belangen die botsen",
+          "url": "https://www.kvk.nl/wetten-en-regels/stemmen-in-bestuur-van-vereniging-en-belangen-die-botsen/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "28659463beaf82be"
+    },
+    {
+      "id": "H12-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "12.5",
+      "title": "Welke verantwoordelijkheid draagt het bestuur voor de financiële administratie?",
+      "heading_original": "12.5 Welke verantwoordelijkheid draagt het bestuur voor de financiële administratie?",
+      "body": "Het bestuur moet zorgen voor een administratie waaruit de rechten en verplichtingen van de vereniging kunnen worden gekend. Jaarlijks maakt het bestuur een balans en een staat van baten en lasten. De penningmeester kan dit werk uitvoeren of coördineren, maar de andere bestuursleden moeten de financiële positie kunnen volgen en belangrijke afwijkingen bespreken. [Burgerlijk Wetboek, Boek 2, artikel 10](https://wetten.overheid.nl/BWBR0003045/), [NOC*NSF – bestuurstaak](https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak)\n\nVraag daarom niet alleen om een jaaroverzicht, maar bespreek gedurende het jaar een korte financiële rapportage met:\n\n- het actuele banksaldo en de komende grote betalingen;\n\n- de werkelijke inkomsten en kosten naast de begroting;\n\n- openstaande contributie en facturen;\n\n- belangrijke risico’s, afwijkingen en besluiten die nodig zijn.\n\nLeg vast wie de administratie bijhoudt, wie controleert, wie een vervanger is en waar de informatie wordt bewaard. Zo blijft het bestuur handelingsbekwaam als de penningmeester afwezig is.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikel 10",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        },
+        {
+          "label": "NOC*NSF – bestuurstaak",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "5556f1e4b04ed275"
+    },
+    {
+      "id": "H12-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "12.6",
+      "title": "Welke financiële persoonsgegevens mogen we bewaren en delen?",
+      "heading_original": "12.6 Welke financiële persoonsgegevens mogen we bewaren en delen?",
+      "body": "Voor contributie, declaraties en loonbetalingen heeft de vereniging persoonsgegevens nodig. Denk aan naam, contactgegevens, lidmaatschap, betaalstatus en rekeningnummer. Verwerk alleen gegevens die nodig zijn voor een duidelijk doel, geef uitsluitend toegang aan mensen die ze voor hun taak nodig hebben en bewaar ze niet langer dan noodzakelijk of wettelijk vereist. De vereniging moet voor iedere verwerking een passende grondslag hebben. [Autoriteit Persoonsgegevens – AVG-grondslagen](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd), [Autoriteit Persoonsgegevens – AVG-handleiding](https://autoriteitpersoonsgegevens.nl/uploads/imported/handleiding_avg.pdf)\n\nMaak praktische afspraken:\n\n- Deel in een bestuursrapportage waar mogelijk totalen, in plaats van namen van leden met betalingsachterstand.\n\n- Beperk toegang tot individuele betaalgegevens tot degenen die contributie innen of problemen afhandelen.\n\n- Verstuur geen volledige leden- of salarisadministratie in een brede e-mailgroep.\n\n- Gebruik persoonlijke accounts en trek toegang in wanneer iemand zijn functie neerlegt.\n\n- Spreek af hoe de vereniging reageert als gegevens verloren raken of bij de verkeerde persoon terechtkomen.\n\nBij een datalek moet de vereniging de gevolgen beoordelen en het incident vastleggen. Soms is melding bij de Autoriteit Persoonsgegevens en aan betrokkenen verplicht. [Autoriteit Persoonsgegevens – datalekken](https://autoriteitpersoonsgegevens.nl/themas/beveiliging/datalekken/datalek-dit-moet-u-doen)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Autoriteit Persoonsgegevens – AVG-grondslagen",
+          "url": "https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd"
+        },
+        {
+          "label": "Autoriteit Persoonsgegevens – AVG-handleiding",
+          "url": "https://autoriteitpersoonsgegevens.nl/uploads/imported/handleiding_avg.pdf"
+        },
+        {
+          "label": "Autoriteit Persoonsgegevens – datalekken",
+          "url": "https://autoriteitpersoonsgegevens.nl/themas/beveiliging/datalekken/datalek-dit-moet-u-doen"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a7de7e3c468dd03f"
+    },
+    {
+      "id": "H12-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "12.7",
+      "title": "Wat regelen we financieel bij een bestuurswissel?",
+      "heading_original": "12.7 Wat regelen we financieel bij een bestuurswissel?",
+      "body": "Een bestuurswissel is pas afgerond als ook registraties, toegang en lopende verplichtingen zijn overgedragen. Geef de wijziging door aan KVK, controleer of de UBO-registratie moet worden aangepast en informeer de bank en andere betrokken organisaties waar nodig. [KVK – bestuurswissel doorgeven](https://www.kvk.nl/wijzigen/bestuurswissel-doorgeven/)\n\nGebruik een overdrachtslijst voor:\n\n| **Onderdeel** | **Controle** |\n| --- | --- |\n| Bank | Nieuwe bevoegdheden, passen, limieten en toegang; toegang van vertrokken bestuurders beëindigen. |\n| Administratie | Boekhoudaccounts, facturen, bankafschriften, reservekopieën en openstaande posten overdragen. |\n| Contracten | Contactpersonen, tekenbevoegden en komende verlengings- of opzegdata nalopen. |\n| Belastingen en subsidies | Toegang tot portalen, lopende aangiften en verantwoordingsdeadlines controleren. |\n| Verzekeringen | Contactpersoon en gedekte bestuurders of activiteiten controleren. |\n\nLaat oude en nieuwe functionarissen waar mogelijk samen vastleggen welke zaken zijn overgedragen en welke vragen nog openstaan. Hoofdstuk 13 werkt de volledige jaarcyclus en overdracht verder uit.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – bestuurswissel doorgeven",
+          "url": "https://www.kvk.nl/wijzigen/bestuurswissel-doorgeven/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "7d6df24f66f52410"
+    },
+    {
+      "id": "H12-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "12.8",
+      "title": "Hoe leggen we bevoegdheden, besluiten en uitzonderingen duidelijk vast?",
+      "heading_original": "12.8 Hoe leggen we bevoegdheden, besluiten en uitzonderingen duidelijk vast?",
+      "body": "Gebruik één actueel financieel afsprakenoverzicht dat het bestuur kan vinden. Neem daarin op:\n\n- welke besluiten het bestuur zelf neemt en welke naar de ALV gaan;\n\n- wie uitgaven mag voorstellen, goedkeuren, tekenen en betalen;\n\n- welke bedragen of soorten verplichtingen extra akkoord vragen;\n\n- hoe offertes worden beoordeeld;\n\n- hoe afwijkingen van de begroting worden gemeld;\n\n- wie bankrechten, contracten en het overzicht zelf mag wijzigen;\n\n- wanneer het bestuur deze afspraken opnieuw beoordeelt.\n\nMaak bij een uitzondering een afzonderlijk besluit. Noteer waarom van de normale werkwijze wordt afgeweken, wie heeft ingestemd, welk maximumbedrag geldt en wanneer de uitzondering eindigt. Een mondeling “dat is wel goed” is bij een grote verplichting onvoldoende houvast voor de penningmeester en diens opvolger.\n\nControleer altijd eerst of een werkafspraak binnen de statuten en de wettelijke bevoegdheden past. Een interne limiet helpt het bestuur uitgaven te beheersen, maar vervangt de regels voor de vertegenwoordiging van de vereniging niet.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "9d9631b45e2ff249"
+    },
+    {
+      "id": "H12-P09",
+      "order": 9,
+      "kind": "checklist",
+      "number": null,
+      "title": "Controlelijst voor het bestuur",
+      "heading_original": "Controlelijst voor het bestuur",
+      "body": "- De actuele statuten en financiële reglementen zijn voor alle bestuurders beschikbaar.\n\n- Besluitbevoegdheid, tekenbevoegdheid en betaaltoegang zijn afzonderlijk vastgelegd.\n\n- KVK-registratie en bankrechten sluiten aan op het huidige bestuur.\n\n- Een tweede persoon controleert de bankmutaties regelmatig.\n\n- Tegenstrijdige belangen worden gemeld en in de besluitvorming verwerkt.\n\n- Het hele bestuur bespreekt tussentijdse financiële rapportages.\n\n- Toegang tot persoonsgegevens en financiële systemen is beperkt en actueel.\n\n- Besluiten, uitzonderingen en goedkeuringen zijn terug te vinden.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "a5db6748fdf69204"
+    },
+    {
+      "id": "H12-P10",
+      "order": 10,
+      "kind": "kern",
+      "number": null,
+      "title": "Kern van dit hoofdstuk",
+      "heading_original": null,
+      "body": "Kern van dit hoofdstuk: zorg dat ieder bestuurslid weet wie mag beslissen, tekenen, betalen en controleren. Leg die afspraken vast, pas ze daadwerkelijk toe en controleer ze bij iedere bestuurswissel.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "9eeb0b606b519a97"
+    }
+  ],
+  "attachments": []
+}

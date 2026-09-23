@@ -1,0 +1,3 @@
+Plaats hier het FinSport-logo:
+  finsport-logo-wit.svg   witte (negatieve) variant voor de rode kopbalk
+Ontbreekt het bestand, dan toont de kopbalk het woord "FinSport" in tekst.

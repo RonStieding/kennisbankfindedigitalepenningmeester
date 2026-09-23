@@ -1,0 +1,270 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H09",
+    "number": 9,
+    "title": "Belastingen en fiscale regelingen",
+    "heading_original": "Hoofdstuk 9 — Belastingen en fiscale regelingen",
+    "description": "Een sportvereniging heeft niet automatisch dezelfde belastingverplichtingen als een bedrijf."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H09-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Een sportvereniging heeft niet automatisch dezelfde belastingverplichtingen als een bedrijf. De fiscale behandeling hangt af van wat de vereniging doet: sport aanbieden, eten en drinken verkopen, sponsors reclame bieden, mensen betalen of een accommodatie exploiteren. Beoordeel daarom iedere activiteit afzonderlijk en leg vast waarom een vrijstelling of belastingplicht van toepassing is.\n\nDit hoofdstuk beschrijft de Nederlandse regels. Controleer bedragen en voorwaarden ieder jaar opnieuw voordat je ze toepast.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "2a5f50bf2fdcf831"
+    },
+    {
+      "id": "H09-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "9.1",
+      "title": "Met welke belastingen kan een sportvereniging te maken krijgen?",
+      "heading_original": "9.1 Met welke belastingen kan een sportvereniging te maken krijgen?",
+      "body": "Voor de meeste penningmeesters zijn drie belastingsoorten het belangrijkst:\n\n| **Belasting** | **Wanneer kan deze spelen?** |\n| --- | --- |\n| Btw (omzetbelasting) | Bij verkoop, sponsoring, evenementen, verhuur en soms andere activiteiten. |\n| Loonheffingen | Als de vereniging mensen in dienst heeft, bijvoorbeeld een trainer of beheerder. |\n| Vennootschapsbelasting | Als de vereniging met bepaalde activiteiten een onderneming drijft of met ondernemers concurreert en geen vrijstelling geldt. |\n\nDaarnaast kunnen bij een accommodatie lokale heffingen of belastingen in rekening worden gebracht. Controleer daarvoor de aanslagen en de afspraken met de eigenaar of verhuurder. Een vereniging kan voor de ene activiteit btw-vrijgesteld zijn en voor een andere activiteit btw moeten berekenen. Ook btw-plicht en vennootschapsbelastingplicht zijn afzonderlijke beoordelingen. [Belastingdienst – stichtingen en verenigingen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen)\n\nPraktische eerste stap: maak een lijst van alle inkomstenbronnen en alle soorten betalingen aan mensen. Noteer per onderdeel welke fiscale vraag nog moet worden beantwoord.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – stichtingen en verenigingen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "b52251f923c834e9"
+    },
+    {
+      "id": "H09-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "9.2",
+      "title": "Wanneer moet de vereniging btw berekenen of aangifte doen?",
+      "heading_original": "9.2 Wanneer moet de vereniging btw berekenen of aangifte doen?",
+      "body": "Veel diensten van een sportvereniging zonder winstoogmerk die nauw samenhangen met actieve sportbeoefening zijn vrijgesteld van btw. Denk aan trainingen en het gelegenheid geven om te sporten. De sportvrijstelling kan ook gelden voor diensten aan niet-leden. Over vrijgestelde prestaties brengt de vereniging geen btw in rekening. [Belastingdienst – sportvrijstelling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/sportorganisaties/vrijstelling_voor_sportorganisaties_en_sportclubs)\n\nAndere activiteiten kunnen wel belast zijn. Dat de vereniging geen winst wil maken, is op zichzelf geen reden om op een sponsorfactuur of kantineverkoop geen btw toe te passen. Voor bepaalde nevenactiviteiten bestaat een vrijstelling voor fondsenwerving, zolang aan de voorwaarden en omzetgrenzen wordt voldaan. De grenzen voor goederenleveringen en diensten worden afzonderlijk beoordeeld. Bij overschrijding kan de btw over de volledige omzet van de betreffende categorie in dat jaar verschuldigd worden. Volg die omzet dus gedurende het jaar, ook als de vereniging aanvankelijk onder de grens blijft. [Belastingdienst – fondsenwerving](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/fondsenwervende_activiteiten/maximum_omzet_fondsenwervende_activiteiten)\n\nHeeft de vereniging uitsluitend vrijgestelde activiteiten, dan hoeft zij doorgaans geen reguliere btw-aangifte te doen. Er kunnen uitzonderingen zijn, bijvoorbeeld bij bepaalde aankopen uit het buitenland. Ontvangt de vereniging een uitnodiging tot aangifte, dien de aangifte dan altijd in, ook als er volgens de administratie niets te betalen is. [Belastingdienst – vrijgestelde prestaties](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/wat_moet_u_doen_als_u_vrijgestelde_goederen_of_diensten_levert)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – sportvrijstelling",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/sportorganisaties/vrijstelling_voor_sportorganisaties_en_sportclubs"
+        },
+        {
+          "label": "Belastingdienst – fondsenwerving",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/fondsenwervende_activiteiten/maximum_omzet_fondsenwervende_activiteiten"
+        },
+        {
+          "label": "Belastingdienst – vrijgestelde prestaties",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/wat_moet_u_doen_als_u_vrijgestelde_goederen_of_diensten_levert"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "0a8243fd2ea8271e"
+    },
+    {
+      "id": "H09-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "9.3",
+      "title": "Hoe beoordelen we de btw per activiteit?",
+      "heading_original": "9.3 Hoe beoordelen we de btw per activiteit?",
+      "body": "Gebruik bij iedere inkomstenbron dezelfde vragen: wat levert de vereniging, aan wie, en wat ontvangt zij daarvoor? De naam die op een factuur staat, is niet beslissend; de feitelijke afspraak telt.\n\n| **Activiteit** | **Eerste aandachtspunt** |\n| --- | --- |\n| Contributie voor sportbeoefening | Beoordeel of de geleverde sportdienst onder de sportvrijstelling valt. |\n| Sponsoring | Reclame of een andere tegenprestatie is een dienst. Controleer of de vrijstelling voor fondsenwerving geldt. |\n| Kantine en clubartikelen | Dit zijn in beginsel goederenleveringen. Volg de toepasselijke voorwaarden en omzetgrens voor fondsenwerving. |\n| Entree voor wedstrijden of evenementen | Beoordeel dit apart van deelname aan sport. Ook hier kan de fondsenwervende vrijstelling relevant zijn. |\n| Gift of donatie | Als er geen rechtstreekse tegenprestatie is, is de gift in beginsel niet met btw belast. |\n| Subsidie | Beoordeel of de vereniging in ruil voor het bedrag een concrete dienst of goederen levert. |\n| Verhuur of gebruik van accommodatie | De btw-behandeling hangt af van de precieze prestatie en afspraken. |\n\nEen sponsor die betaalt voor zijn logo op shirts ontvangt een tegenprestatie. Een bedrijf dat zonder tegenprestatie een bedrag schenkt, doet een gift. Een gemeentelijke bijdrage voor het onderhoud van velden is voor de btw iets anders dan een betaling per deelnemer aan een evenement. [Belastingdienst – subsidies en giften](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/subsidies-en-giften)\n\nMaak bij twijfel een korte beschrijving van de overeenkomst voordat je de fiscale behandeling bepaalt. Dat is vooral belangrijk bij sponsorbijdragen in natura, gezamenlijke evenementen en gedeeld accommodatiegebruik.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – subsidies en giften",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/subsidies-en-giften"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "296cb19ce5e704b1"
+    },
+    {
+      "id": "H09-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "9.4",
+      "title": "Wanneer mag de vereniging betaalde btw terugvragen?",
+      "heading_original": "9.4 Wanneer mag de vereniging betaalde btw terugvragen?",
+      "body": "De hoofdregel is: btw op kosten is alleen aftrekbaar voor zover die kosten worden gebruikt voor btw-belaste activiteiten. Voor kosten van vrijgestelde sportdiensten of vrijgestelde fondsenwerving is de btw niet aftrekbaar. Die niet-aftrekbare btw behoort dan tot de kosten van de vereniging. [Belastingdienst – btw-aftrek bij belaste en vrijgestelde omzet](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/btw_aftrekken/belaste_en_vrijgestelde_omzet/)\n\nEen vereniging met zowel belaste als vrijgestelde activiteiten deelt haar inkopen daarom in drie groepen in:\n\n- Alleen voor belaste activiteiten: de btw kan onder de gewone voorwaarden aftrekbaar zijn.\n\n- Alleen voor vrijgestelde activiteiten: de btw is niet aftrekbaar.\n\n- Voor beide soorten activiteiten: de btw moet volgens een onderbouwde methode worden verdeeld.\n\nVoorbeeld: een vereniging verkoopt eten en drinken met btw, maar haar sportactiviteiten zijn vrijgesteld. De btw op inkopen voor de belaste kantineverkopen kan aftrekbaar zijn. De btw op trainingsmateriaal voor de vrijgestelde sportactiviteiten is dat niet. Bij gedeelde kosten, zoals energie voor het hele clubgebouw, moet de vereniging bepalen welk deel samenhangt met belaste activiteiten.\n\nVraag bij een grote verbouwing of aanschaf vóór het tekenen van de opdracht advies over de btw. Het gebruik van een gebouw kan veranderen en dat kan gevolgen hebben voor eerder toegepaste btw-aftrek.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – btw-aftrek bij belaste en vrijgestelde omzet",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/btw_aftrekken/belaste_en_vrijgestelde_omzet/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "3555354b7f5ef5b7"
+    },
+    {
+      "id": "H09-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "9.5",
+      "title": "Wat is de kleineondernemersregeling en wanneer is die relevant?",
+      "heading_original": "9.5 Wat is de kleineondernemersregeling en wanneer is die relevant?",
+      "body": "De kleineondernemersregeling (KOR) is een mogelijke btw-vrijstelling voor een vereniging die activiteiten verricht die anders met btw belast zouden zijn en die aan de voorwaarden voldoet. Deelname is een keuze. De KOR is iets anders dan de sportvrijstelling en de vrijstelling voor fondsenwerving. Bij deelname brengt de vereniging geen btw in rekening over de activiteiten waarop de KOR van toepassing is, maar kan zij ook de btw op bijbehorende kosten niet terugvragen. [Belastingdienst – KOR voor stichtingen en verenigingen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/de-kleineondernemersregeling)\n\nVergelijk vóór aanmelding ten minste de verwachte omzet, de btw die anders verschuldigd zou zijn en de btw op geplande uitgaven. Vooral bij een grote investering kan het verlies van aftrek financieel zwaar wegen. Controleer ook welke omzet meetelt voor de KOR-grens en vanaf wanneer deelname ingaat.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – KOR voor stichtingen en verenigingen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/omzet-en-btw/de-kleineondernemersregeling"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ea1a47b66fb6f23d"
+    },
+    {
+      "id": "H09-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "9.6",
+      "title": "Wanneer krijgt de vereniging te maken met loonheffingen?",
+      "heading_original": "9.6 Wanneer krijgt de vereniging te maken met loonheffingen?",
+      "body": "Neemt de vereniging iemand in dienst, dan moet zij zich als werkgever aanmelden en aangifte loonheffingen doen. Dit kan ook spelen bij een trainer die volgens het contract ‘zelfstandige’ heet: de feitelijke manier van werken is bepalend. De Belastingdienst kijkt onder meer naar betaling voor het werk, de mogelijkheid om aanwijzingen te geven en de verplichting om het werk persoonlijk te verrichten. [Belastingdienst – vrijwilligers, personeel en loonheffingen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/)\n\nVoor vrijwilligers kan onder voorwaarden de vrijwilligersregeling gelden. Dan is geen loonaangifte voor die vergoeding nodig. Controleer de voorwaarden en de geldende maand- en jaargrenzen per kalenderjaar. Houd vergoedingen en declaraties per persoon bij; alleen naar de afzonderlijke betaling kijken geeft onvoldoende overzicht. [Belastingdienst – vrijwilligersregeling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling)\n\nDe praktische beoordeling van vrijwilligers, zelfstandigen en werknemers staat uitgebreider in hoofdstuk 7.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – vrijwilligers, personeel en loonheffingen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/"
+        },
+        {
+          "label": "Belastingdienst – vrijwilligersregeling",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "cb2906034da42cc8"
+    },
+    {
+      "id": "H09-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "9.7",
+      "title": "Wanneer kan vennootschapsbelasting relevant zijn?",
+      "heading_original": "9.7 Wanneer kan vennootschapsbelasting relevant zijn?",
+      "body": "Een vereniging kan vennootschapsbelastingplichtig zijn als zij met een activiteit een onderneming drijft of met ondernemers concurreert. De beoordeling kan per activiteit verschillen. Een overschot in de verenigingsjaarrekening betekent daarom niet automatisch dat vennootschapsbelasting verschuldigd is; omgekeerd sluit de verenigingsvorm belastingplicht niet uit. [Belastingdienst – belastingplicht van verenigingen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/vennootschapsbelasting/belastingplicht_en_aangifte/wanneer_moet_een_stichting_vereniging_of_vergelijkbare_organisatie_aangifte_doen/)\n\nVoor verenigingen die een onderneming drijven, bestaat onder voorwaarden een vrijstelling bij beperkte fiscale winst. De fiscale winst is niet altijd gelijk aan het resultaat in de jaarrekening. Laat bij structurele commerciële activiteiten, sterk groeiende kantine- of evenementeninkomsten of twijfel over de vrijstelling de situatie beoordelen. Ontvangt de vereniging een uitnodiging voor aangifte vennootschapsbelasting, dan moet zij aangifte doen, ook als zij meent vrijgesteld te zijn. [Belastingdienst – vrijstelling vennootschapsbelasting](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/vennootschapsbelasting/belastingplicht_en_aangifte/wanneer_moet_een_stichting_vereniging_of_vergelijkbare_organisatie_aangifte_doen/vrijstelling)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – belastingplicht van verenigingen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/vennootschapsbelasting/belastingplicht_en_aangifte/wanneer_moet_een_stichting_vereniging_of_vergelijkbare_organisatie_aangifte_doen/"
+        },
+        {
+          "label": "Belastingdienst – vrijstelling vennootschapsbelasting",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/vennootschapsbelasting/belastingplicht_en_aangifte/wanneer_moet_een_stichting_vereniging_of_vergelijkbare_organisatie_aangifte_doen/vrijstelling"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "21047fa38309947d"
+    },
+    {
+      "id": "H09-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "9.8",
+      "title": "Welke gegevens hebben we nodig voor aangiften en controles?",
+      "heading_original": "9.8 Welke gegevens hebben we nodig voor aangiften en controles?",
+      "body": "Richt de administratie zo in dat per activiteit is terug te vinden wat is ontvangen, welke kosten daarbij horen en welke fiscale behandeling is toegepast. Bewaar in ieder geval:\n\n- verkoopfacturen, kassaregistraties en bankontvangsten;\n\n- inkoopfacturen en betaalbewijzen;\n\n- sponsorcontracten, subsidiebrieven en afspraken over giften;\n\n- overzichten van kantineverkoop, evenementen en andere fondsenwervende activiteiten;\n\n- contracten en betalingen aan trainers, werknemers en vrijwilligers;\n\n- de onderbouwing van een verdeling van kosten en btw tussen belaste en vrijgestelde activiteiten;\n\n- ingediende aangiften, aanslagen en correspondentie met de Belastingdienst.\n\nVoor de fiscale administratie geldt in het algemeen een bewaartermijn van zeven jaar; voor gegevens over onroerende zaken en rechten daarop geldt tien jaar. De termijn begint niet altijd op de datum waarop een document is gemaakt: een lopend contract blijft eerst actueel. [Belastingdienst – administratie bewaren](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/administratie_bewaren/)\n\nGebruik in de boekhouding afzonderlijke rubrieken voor bijvoorbeeld sportcontributie, sponsoring, kantine en giften. Dat maakt het volgen van de fondsenwervende omzetgrenzen en het voorbereiden van aangiften eenvoudiger.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Belastingdienst – administratie bewaren",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/administratie_bewaren/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "e20719b645cc1aa8"
+    },
+    {
+      "id": "H09-P09",
+      "order": 9,
+      "kind": "vraag",
+      "number": "9.9",
+      "title": "Hoe houden we wijzigingen bij en wanneer vragen we hulp?",
+      "heading_original": "9.9 Hoe houden we wijzigingen bij en wanneer vragen we hulp?",
+      "body": "Maak een fiscale kalender met de aangiftetijdvakken, betaaldatums en een jaarlijks controlemoment. Loop bij het opstellen van de nieuwe begroting langs de officiële pagina’s van de Belastingdienst voor actuele grensbedragen en voorwaarden. Herbeoordeel de fiscale positie ook wanneer de vereniging een nieuwe inkomstenbron start, personeel aantrekt of in een accommodatie investeert.\n\nSchakel een boekhouder of fiscalist in wanneer:\n\n- de vereniging belaste én vrijgestelde activiteiten heeft en de btw op gedeelde kosten moet verdelen;\n\n- een fondsenwervende omzetgrens in zicht komt of wordt overschreden;\n\n- een grote verbouwing, vastgoedtransactie of subsidie fiscale gevolgen kan hebben;\n\n- onduidelijk is of een betaalde trainer werknemer of zelfstandige is;\n\n- commerciële activiteiten mogelijk tot vennootschapsbelastingplicht leiden;\n\n- een aangifte of aanslag afwijkt van wat de vereniging verwacht.\n\nBereid zo’n gesprek voor met contracten, omzet per activiteit, relevante facturen en een beschrijving van hoe de vereniging daadwerkelijk werkt. Dan kan de adviseur een concrete beoordeling geven.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "79a623d0f3b35eec"
+    },
+    {
+      "id": "H09-P10",
+      "order": 10,
+      "kind": "checklist",
+      "number": null,
+      "title": "Jaarlijkse fiscale checklist",
+      "heading_original": "Jaarlijkse fiscale checklist",
+      "body": "- Alle inkomstenbronnen zijn afzonderlijk beoordeeld voor de btw.\n\n- De omzet uit fondsenwervende goederen en diensten wordt gedurende het jaar gevolgd.\n\n- Voor belaste en vrijgestelde activiteiten zijn de kosten en de btw-aftrek te onderscheiden.\n\n- Vrijwilligersvergoedingen en betalingen aan trainers worden per persoon gevolgd.\n\n- Ontvangen aangifteverzoeken zijn verwerkt, ook als de vereniging een vrijstelling verwacht.\n\n- Nieuwe investeringen en contracten zijn vóór ondertekening fiscaal beoordeeld.\n\n- De actuele regels en grensbedragen zijn gecontroleerd bij de Belastingdienst.\n\n- De onderbouwing van gemaakte keuzes is samen met de administratie bewaard.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "f98fb935ad60edd7"
+    },
+    {
+      "id": "H09-P11",
+      "order": 11,
+      "kind": "kern",
+      "number": null,
+      "title": "Kern van dit hoofdstuk",
+      "heading_original": null,
+      "body": "Kern van dit hoofdstuk: bepaal belastingen per activiteit en per soort betaling. Een duidelijk onderscheid in de administratie helpt de vereniging vrijstellingen correct toe te passen, tijdig aangifte te doen en investeringen realistisch te begroten.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ebb169763b143d13"
+    }
+  ],
+  "attachments": []
+}

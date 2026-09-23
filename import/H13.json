@@ -1,0 +1,212 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H13",
+    "number": 13,
+    "title": "Praktische jaarcyclus en overdracht",
+    "heading_original": "Hoofdstuk 13 — Praktische jaarcyclus en overdracht",
+    "description": "Een goede financiële administratie draait op vaste gewoonten."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H13-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Een goede financiële administratie draait op vaste gewoonten. Als ontvangsten, betalingen en afspraken gedurende het jaar worden bijgehouden, kost de jaarafsluiting minder tijd en kan een nieuwe penningmeester het werk gemakkelijker overnemen. Dit hoofdstuk brengt de terugkerende taken samen in één werkbare planning.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "5ce5b99e57872985"
+    },
+    {
+      "id": "H13-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "13.1",
+      "title": "Welke financiële taken komen elke week, maand, kwartaal en jaar terug?",
+      "heading_original": "13.1 Welke financiële taken komen elke week, maand, kwartaal en jaar terug?",
+      "body": "De precieze frequentie hangt af van de omvang van de vereniging. Een club met een eigen kantine en werknemers verwerkt meer transacties dan een kleine vereniging die alleen contributie ontvangt. Gebruik dit schema als vertrekpunt.\n\n| **Wanneer** | **Taken** |\n| --- | --- |\n| Wekelijks of na iedere activiteit | Binnengekomen facturen en declaraties verzamelen; betalingen volgens de afspraken laten goedkeuren; bankontvangsten en eventuele kasopbrengsten verwerken; opvallende mutaties uitzoeken. |\n| Maandelijks | Bank en boekhouding vergelijken; openstaande contributie en facturen bekijken; komende betalingen plannen; de financiële stand kort met het bestuur delen. |\n| Per kwartaal | Werkelijke cijfers met de begroting vergelijken; liquiditeitsprognose bijwerken; contracten, subsidies en belastingverplichtingen nalopen. |\n| Jaarlijks | Begroting voorbereiden; bezittingen en reserves controleren; boekjaar afsluiten; jaarstukken opstellen; kascontrole en ALV voorbereiden; verzekeringen en financiële afspraken herzien. |\n\nLaat een tweede persoon op afgesproken momenten de bankmutaties bekijken. Regel ook wie de taken overneemt als de penningmeester ziek is of met vakantie gaat. De aangeleverde Penningmeestergids en Kascommissiegids onderstrepen het belang van een administratie die gedurende het jaar wordt bijgewerkt en door anderen te controleren is. ",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ceb0d3d2f4ce8c1c"
+    },
+    {
+      "id": "H13-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "13.2",
+      "title": "Welke deadlines moet ik voor onze vereniging bijhouden?",
+      "heading_original": "13.2 Welke deadlines moet ik voor onze vereniging bijhouden?",
+      "body": "Maak onderscheid tussen wettelijke termijnen, contractuele afspraken en interne plandata.\n\n- Jaarstukken en ALV: het bestuur legt jaarlijks de financiële stukken en het bestuursverslag aan de leden voor. Voor gewone verenigingen noemt de wet hiervoor een termijn van zes maanden na afloop van het boekjaar, behoudens verlenging door de ALV. Controleer ook de statuten. [Burgerlijk Wetboek, Boek 2, artikel 48](https://wetten.overheid.nl/BWBR0003045/)\n\n- Belastingaangiften: alleen voor zover de vereniging daartoe verplicht is. Het aangiftetijdvak en de betaaldatum hangen af van de belastingsoort en de registratie van de vereniging. Raadpleeg de berichten en actuele datums van de [Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/nl/ondernemers/content/inloggen-voor-ondernemers).\n\n- Subsidies: noteer aanvraagtermijnen, de periode waarin kosten mogen worden gemaakt en de datum waarop de besteding moet worden verantwoord.\n\n- Contracten en verzekeringen: leg verlengingsdata, opzegtermijnen en premiebetalingen vast.\n\n- Sportbond en gemeente: houd termijnen bij voor afdrachten, gegevensaanlevering en eventuele vergunningen of heffingen.\n\n- Contributie: plan de besluitvorming, facturatie, incasso en opvolging van achterstanden.\n\nNeem deadlines over uit de eigen beschikkingen, contracten, statuten en berichten. Een algemeen voorbeeldschema is daarvoor geen betrouwbare vervanging.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "Burgerlijk Wetboek, Boek 2, artikel 48",
+          "url": "https://wetten.overheid.nl/BWBR0003045/"
+        },
+        {
+          "label": "Belastingdienst",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/ondernemers/content/inloggen-voor-ondernemers"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "2d91fdea9c81fefc"
+    },
+    {
+      "id": "H13-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "13.3",
+      "title": "Hoe maak ik een werkbare financiële kalender?",
+      "heading_original": "13.3 Hoe maak ik een werkbare financiële kalender?",
+      "body": "Gebruik één gedeelde kalender of takenlijst die ook voor een tweede bestuurslid toegankelijk is. Noteer per taak vijf dingen: wat moet gebeuren, uiterste datum, voorbereidende datum, verantwoordelijke en waar de onderliggende afspraak staat.\n\n| **Taak** | **Uiterste datum** | **Beginnen op** | **Verantwoordelijke** | **Bron** |\n| --- | --- | --- | --- | --- |\n| Contributie innen | Volgens contributiebesluit | Enkele weken eerder | Penningmeester en ledenadministratie | ALV-besluit |\n| Subsidie verantwoorden | Volgens beschikking | Ruim vóór de einddatum | Projectleider en penningmeester | Subsidiebeschikking |\n| Kascontrole | Vóór verzending ALV-stukken | Na conceptjaarstukken | Kascommissie | ALV-planning |\n| Huurcontract beoordelen | Vóór opzegtermijn | Tijdig voor bestuursbesluit | Bestuur | Huurovereenkomst |\n\nZet herinneringen vóór de echte deadline. Houd bij een grote taak, zoals de jaarafsluiting, ruimte voor ontbrekende facturen en vragen van de kascommissie. Controleer de kalender bij iedere bestuursvergadering en werk haar bij zodra een nieuw contract of subsidie wordt toegekend.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "ffaa71e45f1a1e16"
+    },
+    {
+      "id": "H13-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "13.4",
+      "title": "Welke controles voer ik gedurende het jaar uit?",
+      "heading_original": "13.4 Welke controles voer ik gedurende het jaar uit?",
+      "body": "Een periodieke controle moet antwoord geven op de vraag: kloppen de cijfers en ziet het bestuur problemen op tijd aankomen?\n\nControleer in ieder geval:\n\n- Bank en kas: sluiten saldi en mutaties aan op de boekhouding?\n\n- Contributie: passen de verwachte inkomsten bij de actuele ledenlijst en de vastgestelde tarieven?\n\n- Facturen en declaraties: is voor betalingen een bewijsstuk en het juiste akkoord aanwezig?\n\n- Begroting: welke inkomsten en kosten wijken duidelijk af, en waarom?\n\n- Liquiditeit: kan de vereniging haar betalingen de komende maanden op tijd doen?\n\n- Subsidies en contracten: worden voorwaarden nagekomen en deadlines gehaald?\n\n- Toegang en bevoegdheden: hebben alleen de juiste personen toegang tot bank en administratie?\n\nLeg belangrijke verschillen en de oplossing kort vast. Meld een mogelijk tekort of een onverklaarde betaling meteen aan het bestuur; wacht niet tot de volgende jaarrekening. Hoofdstuk 2 beschrijft de administratieve controles en hoofdstuk 10 de aanpak van financiële risico’s uitgebreider.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "4cee066abfb79f5f"
+    },
+    {
+      "id": "H13-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "13.5",
+      "title": "Hoe bereid ik het einde van het boekjaar voor?",
+      "heading_original": "13.5 Hoe bereid ik het einde van het boekjaar voor?",
+      "body": "Begin vóór de laatste dag van het boekjaar met een afsluitlijst. Vraag commissies en teams om hun nog ontbrekende inkomsten, uitgaven en bewijsstukken aan te leveren. Controleer welke facturen of bijdragen betrekking hebben op het afgelopen jaar, ook als de betaling pas later volgt.\n\nLoop daarna de belangrijkste posten na:\n\n- bankrekeningen en eventuele contante kas;\n\n- nog te ontvangen contributie, subsidies en sponsorbedragen;\n\n- nog te betalen facturen en andere verplichtingen;\n\n- voorraden en waardevolle bezittingen;\n\n- leningen, investeringen en afschrijvingen;\n\n- vooruitbetaalde en vooruit ontvangen bedragen;\n\n- reserves en de toelichting op belangrijke veranderingen.\n\nVergelijk de conceptjaarstukken met de begroting en het voorgaande jaar. Bespreek opvallende verschillen eerst in het bestuur. Geef vervolgens de kascommissie tijd en toegang voor haar onderzoek, verwerk eventuele correcties en stel de stukken tijdig beschikbaar voor de ALV. De formele behandeling van de stukken en de rol van de kascommissie staan in hoofdstuk 11.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "09e1f94fcc47e41e"
+    },
+    {
+      "id": "H13-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "13.6",
+      "title": "Wat draag ik over aan mijn opvolger?",
+      "heading_original": "13.6 Wat draag ik over aan mijn opvolger?",
+      "body": "Een goede overdracht bestaat uit informatie, toegang en uitleg. Geef niet alleen een map met bestanden, maar bespreek ook wat nog moet gebeuren.\n\nGebruik deze overdrachtslijst:\n\n- Verenigingsregels: statuten, financieel reglement, actuele bevoegdheden en belangrijke besluiten.\n\n- Financiële stand: laatste begroting, jaarstukken, recente rapportage, banksaldi en openstaande posten.\n\n- Administratie: boekhoudsysteem, rekeningschema, archiefstructuur en werkinstructies.\n\n- Bank en betaalproces: rekeningen, passen, limieten, betaalrechten en controleafspraken.\n\n- Lopende afspraken: contracten, leningen, verzekeringen, subsidies en termijnen.\n\n- Contactpersonen: ledenadministratie, kascommissie, bond, gemeente, leveranciers en adviseurs.\n\n- Openstaande kwesties: onverklaarde verschillen, verwachte grote betalingen en besluiten die het bestuur nog moet nemen.\n\n- Financiële kalender: alle terugkerende taken en deadlines.\n\nDraag toegang veilig over met eigen accounts voor de opvolger. Deel geen persoonlijke wachtwoorden. Controleer daarna of de vertrekkende penningmeester geen toegang meer heeft die niet nodig is. Bij een bestuurswissel moeten ook de registratie bij KVK, eventuele UBO-gegevens en de bankrechten worden bijgewerkt. [KVK – bestuurswissel doorgeven](https://www.kvk.nl/wijzigen/bestuurswissel-doorgeven/)",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK – bestuurswissel doorgeven",
+          "url": "https://www.kvk.nl/wijzigen/bestuurswissel-doorgeven/"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "5e84a34564f715ba"
+    },
+    {
+      "id": "H13-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "13.7",
+      "title": "Hoe blijft de administratie begrijpelijk als vrijwilligers wisselen?",
+      "heading_original": "13.7 Hoe blijft de administratie begrijpelijk als vrijwilligers wisselen?",
+      "body": "Gebruik een vaste indeling die niet afhangt van het geheugen van één persoon. Spreek af hoe facturen worden benoemd, waar contracten staan, welke rubrieken in de boekhouding worden gebruikt en waar besluiten worden bewaard. Het aangeleverde rekenschema kan daarbij als gemeenschappelijke indeling dienen. \n\nBewaar bij iedere belangrijke boeking een begrijpelijke omschrijving en het bewijsstuk. Noteer bij een ongebruikelijke verwerking waarom daarvoor is gekozen. Houd een korte handleiding bij voor terugkerende handelingen, zoals contributie innen, bankmutaties verwerken en een bestuursrapportage maken.\n\nTest de overdraagbaarheid één keer per jaar: laat een ander bestuurslid een factuur, contract en bestuursbesluit terugzoeken. Als dat niet lukt, verbeter dan de indeling. Zorg ook dat de vereniging zelf toegang houdt tot reservekopieën van de administratie.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "92ab9df9ae1dbdf5"
+    },
+    {
+      "id": "H13-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "13.8",
+      "title": "Wat zijn de eerste stappen voor een nieuwe penningmeester?",
+      "heading_original": "13.8 Wat zijn de eerste stappen voor een nieuwe penningmeester?",
+      "body": "Probeer niet direct de hele administratie te veranderen. Breng eerst de huidige situatie en de eerstvolgende verplichtingen in beeld.\n\nIn de eerste weken:\n\n- Lees de statuten, financiële afspraken en notulen van recente financiële besluiten.\n\n- Bekijk de laatste jaarstukken, begroting en opmerkingen van de kascommissie.\n\n- Controleer bankstanden, openstaande rekeningen en de betalingen voor de komende maanden.\n\n- Vergelijk de banktoegang en bevoegdheden met de actuele bestuursregistratie.\n\n- Neem samen met de ledenadministratie de contributie-inning door.\n\n- Loop de financiële kalender en alle naderende deadlines na.\n\n- Bespreek onduidelijkheden en risico’s met het hele bestuur.\n\nMaak daarna een kort startoverzicht voor het bestuur: huidige geldpositie, verwachte ontvangsten en betalingen, openstaande vragen en de eerste besluiten die nodig zijn. Daarmee ontstaat een gezamenlijk vertrekpunt voor het komende verenigingsjaar.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "c367fdb1bf18c6d4"
+    },
+    {
+      "id": "H13-P09",
+      "order": 9,
+      "kind": "overzicht",
+      "number": null,
+      "title": "Jaarcyclus in één oogopslag",
+      "heading_original": "Jaarcyclus in één oogopslag",
+      "body": "| **Fase** | **Hoofdvraag** |\n| --- | --- |\n| Plannen | Wat willen we doen en hoe betalen we dat? |\n| Uitvoeren | Komen inkomsten binnen en worden uitgaven volgens afspraak gedaan? |\n| Volgen | Wijken cijfers of risico’s af van de begroting? |\n| Afsluiten | Zijn alle posten juist en volledig verwerkt? |\n| Verantwoorden | Kunnen kascommissie en leden de financiële situatie beoordelen? |\n| Overdragen | Kan een opvolger het werk zonder ontbrekende kennis voortzetten? |",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "c9a20855dce40fa6"
+    },
+    {
+      "id": "H13-P10",
+      "order": 10,
+      "kind": "kern",
+      "number": null,
+      "title": "Kern van dit hoofdstuk",
+      "heading_original": null,
+      "body": "Kern van dit hoofdstuk: maak financiële taken voorspelbaar met een kalender, voer gedurende het jaar kleine controles uit en leg informatie zo vast dat een opvolger direct verder kan.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "bb14359a007be598"
+    }
+  ],
+  "attachments": []
+}

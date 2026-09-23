@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Kennisbank Fin – FinSport</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/fin.css">
+  <script type="module" src="/js/start.js"></script>
+</head>
+<body>
+  <a class="sr-only" href="#main">Naar de inhoud</a>
+  <header class="kopbalk">
+    <div class="wrap">
+      <a class="merk" href="/" aria-label="Kennisbank Fin – naar de startpagina">
+        <img data-logo src="/assets/logo/finsport-logo-wit.svg" alt="FinSport">
+        <span class="logo-tekst" hidden>FinSport</span>
+        <span class="naam">Kennisbank Fin</span>
+      </a>
+      <form class="zoek-globaal" id="zoek-globaal" role="search">
+        <label for="zoek-globaal-veld" class="sr-only">Zoeken in alle hoofdstukken</label>
+        <input id="zoek-globaal-veld" type="search" placeholder="Zoeken in alle hoofdstukken" autocomplete="off">
+      </form>
+      <ul class="menu">
+        <li><a href="/voorstellen.html">Openstaande voorstellen <span class="teller" data-teller-voorstellen>0</span></a></li>
+        <li><span class="uit" title="Volgt in bouwstap 4">Testset</span></li>
+        <li><span class="uit" title="Volgt in bouwstap 5">Export</span></li>
+        <li class="gebruiker" id="gebruiker" aria-live="polite"></li>
+      </ul>
+    </div>
+  </header>
+  
+  <main id="main">
+    <div id="standaard">
+      <section class="intro">
+        <div class="wrap">
+          <div>
+            <h1>Kennisbank Fin</h1>
+            <p>Hier staat de kennis waarmee Fin, de digitale penningmeester van FinSport, vragen van penningmeesters beantwoordt. Alleen goedgekeurde tekst telt.</p>
+          </div>
+          <div class="fin-beeld" data-beeldvak>
+            <img data-optioneel src="/assets/fin/fin-scene-startpagina.png" alt="Fin zit achter een laptop met chatberichten">
+          </div>
+        </div>
+      </section>
+
+      <section class="uitleg wrap" aria-labelledby="uitleg-kop">
+        <div class="kop">
+          <h2 id="uitleg-kop">Zo werkt de kennisbank</h2>
+          <span data-beeldvak><img data-optioneel src="/assets/fin/fin-pose-idee.png" alt="Fin met een lampje boven zijn hoofd"></span>
+        </div>
+        <ol class="stappen">
+          <li>
+            <h3>Eén bron voor Fin</h3>
+            <p>De beheerpartij van Fin haalt de goedgekeurde tekst uit deze kennisbank op. Wat hier staat, is dus wat Fin weet. Het Word-document is niet meer leidend.</p>
+          </li>
+          <li>
+            <h3>Snel overzicht</h3>
+            <p>Elke tegel toont de datum van de laatste goedgekeurde versie, openstaande voorstellen en paragrafen waarvan de reviewdatum is verlopen.</p>
+          </li>
+          <li>
+            <h3>Zoeken</h3>
+            <p>Typ bovenin een of meer woorden. Je ziet de paragrafen waarin al die woorden staan, per hoofdstuk en met de woorden gemarkeerd.</p>
+          </li>
+          <li>
+            <h3>Wijziging voorstellen</h3>
+            <p>Goedgekeurde tekst pas je nooit direct aan. Klik bij een paragraaf op <em>Wijziging voorstellen</em> en vul in wat, waarom en welke bron. De andere redacteur beoordeelt het met de vaste checklist.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="signalen" aria-label="Signaleringen">
+        <div class="wrap" id="signalen"><span class="hulp">Signaleringen laden…</span></div>
+      </section>
+
+      <section class="hoofdstukken wrap" aria-labelledby="hs-kop">
+        <h2 id="hs-kop">Hoofdstukken</h2>
+        <div class="tegels" id="tegels"><p class="hulp">Hoofdstukken laden…</p></div>
+      </section>
+    </div>
+
+    <section class="resultaten" id="resultaten" hidden aria-live="polite"></section>
+  </main>
+</body>
+</html>

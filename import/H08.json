@@ -1,0 +1,216 @@
+{
+  "schema": "fin-kennisbank/import@1",
+  "chapter": {
+    "id": "H08",
+    "number": 8,
+    "title": "Accommodatie, materiaal en investeringen",
+    "heading_original": "Hoofdstuk 8 — Accommodatie, materiaal en investeringen",
+    "description": "Een sportvereniging kan sporten in een gehuurde zaal, op gemeentelijke velden of in een eigen accommodatie."
+  },
+  "version": {
+    "number": "1.0",
+    "status": "goedgekeurd",
+    "date": "2026-09-19",
+    "basisversie": true,
+    "author": "Import uit Vragenlijst Fin – FinSport versie 2 (Word)",
+    "approved_by": "Paul Baans",
+    "note": "Basisversie 1.0: inhoud letterlijk overgenomen uit het door de redacteuren gecontroleerde Word-document."
+  },
+  "sections": [
+    {
+      "id": "H08-P00",
+      "order": 0,
+      "kind": "inleiding",
+      "number": null,
+      "title": "Inleiding",
+      "heading_original": null,
+      "body": "Een sportvereniging kan sporten in een gehuurde zaal, op gemeentelijke velden of in een eigen accommodatie. In alle gevallen krijgt de penningmeester te maken met gebruikskosten, onderhoud en de vervanging van materiaal. Dit hoofdstuk helpt om die uitgaven tijdig te plannen en grote besluiten financieel te onderbouwen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "d981a2e6bde680c3"
+    },
+    {
+      "id": "H08-P01",
+      "order": 1,
+      "kind": "vraag",
+      "number": "8.1",
+      "title": "Welke kosten horen bij het gebruik van een sportaccommodatie?",
+      "heading_original": "8.1 Welke kosten horen bij het gebruik van een sportaccommodatie?",
+      "body": "Begin met alle kosten die nodig zijn om de accommodatie te kunnen gebruiken. Denk aan huur of erfpacht, energie, water, schoonmaak, afval, beveiliging, verzekeringen en belastingen. Heeft de vereniging een eigen gebouw of terrein, neem dan ook onderhoud, keuringen en de toekomstige vervanging van onderdelen mee.\n\nMaak in de begroting onderscheid tussen:\n\n- Vaste kosten: bijvoorbeeld huur, verzekeringen en periodieke keuringen.\n\n- Variabele kosten: bijvoorbeeld energie of schoonmaak die toenemen bij intensiever gebruik.\n\n- Incidentele kosten: bijvoorbeeld een reparatie na schade.\n\n- Geplande grote uitgaven: bijvoorbeeld vervanging van een dak, veld, vloer of verwarmingsinstallatie.\n\nEen lage huurprijs zegt weinig over de totale kosten als de vereniging zelf het onderhoud, de energie of de inrichting betaalt. Lees daarom altijd het volledige contract en maak een overzicht van de kosten per seizoen én per jaar.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "047464dc48786015"
+    },
+    {
+      "id": "H08-P02",
+      "order": 2,
+      "kind": "vraag",
+      "number": "8.2",
+      "title": "Wat is financieel belangrijk bij huren, beheren of bezitten?",
+      "heading_original": "8.2 Wat is financieel belangrijk bij huren, beheren of bezitten?",
+      "body": "De eerste vraag is: wie is eigenaar van wat, en wie betaalt waarvoor? Een vereniging kan bijvoorbeeld een clubhuis bezitten terwijl de grond van de gemeente is. Ook kunnen inventaris, lichtmasten en velden verschillende eigenaren hebben.\n\nLeg bij huur of gebruik in ieder geval vast:\n\n| **Onderwerp** | **Vraag voor de penningmeester** |\n| --- | --- |\n| Looptijd en opzegging | Hoe lang geldt de overeenkomst en wanneer kan de prijs veranderen? |\n| Onderhoud | Wie betaalt dagelijks onderhoud en wie betaalt grote reparaties? |\n| Energie en heffingen | Wat zit in de huur en wat wordt apart afgerekend? |\n| Investeringen | Mag de vereniging verbouwen en wat gebeurt er met die investering bij vertrek? |\n| Schade en verzekering | Wie draagt welk risico? |\n| Gebruik door anderen | Mag de vereniging ruimtes onderverhuren of delen? |\n\nBij eigendom komen daar de financiering, verzekerde waarde, technische staat en toekomstige vervanging bij. Controleer vóór aankoop of verbouwing ook de statuten en de bevoegdheid om namens de vereniging verplichtingen aan te gaan. Voor besluiten over onroerend goed kunnen specifieke regels gelden. [KVK](https://www.kvk.nl/starten/de-vereniging/) en [NOC*NSF](https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak) lichten de bestuurlijke bevoegdheden toe.",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "KVK",
+          "url": "https://www.kvk.nl/starten/de-vereniging/"
+        },
+        {
+          "label": "NOC*NSF",
+          "url": "https://www.nocnsf.nl/handboek-wet-en-regelgeving/5-bestuurstaak"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "cb0cbc90f89bbe51"
+    },
+    {
+      "id": "H08-P03",
+      "order": 3,
+      "kind": "vraag",
+      "number": "8.3",
+      "title": "Hoe begroten we onderhoud en vervanging van materiaal?",
+      "heading_original": "8.3 Hoe begroten we onderhoud en vervanging van materiaal?",
+      "body": "Werk met een meerjarenoverzicht. Noteer per belangrijk onderdeel de huidige staat, de verwachte onderhoudsdatum, de vervangingsdatum en een geschatte prijs. Denk aan sportvloeren, doelen, boten, toestellen, lichtinstallaties, computers en kantineapparatuur.\n\nEen eenvoudig overzicht kan er zo uitzien:\n\n| **Onderdeel** | **Verwachte uitgave** | **Jaar** | **Geschatte kosten** | **Wie is verantwoordelijk?** |\n| --- | --- | --- | --- | --- |\n| Sportvloer | Groot onderhoud | 2028 | € 8.000 | Vereniging |\n| Trainingsmateriaal | Vervanging | 2029 | € 4.500 | Vereniging |\n| Dak clubhuis | Vervanging | 2032 | € 35.000 | Volgens eigendomsafspraken |\n\nWerk dit overzicht jaarlijks bij met nieuwe offertes en de bevindingen van de accommodatiebeheerder. Verdeel de verwachte uitgaven vervolgens over de jaren in de begroting. Zo wordt zichtbaar hoeveel ruimte de vereniging jaarlijks moet vrijhouden.\n\nLet op: een bedrag binnen het eigen vermogen bestemmen voor toekomstig onderhoud betekent nog niet dat dit geld op de bank beschikbaar is. Controleer daarom ook de liquiditeitsplanning. De verwerking van een reserve of voorziening vraagt bovendien om een consistente keuze in de jaarrekening.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "213f54f3073e9e91"
+    },
+    {
+      "id": "H08-P04",
+      "order": 4,
+      "kind": "vraag",
+      "number": "8.4",
+      "title": "Hoe houden we bij welke bezittingen de vereniging heeft?",
+      "heading_original": "8.4 Hoe houden we bij welke bezittingen de vereniging heeft?",
+      "body": "Gebruik een inventaris- en activaregister naast de boekhouding. Daarmee weet het bestuur wat de vereniging bezit, waar het staat en wanneer het vermoedelijk vervangen moet worden.\n\nLeg voor waardevolle bezittingen vast:\n\n- omschrijving en eventuele serienummers;\n\n- aanschafdatum, leverancier en aanschafprijs;\n\n- locatie en verantwoordelijke beheerder;\n\n- eigenaar, als het materiaal in bruikleen of huur is;\n\n- verwachte gebruiksduur en vervangingsjaar;\n\n- boekwaarde, als het bezit op de balans staat;\n\n- verzekerde waarde en eventuele subsidievoorwaarden.\n\nControleer het register minimaal jaarlijks met de feitelijke inventaris. Werk het bij na aankoop, verkoop, schade of afvoer. Een apparaat dat volledig is afgeschreven, kan nog steeds aanwezig en bruikbaar zijn; laat het daarom niet automatisch uit de inventarislijst verdwijnen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "218873497131c105"
+    },
+    {
+      "id": "H08-P05",
+      "order": 5,
+      "kind": "vraag",
+      "number": "8.5",
+      "title": "Wanneer is een aankoop een investering en hoe verwerken we die?",
+      "heading_original": "8.5 Wanneer is een aankoop een investering en hoe verwerken we die?",
+      "body": "Een aankoop is financieel een investering wanneer de vereniging er meerdere jaren gebruik van verwacht en het bedrag volgens haar gekozen administratieve uitgangspunten groot genoeg is om op de balans te zetten. De aankoop wordt dan niet volledig als kosten van één jaar verwerkt. De waarde komt eerst op de balans; via afschrijvingen worden de kosten over de gebruiksjaren verdeeld.\n\nVoorbeeld: de vereniging koopt toestellen voor € 12.000. Zij verwacht deze zes jaar te gebruiken en rekent niet op een restwaarde. Bij lineair afschrijven bedraagt de jaarlijkse afschrijving € 2.000. De betaling van € 12.000 verlaat wel direct de bankrekening. Dat verschil tussen uitgave en jaarlijkse kosten is belangrijk voor zowel de begroting als de liquiditeitsplanning.\n\nLeg vast vanaf welk bedrag de vereniging aankopen als investering behandelt, welke gebruiksduur zij per soort bezit hanteert en hoe zij afschrijft. Pas die uitgangspunten consequent toe en licht ze toe in de jaarrekening. Gewoon onderhoud is doorgaans een kostenpost van het betreffende jaar; een grote verbetering of uitbreiding kan een investering zijn. Laat de verwerking van omvangrijke gebouwenprojecten beoordelen door iemand met passende financiële deskundigheid.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "d424d8fb63009983"
+    },
+    {
+      "id": "H08-P06",
+      "order": 6,
+      "kind": "vraag",
+      "number": "8.6",
+      "title": "Hoe beoordelen we of een investering financieel haalbaar is?",
+      "heading_original": "8.6 Hoe beoordelen we of een investering financieel haalbaar is?",
+      "body": "Maak vóór een besluit een korte investeringsbegroting. Kijk verder dan de aanschafprijs.\n\n- Bepaal de volledige projectkosten. Neem ontwerp, vergunningen, installatie, inrichting, btw die de vereniging niet kan terugvragen en een bedrag voor tegenvallers mee.\n\n- Bereken de toekomstige kosten. Denk aan onderhoud, energie, verzekering, rente en eventuele extra personeels- of vrijwilligerskosten.\n\n- Maak een betaalplanning. Wanneer zijn aanbetalingen en eindfacturen verschuldigd? Wanneer komen subsidies of bijdragen binnen?\n\n- Toets de gevolgen voor de vereniging. Kan zij na de investering haar gewone rekeningen blijven betalen? Wat gebeurt er als inkomsten lager uitvallen of kosten stijgen?\n\n- Vergelijk alternatieven. Repareren, huren, delen of later aanschaffen kan financieel anders uitpakken dan direct kopen.\n\nEen investering kan op papier betaalbaar lijken doordat de kosten over jaren worden afgeschreven, terwijl de vereniging vandaag onvoldoende geld heeft om de factuur te betalen. Leg daarom naast de begroting altijd een liquiditeitsprognose voor aan het bestuur.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "8732fdb2b02c9bde"
+    },
+    {
+      "id": "H08-P07",
+      "order": 7,
+      "kind": "vraag",
+      "number": "8.7",
+      "title": "Hoe financieren we een verbouwing of grote aanschaf?",
+      "heading_original": "8.7 Hoe financieren we een verbouwing of grote aanschaf?",
+      "body": "Mogelijke bronnen zijn eigen beschikbare middelen, een bijdrage van leden, sponsoring, een gemeentelijke regeling, een subsidie of een lening. Zorg dat de financiering past bij de gebruiksduur en het risico van het project.\n\nBij een lening gelden twee verschillende geldstromen: rente is een kostenpost en aflossing verlaagt de schuld. Beide kosten geld op de bankrekening. Neem dus de volledige jaarlijkse betaling op in de liquiditeitsprognose. Controleer daarnaast de looptijd, zekerheden, voorwaarden bij vervroegd aflossen en de bevoegdheid om de lening aan te gaan.\n\nVoor bouw, onderhoud en sportmateriaal kan de [BOSA-regeling](https://www.dus-i.nl/subsidies/sport/stimulering-bouw-en-onderhoud-sportaccommodaties) relevant zijn. De voorwaarden en openstelling veranderen; het aanvraagportaal voor 2026 is volgens de uitvoerder gesloten. Neem een verwachte subsidie pas als zekere financiering mee wanneer de toekenning voldoende vaststaat. Bewaar offertes, facturen, betaalbewijzen en besluiten zorgvuldig.\n\nLet ook op de btw. Diensten van sportverenigingen kunnen onder een btw-vrijstelling vallen; voor kosten die samenhangen met vrijgestelde activiteiten kan de vereniging de betaalde btw doorgaans niet aftrekken. Bij gemengd gebruik kan de beoordeling ingewikkelder zijn. Dit beïnvloedt de werkelijke investeringskosten en soms ook de subsidiemogelijkheden. Controleer dit vooraf aan de hand van de [uitleg van de Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/sportorganisaties/vrijstelling_voor_sportorganisaties_en_sportclubs).\n\nNOG MEER UITWERKEN",
+      "format": "markdown",
+      "sources": [
+        {
+          "label": "BOSA-regeling",
+          "url": "https://www.dus-i.nl/subsidies/sport/stimulering-bouw-en-onderhoud-sportaccommodaties"
+        },
+        {
+          "label": "uitleg van de Belastingdienst",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/vrijstellingen/sportorganisaties/vrijstelling_voor_sportorganisaties_en_sportclubs"
+        }
+      ],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "9e04b289d62658cc"
+    },
+    {
+      "id": "H08-P08",
+      "order": 8,
+      "kind": "vraag",
+      "number": "8.8",
+      "title": "Welke afspraken zijn nodig bij gedeeld gebruik van een accommodatie?",
+      "heading_original": "8.8 Welke afspraken zijn nodig bij gedeeld gebruik van een accommodatie?",
+      "body": "Gebruiken meerdere verenigingen of andere partijen dezelfde locatie, leg de afspraken schriftelijk vast. Spreek af wie de planning beheert, wie toegang heeft en hoe huur, energie, schoonmaak en onderhoud worden verdeeld. Beschrijf ook wie betaalt bij schade en wie investeringen mag doen.\n\nLaat de financiële afspraken aansluiten op de praktijk. Een verdeling van energiekosten op basis van gebruiksuren werkt bijvoorbeeld alleen als die uren betrouwbaar worden bijgehouden. Spreek af hoe vaak partijen afrekenen, welke gegevens zij delen en hoe zij de verdeelsleutel aanpassen wanneer het gebruik verandert. Controleer bij verhuur of exploitatie ook de btw-gevolgen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "f5be15d11e9b502f"
+    },
+    {
+      "id": "H08-P09",
+      "order": 9,
+      "kind": "checklist",
+      "number": null,
+      "title": "Praktische jaarcontrole voor de penningmeester",
+      "heading_original": "Praktische jaarcontrole voor de penningmeester",
+      "body": "Loop jaarlijks samen met de accommodatiebeheerder of materiaalcommissie deze punten na:\n\n- Kloppen huur- en gebruiksovereenkomsten nog?\n\n- Zijn alle terugkerende kosten en prijsverhogingen in de begroting verwerkt?\n\n- Is het onderhouds- en vervangingsoverzicht bijgewerkt?\n\n- Komen het activaregister, de verzekering en de balans overeen?\n\n- Zijn grote uitgaven en hun financiering tijdig aan het bestuur voorgelegd?\n\n- Is er voldoende geld beschikbaar op de momenten waarop facturen betaald moeten worden?",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "8335b8d706d05723"
+    },
+    {
+      "id": "H08-P10",
+      "order": 10,
+      "kind": "kern",
+      "number": null,
+      "title": "Kern van dit hoofdstuk",
+      "heading_original": null,
+      "body": "Kern van dit hoofdstuk: breng bezit, contracten en toekomstige vervanging in één overzicht samen. Dan kan de vereniging op tijd reserveren, onderbouwde investeringsbesluiten nemen en onverwachte druk op de kas voorkomen.",
+      "format": "markdown",
+      "sources": [],
+      "review": {
+        "date": "2027-09-19",
+        "term_months": 12
+      },
+      "checksum": "af00324429490b70"
+    }
+  ],
+  "attachments": []
+}
