@@ -33,6 +33,12 @@ Kennisbank-website van Fin, de digitale penningmeester van FinSport. Deze websit
 
 **Bewuste keuze:** het vier-ogenprincipe berust op de gekozen naam. Technisch kan iemand een andere naam kiezen; dat is tussen de twee redacteuren afgesproken.
 
+**Index en vaste links.** De function `netlify/functions/agent-index.js` bouwt bij elke aanvraag een index op uit de database. Alleen de actuele goedgekeurde versies en actieve bijlagen tellen mee; voorstellen en concepten nooit. De tekst gaat letterlijk door. Alle adressen zitten achter het wachtwoord.
+- `/index-kennisbank`: overzicht van alle hoofdstukken en paragrafen (ook via *Index* in de kopbalk).
+- `/llms.txt`, `/llms-full.txt`, `/kennisbank.json`: voor de beheerpartij en AI-agents.
+- `/p/H04-P03`: vaste link naar een paragraaf. Staat de paragraaf niet (meer) in de actuele versie, dan volgt een melding.
+- Peildatum = de datum waarop de hoofdstukversie is goedgekeurd.
+
 Wat nog volgt:
 | Stap | Onderdeel |
 |---|---|
@@ -55,6 +61,7 @@ public/                           de website (bevat GEEN kennisbankinhoud)
 netlify/edge-functions/           wachtwoord.js: wachtwoordbeveiliging vóór de hele site
 netlify/functions/                API: /api/kennisbank, /api/hoofdstuk, /api/redacteuren, /api/voorstellen, /api/voorstel,
                                   /api/upload, /api/bestand
+                                  agent-index.js: /index-kennisbank, /llms.txt, /llms-full.txt, /kennisbank.json, /p/[paragraaf-ID]
 netlify/lib/                      gedeelde servercode, workflow (voorstellen.mjs), bestanden (bestanden.mjs), databasequeries, lijst redacteuren
 netlify/database/migrations/      databaseschema, import basisversie 1.0, voorstellen (bouwstap 3), bijlagen (3b)
 import/                           importbestanden basisversie 1.0 (bron voor de migratie, en back-up)
