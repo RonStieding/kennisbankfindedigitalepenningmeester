@@ -52,6 +52,7 @@ public/                           de website (bevat GEEN kennisbankinhoud)
   js/                             data.js (API en naamkeuze), tekst.js, vergelijk.js, voorstelformulier.js, bijlageformulier.js,
                                   voorstellen.js, start.js, hoofdstuk.js, algemeen.js
   assets/fin/, assets/logo/       beelden (nog aan te leveren, zie LEESMIJ.txt)
+netlify/edge-functions/           wachtwoord.js: wachtwoordbeveiliging vóór de hele site
 netlify/functions/                API: /api/kennisbank, /api/hoofdstuk, /api/redacteuren, /api/voorstellen, /api/voorstel,
                                   /api/upload, /api/bestand
 netlify/lib/                      gedeelde servercode, workflow (voorstellen.mjs), bestanden (bestanden.mjs), databasequeries, lijst redacteuren
@@ -81,6 +82,14 @@ Bij bouwstap 3 en 3b hoeft niets te worden verwijderd; alle bestanden zijn nieuw
 **3. Deploy controleren**
 Open *Deploys* en klik op de nieuwste deploy. Controleer in het log dat Netlify Database is ingesteld en dat de migraties zijn geladen uit `netlify/database/migrations`. Bij deze levering worden de migraties `20260920090000_voorstellen` en `20260921090000_bijlagen` uitgevoerd. Mislukt de deploy bij het aanmaken van de database, kopieer dan de foutmelding en het adres van het deploylog en stuur ze door. Probeer niets met de hand in de database te veranderen.
 
+**Wachtwoord van de site**
+De hele site (ook `/api/...` en de bestanden) is beveiligd met een wachtwoord, via de Edge Function `netlify/edge-functions/wachtwoord.js`. Het wachtwoord staat niet in de code, maar in Netlify:
+1. *Project configuration → Environment variables → Add a variable*.
+2. Naam `SITE_PASSWORD`, waarde: een lang wachtwoord (bijvoorbeeld vier losse woorden). Scopes: *All scopes*. Deploy contexts: *Same value for all deploy contexts* (dan geldt het ook voor Deploy Previews).
+3. Opnieuw deployen (*Deploys → Trigger deploy*) zodat de variabele wordt gebruikt.
+
+Ontbreekt `SITE_PASSWORD`, dan is de site voor iedereen dicht. Na inloggen blijf je 14 dagen ingelogd in die browser; *Uitloggen* staat in het menu. Wijzig je het wachtwoord, dan wordt iedereen uitgelogd.
+
 **4. Toegang controleren**
 1. *Project configuration → General → Visitor access → Project visibility* moet op **Private** staan, voor Production én Deploy Previews. Zet dit nooit op Public: dan kan iedereen de kennisbank lezen.
 2. Laat Paul het adres van de site openen en inloggen met zijn eigen Netlify-account. Op een Free- of Personal-abonnement kan alleen de eigenaar een private site bekijken; lukt het Paul niet, dan is een Pro-abonnement nodig.
@@ -106,7 +115,7 @@ Werkt alles, voeg de pull request dan samen. Dan komt bouwstap 3 live, met een s
 
 - **Deploy Previews** krijgen een eigen kopie van de database. Wat je daar verandert, komt niet in de live-database. Let op: de bestandsopslag (Netlify Blobs) wordt wél gedeeld. Een testbestand dat je op een preview uploadt, komt in dezelfde opslag, maar is op de live site nergens zichtbaar omdat de live-database het niet kent.
 - **Redacteuren toevoegen of wijzigen**: pas de namen aan in `netlify/lib/redacteuren.mjs` en geef de persoon toegang tot het Netlify-team.
-- **Geheimen**: de code bevat geen wachtwoorden of sleutels. Netlify regelt de databaseverbinding zelf.
+- **Geheimen**: de code bevat geen wachtwoorden of sleutels. Netlify regelt de databaseverbinding zelf. Het sitewachtwoord staat alleen in de Netlify-variabele `SITE_PASSWORD` (lokaal in een `.env`-bestand, dat git negeert).
 - **Migraties** in `netlify/database/migrations/` nooit aanpassen of verwijderen nadat ze zijn uitgevoerd. Netlify controleert dat en weigert dan de deploy. Veranderingen gaan altijd via een nieuwe migratie.
 - **De inhoud** wijzig je vanaf bouwstap 3 alleen via de website (voorstel → validatie → goedkeuring). Niet via GitHub of rechtstreeks in de database.
 
