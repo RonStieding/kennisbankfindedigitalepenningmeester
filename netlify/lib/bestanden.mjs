@@ -1,7 +1,7 @@
 // Bestanden bij bijlagen: alleen Word, pdf en Excel, maximaal 5 MB.
 // Opslag in Netlify Blobs (store 'bijlagen'). De database bewaart alleen de sleutel.
 import { getStore } from "@netlify/blobs";
-import { randomUUID } from "node:crypto";
+import { createHash, randomUUID } from "node:crypto";
 import { fout } from "./server.mjs";
 
 export const MAX_GROOTTE = 5 * 1024 * 1024;
@@ -60,7 +60,8 @@ export async function bewaarBestand(inhoud, bestandsnaam, uploader) {
   const vandaag = new Date().toISOString().slice(0, 10).replace(/-/g, "");
   const sleutel = `bestanden/${vandaag}-${randomUUID()}`;
   await store().set(sleutel, bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength), {
-    metadata: { bestandsnaam: naam, mime: type.mime, grootte: bytes.length, geupload_door: uploader, geupload_op: new Date().toISOString() },
+    metadata: { bestandsnaam: naam, mime: type.mime, grootte: bytes.length, geupload_door: uploader, geupload_op: new Date().toISOString(),
+      sha256: createHash("sha256").update(bytes).digest("hex") },
   });
   return { sleutel, bestandsnaam: naam, mime: type.mime, grootte: bytes.length };
 }

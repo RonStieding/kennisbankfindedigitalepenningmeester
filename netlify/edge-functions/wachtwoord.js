@@ -4,12 +4,15 @@
 // krijgt een bezoeker alleen het inlogscherm te zien; een API-aanvraag krijgt een 401.
 //
 // Het wachtwoord staat NIET in de code. Netlify levert het via de environment variable
-// SITE_PASSWORD. Ontbreekt die variabele, dan blijft de site dicht (niemand komt erin).
+// SITE_PASSWORD. Ontbreekt die variabele, dan blijven browserpagina's en bestaande API's dicht.
+// Alleen de twee agent-GET-routes hebben hun eigen, onafhankelijke servicetoken.
 //
 // Na correct inloggen krijgt de browser een HttpOnly-cookie met een vervaldatum en een
 // handtekening (HMAC-SHA256). De handtekening is gemaakt met het wachtwoord als sleutel.
 // Een cookie is dus niet na te maken zonder het wachtwoord, en na het wijzigen van
 // SITE_PASSWORD zijn alle bestaande sessies direct ongeldig.
+
+import { AGENT_PATHS, controleerAgentToegang } from "../lib/agent-access.mjs";
 
 const COOKIE = "fin_sessie";
 const SESSIEDUUR_SECONDEN = 14 * 24 * 60 * 60; // 14 dagen
@@ -20,6 +23,11 @@ const encoder = new TextEncoder();
 
 export default async (request) => {
   const url = new URL(request.url);
+  // Apart read-only slot, vóór browserlogin. Een servicetoken verleent nergens
+  // anders toegang en wordt in de Node Function opnieuw gecontroleerd.
+  if (AGENT_PATHS.includes(url.pathname)) {
+    return (await controleerAgentToegang(request, Netlify.env.get("KNOWLEDGE_SYNC_TOKEN"))) || undefined;
+  }
   const wachtwoord = Netlify.env.get("SITE_PASSWORD") || "";
 
   if (!wachtwoord) {
