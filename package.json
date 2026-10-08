@@ -2,12 +2,19 @@
   "name": "kennisbank-fin",
   "private": true,
   "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check:agent": "node tools/check-agent-export.mjs"
+  },
   "description": "Kennisbank van Fin, de digitale penningmeester van FinSport",
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
-    "@netlify/database": "^2.0.1",
-    "@netlify/blobs": "^11.0.3"
+    "@netlify/blobs": "^11.0.3",
+    "@netlify/database": "^2.0.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.2.17"
   }
 }
