@@ -179,3 +179,66 @@ export async function versieVanHoofdstuk(sql, id, versieId) {
   const paragrafen = await paragrafenVan(sql, v.id);
   return { id: v.id, number: v.versie, date: v.versiedatum, sections: paragrafen.map(paragraafUit) };
 }
+
+// ---------- index voor agents en redacteuren (/index-kennisbank, /llms.txt, /llms-full.txt, /kennisbank.json) ----------
+// Alleen de actuele goedgekeurde versies en actieve bijlagen. Voorstellen en tellingen van voorstellen
+// worden hier bewust niet opgevraagd. Peildatum = datum waarop de hoofdstukversie is goedgekeurd.
+
+export async function goedgekeurdeKennisbank(sql) {
+  const versies = await actueleVersies(sql);
+  const paragrafen = await paragrafenVan(sql);
+  const bijlagen = await bijlagenVan(sql);
+  return versies.map((v) => {
+    const versie = versieUit(v);
+    return {
+      chapter: {
+        id: v.hoofdstuk_id,
+        number: Number(v.nummer),
+        title: v.titel,
+        description: v.omschrijving,
+      },
+      version: {
+        id: versie.id,
+        number: versie.number,
+        status: versie.status,
+        date: versie.date,
+        approved_by: versie.approved_by,
+        approved_at: versie.approved_at,
+        peildatum: versie.approved_at,
+        basisversie: versie.basisversie,
+      },
+      sections: paragrafen.filter((p) => p.hoofdstuk_versie_id === v.id).map((p) => {
+        const s = paragraafUit(p);
+        return {
+          id: s.id, order: s.order, kind: s.kind, number: s.number, title: s.title,
+          body: s.body, format: s.format, sources: s.sources, review: s.review,
+          peildatum: versie.approved_at, checksum: s.checksum,
+        };
+      }),
+      attachments: bijlagen.filter((b) => b.hoofdstuk_id === v.hoofdstuk_id).map((b) => ({
+        id: b.bijlage_id,
+        type: b.soort,
+        title: b.titel,
+        description: b.omschrijving,
+        date: b.datum,
+        url: b.soort === "link" ? b.url : `/api/bestand?sleutel=${encodeURIComponent(b.bestand_sleutel)}`,
+        external: b.soort === "link",
+        file_name: b.bestandsnaam,
+      })),
+    };
+  });
+}
+
+// Hoofdstuk-ID van een paragraaf, alleen als die paragraaf in de actuele goedgekeurde versie staat.
+export async function hoofdstukVanParagraaf(sql, paragraafId) {
+  const [rij] = await sql`
+    SELECT v.hoofdstuk_id
+    FROM paragraaf p
+    JOIN hoofdstuk_versie v ON v.id = p.hoofdstuk_versie_id
+    WHERE p.paragraaf_id = ${paragraafId}
+      AND v.status = 'goedgekeurd'
+      AND v.id = (SELECT MAX(v2.id) FROM hoofdstuk_versie v2
+                  WHERE v2.hoofdstuk_id = v.hoofdstuk_id AND v2.status = 'goedgekeurd')
+    LIMIT 1`;
+  return rij?.hoofdstuk_id ?? null;
+}

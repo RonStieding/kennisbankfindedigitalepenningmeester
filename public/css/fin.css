@@ -341,3 +341,11 @@ pre.vergelijking ins { background: #FFE58A; text-decoration: none; }
 .bv-soort label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
 .bv-soort input { accent-color: var(--fin-rood); width: 18px; height: 18px; }
 .vv [hidden] { display: none !important; }
+
+/* ---------- Indexpagina (/index-kennisbank) ---------- */
+.index-hs { padding: 32px 0; border-bottom: 1px solid var(--grijs-lijn); scroll-margin-top: 16px; }
+.index-hs h2 { display: flex; gap: 12px; align-items: baseline; }
+.index-hs h2 .nr { color: var(--fin-rood); }
+.index-hs h2 a { color: var(--zwart); text-decoration: none; }
+.index-hs h2 a:hover { text-decoration: underline; text-decoration-color: var(--fin-rood); }
+.index-hs td:first-child, .index-hs td:last-child { white-space: nowrap; }

@@ -33,6 +33,18 @@ Kennisbank-website van Fin, de digitale penningmeester van FinSport. Deze websit
 
 **Bewuste keuze:** het vier-ogenprincipe berust op de gekozen naam. Technisch kan iemand een andere naam kiezen; dat is tussen de twee redacteuren afgesproken.
 
+**Index en vaste links.** De function `netlify/functions/agent-index.js` bouwt bij elke aanvraag een index op uit de database. Alleen de actuele goedgekeurde versies en actieve bijlagen tellen mee; voorstellen en concepten nooit. De tekst gaat letterlijk door. Alle adressen zitten achter het wachtwoord.
+- `/index-kennisbank`: overzicht van alle hoofdstukken en paragrafen (ook via *Index* in de kopbalk).
+- `/llms.txt`, `/llms-full.txt`, `/kennisbank.json`: voor de beheerpartij en AI-agents.
+- `/p/H04-P03`: vaste link naar een paragraaf. Staat de paragraaf niet (meer) in de actuele versie, dan volgt een melding.
+- Peildatum = de datum waarop de hoofdstukversie is goedgekeurd.
+
+**Beveiligde synchronisatie voor agents.** Naast de browserindex zijn er twee read-only JSON-routes:
+- `/api/agent/manifest`: compacte lijst met hoofdstukversies, aantallen en hashes; ondersteunt `ETag`/`304`.
+- `/api/agent/export`: volledige goedgekeurde tekst, reviewmetadata en actieve bijlagereferenties uit één consistente database-snapshot.
+
+Deze routes gebruiken uitsluitend een afzonderlijk `KNOWLEDGE_SYNC_TOKEN` via `Authorization: Bearer ...`, gecontroleerd in zowel Edge als Function. Een browsercookie geeft hier geen toegang. Het token geeft geen toegang tot voorstellen, uploads of bestanden. Er wordt nog geen periodieke taak gestart en Smooth-chat-scroll wordt niet aangepast. Zie [Agent API: contract, configuratie en controle](docs/agent-api.md).
+
 Wat nog volgt:
 | Stap | Onderdeel |
 |---|---|
@@ -55,6 +67,7 @@ public/                           de website (bevat GEEN kennisbankinhoud)
 netlify/edge-functions/           wachtwoord.js: wachtwoordbeveiliging vóór de hele site
 netlify/functions/                API: /api/kennisbank, /api/hoofdstuk, /api/redacteuren, /api/voorstellen, /api/voorstel,
                                   /api/upload, /api/bestand
+                                  agent-index.js: /index-kennisbank, /llms.txt, /llms-full.txt, /kennisbank.json, /p/[paragraaf-ID]
 netlify/lib/                      gedeelde servercode, workflow (voorstellen.mjs), bestanden (bestanden.mjs), databasequeries, lijst redacteuren
 netlify/database/migrations/      databaseschema, import basisversie 1.0, voorstellen (bouwstap 3), bijlagen (3b)
 import/                           importbestanden basisversie 1.0 (bron voor de migratie, en back-up)
@@ -88,13 +101,17 @@ De hele site (ook `/api/...` en de bestanden) is beveiligd met een wachtwoord, v
 2. Naam `SITE_PASSWORD`, waarde: een lang wachtwoord (bijvoorbeeld vier losse woorden). Scopes: *All scopes*. Deploy contexts: *Same value for all deploy contexts* (dan geldt het ook voor Deploy Previews).
 3. Opnieuw deployen (*Deploys → Trigger deploy*) zodat de variabele wordt gebruikt.
 
-Ontbreekt `SITE_PASSWORD`, dan is de site voor iedereen dicht. Na inloggen blijf je 14 dagen ingelogd in die browser; *Uitloggen* staat in het menu. Wijzig je het wachtwoord, dan wordt iedereen uitgelogd.
+Ontbreekt `SITE_PASSWORD`, dan blijven de browserpagina’s en bestaande API’s dicht. De twee agentroutes hebben hun eigen, onafhankelijke `KNOWLEDGE_SYNC_TOKEN`; ontbreekt dat, dan blijven die routes dicht. Na inloggen blijf je 14 dagen ingelogd in die browser; *Uitloggen* staat in het menu. Wijzig je het wachtwoord, dan wordt iedereen uitgelogd.
 
 **4. Toegang controleren**
 1. *Project configuration → General → Visitor access → Project visibility* moet op **Private** staan, voor Production én Deploy Previews. Zet dit nooit op Public: dan kan iedereen de kennisbank lezen.
 2. Laat Paul het adres van de site openen en inloggen met zijn eigen Netlify-account. Op een Free- of Personal-abonnement kan alleen de eigenaar een private site bekijken; lukt het Paul niet, dan is een Pro-abonnement nodig.
 
 ## Testen
+
+Automatische agent-API-tests: `npm ci` en `npm test`. De tests gebruiken een tijdelijke lokale PGlite/PostgreSQL-database met alle bestaande migraties, een lokale HTTP-server en testtokens. Er worden geen productiegegevens of externe diensten benaderd. Een GitHub Actions-workflow voert dezelfde tests uit bij pushes en pull requests.
+
+Na uitrol naar een preview: stel `KNOWLEDGE_SYNC_URL` en `KNOWLEDGE_SYNC_TOKEN` veilig in je lokale omgeving in en voer `npm run check:agent` uit. Deze controle leest de uitgerolde API, controleert hashes en toegangsgrenzen en schrijft geen inhoud. De proef-POST gaat uitsluitend naar de read-only exportroute en moet 405 geven. Zie de [acceptatiestappen](docs/agent-api.md#acceptatie-op-een-netlify-preview).
 
 Test bij voorkeur eerst op een **Deploy Preview**: die heeft een eigen kopie van de database, dus proefvoorstellen komen niet in de echte kennisbank. Zet daarvoor de nieuwe bestanden in een aparte branch en open een pull request.
 
