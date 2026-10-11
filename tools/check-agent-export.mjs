@@ -30,7 +30,12 @@ export async function controleerAgentWebsite(baseUrl, token) {
   assert.equal(new Set(manifest.chapters.map((h) => h.id)).size, manifest.chapter_count);
   const etag = manifestResponse.headers.get("etag");
   assert.ok(etag);
-  const unchanged = await request("/api/agent/manifest", { ...auth, "If-None-Match": etag });
+  // Netlify's edge plakt bij compressie een achtervoegsel aan de ETag (bijvoorbeeld "-df"), voert de
+  // If-None-Match-vergelijking zelf uit met de kale ETag van de function en geeft een variant met
+  // achtervoegsel nooit door. Een afnemer stuurt daarom altijd de kale vorm terug (zie docs/agent-api.md).
+  const kaleEtag = etag.replace(/^(?:W\/)?("manifest-v1-sha256:[a-f0-9]{64})(?:-[A-Za-z0-9]+)?"$/, '$1"');
+  assert.equal(kaleEtag, `"manifest-v1-${manifest.snapshot_id}"`, "ETag hoort niet bij de snapshot_id van het manifest");
+  const unchanged = await request("/api/agent/manifest", { ...auth, "If-None-Match": kaleEtag });
   assert.equal(unchanged.status, 304, "Bron gewijzigd tijdens controle? Voer opnieuw uit");
   assert.equal(await unchanged.text(), "");
   const exp = await request(`/api/agent/export?snapshot_id=${encodeURIComponent(manifest.snapshot_id)}`);

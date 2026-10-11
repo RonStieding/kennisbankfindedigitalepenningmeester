@@ -18,8 +18,8 @@ De function heeft expliciete `config.path`-routes. Netlify documenteert dat zo�
 
 ## Leesprotocol
 
-1. Haal `/api/agent/manifest` op. Bewaar de ETag en de bijbehorende lokaal gevalideerde snapshot.
-2. Stuur bij volgende controles `If-None-Match: <etag>` mee. Bij 304 is die snapshot ongewijzigd. Bewaar lokale reviewdatums voor actualiteitssignalering, ook zonder wijzigingen.
+1. Haal `/api/agent/manifest` op. Bewaar de `snapshot_id` en de bijbehorende lokaal gevalideerde snapshot. De ETag is `"manifest-v1-<snapshot_id>"`. Netlify's CDN plakt daar bij gecomprimeerde antwoorden een achtervoegsel aan (bijvoorbeeld `-df`); bewaar die variant niet, maar leid de ETag af van de `snapshot_id`.
+2. Stuur bij volgende controles `If-None-Match: "manifest-v1-<snapshot_id>"` mee, zonder achtervoegsel. Bij 304 is die snapshot ongewijzigd. Let op: Netlify's edge voert deze vergelijking zelf uit met de kale ETag van de function en herkent een ETag mét achtervoegsel niet; de function krijgt de header niet te zien. Een 200 met dezelfde `snapshot_id` betekent eveneens ongewijzigd. De `snapshot_id` is leidend, de 304 is alleen een besparing. Bewaar lokale reviewdatums voor actualiteitssignalering, ook zonder wijzigingen.
 3. Bij een nieuwe manifestversie: haal `/api/agent/export?snapshot_id=<snapshot_id>` op. URL-encode de querywaarde.
 4. Bij 409 is intussen iets goedgekeurd: begin opnieuw bij de index. Beperk retries. De server bewaart geen exporthistorie voor deze route.
 5. Controleer schema, bron-ID, aantallen, paragraaf-ID’s en de hash van de volledige export. Verwerk pas daarna verschillen en verwijderingen.

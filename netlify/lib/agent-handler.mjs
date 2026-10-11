@@ -26,9 +26,11 @@ export function maakAgentHandler({ getToken, getSnapshot, logError = console.err
       const kern = `${isExport ? "export" : "manifest"}-v1-${data.snapshot_id}`;
       const etag = `"${kern}"`;
       const condition = request.headers.get("if-none-match") || "";
-      // Netlify's CDN plakt bij compressie een achtervoegsel aan de ETag (bijvoorbeeld "...-df")
-      // en de client stuurt die variant terug. Vergelijk daarom op de kern vóór het achtervoegsel;
-      // de kern eindigt op de volledige hash, dus een andere snapshot kan nooit matchen.
+      // Netlify's CDN plakt bij compressie een achtervoegsel aan de ETag (bijvoorbeeld "...-df").
+      // Op Netlify beantwoordt de edge If-None-Match zelf met de kale ETag en komt een variant met
+      // achtervoegsel hier nooit aan; deze tolerantie geldt voor lokaal gebruik en andere hosting.
+      // Vergelijk op de kern vóór het achtervoegsel; die eindigt op de volledige hash, dus een
+      // andere snapshot kan nooit matchen.
       const matches = condition.trim() === "*" || condition.split(",").some((candidate) => {
         const waarde = candidate.trim().replace(/^W\//, "").replace(/^"|"$/g, "");
         return waarde === kern || waarde.startsWith(`${kern}-`);
