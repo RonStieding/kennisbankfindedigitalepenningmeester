@@ -23,11 +23,16 @@ export function maakAgentHandler({ getToken, getSnapshot, logError = console.err
       if (new TextEncoder().encode(body).length > 5 * 1024 * 1024) {
         return agentAntwoord({ error: "export_too_large" }, 503);
       }
-      const etag = `"${isExport ? "export" : "manifest"}-v1-${data.snapshot_id}"`;
+      const kern = `${isExport ? "export" : "manifest"}-v1-${data.snapshot_id}`;
+      const etag = `"${kern}"`;
       const condition = request.headers.get("if-none-match") || "";
-      const matches = condition.trim() === "*" || condition.split(",").some(
-        (candidate) => candidate.trim().replace(/^W\//, "") === etag,
-      );
+      // Netlify's CDN plakt bij compressie een achtervoegsel aan de ETag (bijvoorbeeld "...-df")
+      // en de client stuurt die variant terug. Vergelijk daarom op de kern vóór het achtervoegsel;
+      // de kern eindigt op de volledige hash, dus een andere snapshot kan nooit matchen.
+      const matches = condition.trim() === "*" || condition.split(",").some((candidate) => {
+        const waarde = candidate.trim().replace(/^W\//, "").replace(/^"|"$/g, "");
+        return waarde === kern || waarde.startsWith(`${kern}-`);
+      });
       if (matches) return agentAntwoord(null, 304, { ETag: etag });
       return agentAntwoord(data, 200, { ETag: etag });
     } catch {

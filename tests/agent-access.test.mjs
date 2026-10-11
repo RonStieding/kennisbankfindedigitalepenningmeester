@@ -69,11 +69,16 @@ test("handler controleert opnieuw, vóór databasetoegang en vóór 304", async 
   const etag = response.headers.get("etag");
   assert.equal(response.headers.get("vary"), "Authorization");
   const manifest = await response.json();
-  for (const condition of [etag, `W/${etag}`, `"old", ${etag}`, "*"]) {
+  // Netlify's CDN voegt bij compressie een achtervoegsel toe (bijvoorbeeld "-df"); ook die variant moet 304 geven.
+  const metSuffix = `${etag.slice(0, -1)}-df"`;
+  for (const condition of [etag, `W/${etag}`, `"old", ${etag}`, "*", metSuffix, `W/${metSuffix}`]) {
     const result = await handler(req(undefined, { ...auth, "If-None-Match": condition }));
-    assert.equal(result.status, 304);
+    assert.equal(result.status, 304, condition);
     assert.equal(await result.text(), "");
   }
+  // Een andere hash met hetzelfde achtervoegsel mag nooit als ongewijzigd gelden.
+  const andereHash = `"manifest-v1-sha256:${"0".repeat(64)}-df"`;
+  assert.equal((await handler(req(undefined, { ...auth, "If-None-Match": andereHash }))).status, 200);
   const exp = await handler(req(`/api/agent/export?snapshot_id=${manifest.snapshot_id}`, auth));
   assert.equal(exp.status, 200);
   assert.notEqual(exp.headers.get("etag"), etag);
