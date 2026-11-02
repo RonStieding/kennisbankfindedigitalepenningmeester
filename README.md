@@ -28,6 +28,7 @@ Kennisbank-website van Fin, de digitale penningmeester van FinSport. Deze websit
 - Elke bijlage heeft een titel, omschrijving en datum, en een vast ID (bijvoorbeeld H02-B01).
 - Bestanden: alleen Word (.docx, .doc, .dotx), pdf en Excel (.xlsx, .xls, .xltx), maximaal 5 MB. De server controleert ook of het bestand echt is wat de naam zegt.
 - Links: een volledig webadres dat begint met https://.
+- **Goedkeuren is publiceren.** Een goedgekeurd bestand is voor iedereen te downloaden via een vaste link zonder login, bijvoorbeeld `/api/publiek/bijlage/H02-B01`. Fin deelt die link in gesprekken. De link levert altijd de actuele versie; na *Laten vervallen* werkt hij direct niet meer. Bestanden bij voorstellen (concepten, nog niet beoordeeld, afgewezen) zijn nooit publiek bereikbaar.
 - Bijlagen volgen dezelfde goedkeuring als tekst. Een geüpload bestand is pas zichtbaar in de kennisbank na goedkeuring; de beoordelaar kan het vooraf openen. Na goedkeuring krijgt het hoofdstuk een nieuw versienummer, en in de versiegeschiedenis staat welke bijlage is toegevoegd, gewijzigd of vervallen.
 - Een vervallen bijlage wordt niet verwijderd, maar blijft bewaard in de database.
 
@@ -43,7 +44,7 @@ Kennisbank-website van Fin, de digitale penningmeester van FinSport. Deze websit
 - `/api/agent/manifest`: compacte lijst met hoofdstukversies, aantallen en hashes; ondersteunt `ETag`/`304`.
 - `/api/agent/export`: volledige goedgekeurde tekst, reviewmetadata en actieve bijlagereferenties uit één consistente database-snapshot.
 
-Deze routes gebruiken uitsluitend een afzonderlijk `KNOWLEDGE_SYNC_TOKEN` via `Authorization: Bearer ...`, gecontroleerd in zowel Edge als Function. Een browsercookie geeft hier geen toegang. Het token geeft geen toegang tot voorstellen, uploads of bestanden. Er wordt nog geen periodieke taak gestart en Smooth-chat-scroll wordt niet aangepast. Zie [Agent API: contract, configuratie en controle](docs/agent-api.md).
+Deze routes gebruiken uitsluitend een afzonderlijk `KNOWLEDGE_SYNC_TOKEN` via `Authorization: Bearer ...`, gecontroleerd in zowel Edge als Function. Een browsercookie geeft hier geen toegang. Het token geeft geen toegang tot voorstellen, uploads of de redactieroute `/api/bestand`. Goedgekeurde bestandsbijlagen staan in de export met `access: "public"` en een relatieve `public_url` naar de publieke downloadroute. Zie [Agent API: contract, configuratie en controle](docs/agent-api.md).
 
 Wat nog volgt:
 | Stap | Onderdeel |
@@ -101,7 +102,7 @@ De hele site (ook `/api/...` en de bestanden) is beveiligd met een wachtwoord, v
 2. Naam `SITE_PASSWORD`, waarde: een lang wachtwoord (bijvoorbeeld vier losse woorden). Scopes: *All scopes*. Deploy contexts: *Same value for all deploy contexts* (dan geldt het ook voor Deploy Previews).
 3. Opnieuw deployen (*Deploys → Trigger deploy*) zodat de variabele wordt gebruikt.
 
-Ontbreekt `SITE_PASSWORD`, dan blijven de browserpagina’s en bestaande API’s dicht. De twee agentroutes hebben hun eigen, onafhankelijke `KNOWLEDGE_SYNC_TOKEN`; ontbreekt dat, dan blijven die routes dicht. Na inloggen blijf je 14 dagen ingelogd in die browser; *Uitloggen* staat in het menu. Wijzig je het wachtwoord, dan wordt iedereen uitgelogd.
+Ontbreekt `SITE_PASSWORD`, dan blijven de browserpagina’s en bestaande API’s dicht. De twee agentroutes hebben hun eigen, onafhankelijke `KNOWLEDGE_SYNC_TOKEN`; ontbreekt dat, dan blijven die routes dicht. Alleen de publieke downloadroute `/api/publiek/bijlage/…` staat bewust buiten het wachtwoord; die levert uitsluitend goedgekeurde, actieve bestandsbijlagen. Na inloggen blijf je 14 dagen ingelogd in die browser; *Uitloggen* staat in het menu. Wijzig je het wachtwoord, dan wordt iedereen uitgelogd.
 
 **4. Toegang controleren**
 1. *Project configuration → General → Visitor access → Project visibility* moet op **Private** staan, voor Production én Deploy Previews. Zet dit nooit op Public: dan kan iedereen de kennisbank lezen.

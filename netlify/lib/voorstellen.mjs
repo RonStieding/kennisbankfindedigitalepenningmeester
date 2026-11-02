@@ -6,7 +6,7 @@
 
 import { db, fout } from "./server.mjs";
 import { vandaagNL, plusMaanden, geldigeDatum } from "./datum.mjs";
-import { controlegetal, bronnenUit, schoon, volgendeVersie } from "./tekstregels.mjs";
+import { controlegetal, bronnenUit, schoon, volgendeVersie, geldigeBijlageUrl } from "./tekstregels.mjs";
 import { gegevensVan } from "./bestanden.mjs";
 
 export const CHECKLIST = [
@@ -116,9 +116,7 @@ async function bijlageInvoer(invoer, basis = null) {
   if (!geldigeDatum(uit.bijlage_datum)) throw fout(400, "Vul een geldige datum in bij de bijlage.");
   if (soort === "link") {
     const url = veld(invoer, "bijlage_url", 2000);
-    let geldig = false;
-    try { geldig = ["http:", "https:"].includes(new URL(url).protocol); } catch { geldig = false; }
-    if (!geldig) throw fout(400, "Vul een volledig webadres in, beginnend met https://");
+    if (!geldigeBijlageUrl(url)) throw fout(400, "Vul een volledig webadres in, beginnend met https://");
     uit.bijlage_url = url;
   } else {
     const sleutel = invoer?.bestand_sleutel || (basis && basis.soort !== "link" ? basis.bestand_sleutel : null);

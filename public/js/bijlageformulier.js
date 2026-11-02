@@ -83,6 +83,7 @@ export async function openBijlageFormulier({ soort, hoofdstuk, bijlage, bestaand
           <div class="bv-bestand">
             ${veld("Bestand", `<input class="veld" type="file" name="bestand" accept="${BESTAND_EXTENSIES.map((e) => "." + e).join(",")}">`,
               `Word, pdf of Excel, maximaal 5 MB.${huidigBestand ? ` Huidig bestand: <strong>${escapeHtml(huidigBestand)}</strong>. Kies alleen een nieuw bestand als je het wilt vervangen.` : ""}`)}
+            <p class="hulp">Na goedkeuring kan iedereen dit bestand downloaden via Fin en via een vaste link, zonder inloggen.</p>
           </div>
           <div class="bv-link">
             ${veld("Webadres", `<input class="veld" type="url" name="bijlage_url" placeholder="https://" value="${escapeHtml(b.url || "")}">`)}
@@ -142,7 +143,7 @@ export async function openBijlageFormulier({ soort, hoofdstuk, bijlage, bestaand
         gegevens.bijlage_datum = form.bijlage_datum.value;
         if (gegevens.bijlage_soort === "link") {
           gegevens.bijlage_url = form.bijlage_url.value.trim();
-          if (!/^https?:\/\/\S+$/i.test(gegevens.bijlage_url)) { melding.textContent = "Vul een volledig webadres in, beginnend met https://"; melding.hidden = false; form.bijlage_url.focus(); return; }
+          if (!/^https:\/\/\S+$/i.test(gegevens.bijlage_url)) { melding.textContent = "Vul een volledig webadres in, beginnend met https://"; melding.hidden = false; form.bijlage_url.focus(); return; }
         } else {
           bestand = form.bestand.files[0] || null;
           if (!bestand && !huidigBestand) { melding.textContent = "Kies een bestand om te uploaden."; melding.hidden = false; form.bestand.focus(); return; }

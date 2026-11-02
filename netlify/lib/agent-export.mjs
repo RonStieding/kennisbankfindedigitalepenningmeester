@@ -133,12 +133,16 @@ export async function bouwAgentSnapshot({ versies, paragrafen, bijlagen }, besta
         file = { name: b.bestandsnaam, mime: checked.mime, size: checked.size,
           content_hash: `sha256:${checked.sha256}` };
       }
+      // Goedgekeurde bestandsbijlagen zijn publiek: dezelfde goedkeuring als de tekst is de poort.
+      // `url` blijft de redactieroute (ook voor conceptbestanden); `public_url` is de route zonder login
+      // en levert altijd de actieve revisie van dit bijlage-ID. Relatief, net als alle andere links.
       attachments.push({
         id: b.bijlage_id, revision_id: b.id, type: b.soort, title: b.titel,
         description: b.omschrijving, date: b.datum,
         approved_by: b.goedgekeurd_door, approved_at: b.goedgekeurd_op,
-        external, access: external ? "external" : "editor_session_required",
+        external, access: external ? "external" : "public",
         url: external ? b.url : `/api/bestand?sleutel=${encodeURIComponent(b.bestand_sleutel)}`,
+        ...(external ? {} : { public_url: `/api/publiek/bijlage/${b.bijlage_id}` }),
         file,
       });
     }

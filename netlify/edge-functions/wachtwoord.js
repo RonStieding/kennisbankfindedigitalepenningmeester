@@ -5,14 +5,15 @@
 //
 // Het wachtwoord staat NIET in de code. Netlify levert het via de environment variable
 // SITE_PASSWORD. Ontbreekt die variabele, dan blijven browserpagina's en bestaande API's dicht.
-// Alleen de twee agent-GET-routes hebben hun eigen, onafhankelijke servicetoken.
+// Alleen de twee agent-GET-routes hebben hun eigen, onafhankelijke servicetoken, en de publieke
+// downloadroute voor goedgekeurde bijlagen (/api/publiek/bijlage/...) is zonder login bereikbaar.
 //
 // Na correct inloggen krijgt de browser een HttpOnly-cookie met een vervaldatum en een
 // handtekening (HMAC-SHA256). De handtekening is gemaakt met het wachtwoord als sleutel.
 // Een cookie is dus niet na te maken zonder het wachtwoord, en na het wijzigen van
 // SITE_PASSWORD zijn alle bestaande sessies direct ongeldig.
 
-import { AGENT_PATHS, controleerAgentToegang } from "../lib/agent-access.mjs";
+import { AGENT_PATHS, controleerAgentToegang, isPubliekeBijlageAanvraag } from "../lib/agent-access.mjs";
 
 const COOKIE = "fin_sessie";
 const SESSIEDUUR_SECONDEN = 14 * 24 * 60 * 60; // 14 dagen
@@ -28,6 +29,8 @@ export default async (request) => {
   if (AGENT_PATHS.includes(url.pathname)) {
     return (await controleerAgentToegang(request, Netlify.env.get("KNOWLEDGE_SYNC_TOKEN"))) || undefined;
   }
+  // Publieke download van goedgekeurde bijlagen: de Function controleert zelf status en soort.
+  if (isPubliekeBijlageAanvraag(url)) return;
   const wachtwoord = Netlify.env.get("SITE_PASSWORD") || "";
 
   if (!wachtwoord) {

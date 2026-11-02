@@ -1,6 +1,25 @@
 // Alleen Web APIs: gedeeld door de Deno Edge Function en Node Functions.
 export const AGENT_PATHS = ["/api/agent/manifest", "/api/agent/export"];
 
+// Publieke download van goedgekeurde bestandsbijlagen: /api/publiek/bijlage/H03-B02
+// Geen login en geen token. De Function levert uitsluitend actieve, goedgekeurde bijlagen.
+export const PUBLIEK_BIJLAGE_PAD = "/api/publiek/bijlage/";
+const BIJLAGE_ID = /^H\d{2}-B\d{2,}$/;
+
+export function isPubliekeBijlageAanvraag(url) {
+  return url.pathname.startsWith(PUBLIEK_BIJLAGE_PAD);
+}
+
+// Geeft het bijlage-ID uit het pad terug (hoofdletters), of null als het pad niet klopt.
+export function publiekeBijlageId(url) {
+  if (!isPubliekeBijlageAanvraag(url)) return null;
+  const rest = url.pathname.slice(PUBLIEK_BIJLAGE_PAD.length);
+  if (!rest || rest.includes("/")) return null;
+  let id;
+  try { id = decodeURIComponent(rest).toUpperCase(); } catch { return null; }
+  return BIJLAGE_ID.test(id) ? id : null;
+}
+
 export function agentAntwoord(data, status = 200, extraHeaders = {}) {
   return new Response(data === null ? null : JSON.stringify(data), {
     status,

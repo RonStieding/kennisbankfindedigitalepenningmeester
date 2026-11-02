@@ -6,6 +6,8 @@ import { createServer } from "node:http";
 import { once } from "node:events";
 import { leesAgentRijen, bouwAgentSnapshot } from "../netlify/lib/agent-export.mjs";
 import { maakAgentHandler } from "../netlify/lib/agent-handler.mjs";
+import { maakPubliekeBijlageHandler, ZOEK_ACTIEVE_BESTANDSBIJLAGE } from "../netlify/lib/publieke-bijlage.mjs";
+import { isPubliekeBijlageAanvraag } from "../netlify/lib/agent-access.mjs";
 import edge from "../netlify/edge-functions/wachtwoord.js";
 import { controleerAgentWebsite } from "../tools/check-agent-export.mjs";
 import { TOKEN } from "./fixtures.mjs";
@@ -27,12 +29,17 @@ test("echte Postgres-query op alle migraties: alleen nieuwste goedgekeurde versi
     // Echte lokale HTTP-keten: Edge-auth -> handler -> database -> JSON -> clientcheck.
     const handler = maakAgentHandler({ getToken: () => TOKEN,
       getSnapshot: async () => bouwAgentSnapshot(await leesAgentRijen(pool)) });
+    const publiek = maakPubliekeBijlageHandler({
+      zoekBijlage: async (id) => (await database.query(ZOEK_ACTIEVE_BESTANDSBIJLAGE, [id])).rows[0] || null,
+      leesBestand: async () => null, logError: () => {},
+    });
     const oldNetlify = globalThis.Netlify;
     globalThis.Netlify = { env: { get: (name) => name === "KNOWLEDGE_SYNC_TOKEN" ? TOKEN : "browser-password" } };
     const server = createServer(async (incoming, outgoing) => {
       try {
         const request = new Request(`http://127.0.0.1${incoming.url}`, { method: incoming.method, headers: incoming.headers });
-        const response = (await edge(request)) || (await handler(request));
+        const response = (await edge(request))
+          || (isPubliekeBijlageAanvraag(new URL(request.url)) ? await publiek(request) : await handler(request));
         outgoing.writeHead(response.status, Object.fromEntries(response.headers));
         outgoing.end(Buffer.from(await response.arrayBuffer()));
       } catch { outgoing.writeHead(500).end(); }

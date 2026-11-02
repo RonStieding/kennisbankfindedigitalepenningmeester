@@ -22,6 +22,13 @@ export function schoon(waarde, max) {
   return t;
 }
 
+// Linkbijlagen: alleen een volledig https-adres. De agentexport eist dit ook; een http-link zou de
+// hele export laten uitvallen.
+export function geldigeBijlageUrl(url) {
+  if (typeof url !== "string") return false;
+  try { return new URL(url).protocol === "https:"; } catch { return false; }
+}
+
 export function volgendeVersie(nummer) {
   const [hoofd, sub] = String(nummer).split(".").map((x) => parseInt(x, 10));
   return `${Number.isFinite(hoofd) ? hoofd : 1}.${(Number.isFinite(sub) ? sub : 0) + 1}`;

@@ -49,7 +49,7 @@ function navItem(s) {
 function bijlageItem(x) {
   const extra = x.external
     ? `<span class="hulp">Externe link</span>`
-    : `<span class="hulp">${escapeHtml((x.file_name || "").split(".").pop().toUpperCase())}${x.file_size ? " · " + grootteTekst(x.file_size) : ""}</span>`;
+    : `<span class="hulp">${escapeHtml((x.file_name || "").split(".").pop().toUpperCase())}${x.file_size ? " · " + grootteTekst(x.file_size) : ""}${x.public_url ? ` · <a href="${escapeHtml(x.public_url)}" title="Deze link werkt zonder inloggen; Fin deelt hem in gesprekken.">openbare link</a>` : ""}</span>`;
   return `<li class="bijlage">
     <a href="${escapeHtml(x.url)}" ${x.external ? 'target="_blank" rel="noopener noreferrer"' : "download"}>${escapeHtml(x.title)}</a>
     <span class="bijlage-omschr">${escapeHtml(x.description || "")}</span>
