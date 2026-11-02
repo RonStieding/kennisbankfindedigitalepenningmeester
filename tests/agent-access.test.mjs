@@ -42,6 +42,13 @@ test("Edge geeft agenttoken uitsluitend de twee leesroutes; browserlogin blijft 
     for (const path of ["/", "/llms.txt", "/kennisbank.json", "/.netlify/functions/agent-sync"]) {
       assert.equal((await edge(req(path, auth))).status, 303, path);
     }
+    // Publieke downloadroute: zonder cookie en zonder token door naar de Function; alleen dat padprefix.
+    for (const path of ["/api/publiek/bijlage/H01-B01", "/api/publiek/bijlage/h01-b01", "/api/publiek/bijlage/onzin"]) {
+      assert.equal(await edge(req(path)), undefined, path);
+    }
+    for (const path of ["/api/publiek/bijlage", "/api/publiek/", "/api/publiek/bestand?sleutel=x", "/api/bestand?sleutel=bestanden/x"]) {
+      assert.equal((await edge(req(path))).status, 401, path);
+    }
     const login = await edge(new Request("https://knowledge.example/inloggen", {
       method: "POST", body: new URLSearchParams({ wachtwoord: "browser-password", terug: "/" }),
     }));

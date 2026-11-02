@@ -100,6 +100,8 @@ function bijlageUit(b, tellingen) {
     date: b.datum,
     url: b.soort === "link" ? b.url : `/api/bestand?sleutel=${encodeURIComponent(b.bestand_sleutel)}`,
     external: b.soort === "link",
+    // Publieke downloadlink (zonder login) voor goedgekeurde bestandsbijlagen; Fin deelt deze link.
+    public_url: b.soort === "link" ? null : `/api/publiek/bijlage/${b.bijlage_id}`,
     file_name: b.bestandsnaam,
     file_size: b.bestand_grootte,
     approved_by: b.goedgekeurd_door,

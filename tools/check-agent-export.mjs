@@ -58,13 +58,32 @@ export async function controleerAgentWebsite(baseUrl, token) {
   assert.equal((await request("/api/agent/export", auth, "POST")).status, 405);
   assert.equal((await request("/api/voorstellen")).status, 401, "Agenttoken mag geen redactietoegang geven");
   assert.equal((await request("/api/agent/manifest", { "If-None-Match": etag })).status, 401);
-  return { chapter_count: manifest.chapter_count, snapshot_id };
+
+  // Publieke bijlagen: elke public_url werkt zonder token; de redactieroute blijft dicht.
+  let publiek = 0;
+  for (const h of exported.chapters) {
+    for (const b of h.attachments) {
+      if (b.external) { assert.equal(b.public_url, undefined, `${b.id}: links hebben geen public_url`); continue; }
+      assert.equal(b.access, "public", `${b.id}: bestandsbijlage hoort publiek te zijn`);
+      assert.equal(b.public_url, `/api/publiek/bijlage/${b.id}`, `${b.id}: public_url wijkt af`);
+      const download = await request(b.public_url, {});
+      assert.equal(download.status, 200, `${b.id}: publieke download mislukt`);
+      assert.match(download.headers.get("content-disposition") || "", /^attachment;/, `${b.id}: geen attachment`);
+      assert.equal(download.headers.get("content-type"), b.file.mime, `${b.id}: MIME wijkt af`);
+      assert.equal((await download.arrayBuffer()).byteLength, b.file.size, `${b.id}: grootte wijkt af`);
+      assert.equal((await request(b.url, {})).status, 401, `${b.id}: redactieroute moet zonder login dicht blijven`);
+      publiek++;
+    }
+  }
+  assert.equal((await request("/api/publiek/bijlage/H99-B99", {})).status, 404, "Onbekende bijlage moet 404 geven");
+  assert.equal((await request("/api/publiek/bijlage/H99-B99", {}, "POST")).status, 405);
+  return { chapter_count: manifest.chapter_count, snapshot_id, public_attachments: publiek };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try {
     const result = await controleerAgentWebsite(process.env.KNOWLEDGE_SYNC_URL, process.env.KNOWLEDGE_SYNC_TOKEN);
-    console.log(`Agentexport gecontroleerd: ${result.chapter_count} hoofdstukken; authenticatie, hashes, 304 en 409 kloppen.`);
+    console.log(`Agentexport gecontroleerd: ${result.chapter_count} hoofdstukken, ${result.public_attachments} publieke bijlagen; authenticatie, hashes, 304, 409 en publieke downloads kloppen.`);
   } catch (error) {
     console.error(`Agentcontrole mislukt: ${error.message}`);
     process.exitCode = 1;

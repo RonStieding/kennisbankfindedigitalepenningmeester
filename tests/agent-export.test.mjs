@@ -65,13 +65,20 @@ test("export weigert lege, halflege, niet-goedgekeurde en beschadigde data", asy
   }
 });
 
-test("bijlageversie, hash en metadata tellen mee; bestanden blijven privé", async () => {
+test("bijlageversie, hash en metadata tellen mee; goedgekeurde bestanden zijn publiek, links niet", async () => {
   const data = rijen(); data.bijlagen.push(bestand());
   const original = await bouwAgentSnapshot(data, fileInfo);
   const attachment = original.exported.chapters[0].attachments[0];
   assert.equal(attachment.revision_id, 1);
-  assert.equal(attachment.access, "editor_session_required");
+  assert.equal(attachment.access, "public");
+  assert.equal(attachment.public_url, "/api/publiek/bijlage/H01-B01", "relatief pad op bijlage-ID, niet op bestandssleutel");
+  assert.equal(attachment.url, `/api/bestand?sleutel=${encodeURIComponent(FILE_KEY)}`, "redactieroute blijft voor redacteurstooling");
   assert.equal(attachment.file.content_hash, `sha256:${"a".repeat(64)}`);
+  // Vervanging: nieuwe revisie, zelfde ID, zelfde publieke link, andere snapshot.
+  const replaced = structuredClone(data); replaced.bijlagen[0].id = 2; replaced.bijlagen[0].bestandsnaam = "handleiding-v2.pdf";
+  const replacedSnapshot = await bouwAgentSnapshot(replaced, fileInfo);
+  assert.equal(replacedSnapshot.exported.chapters[0].attachments[0].public_url, attachment.public_url);
+  assert.notEqual(replacedSnapshot.manifest.snapshot_id, original.manifest.snapshot_id);
   for (const change of [
     (r) => { r.bijlagen[0].id++; },
     (r) => { r.bijlagen[0].titel += " aangepast"; },
@@ -87,8 +94,12 @@ test("bijlageversie, hash en metadata tellen mee; bestanden blijven privé", asy
   data.bijlagen = [{ ...bestand(), soort: "link", url: "https://example.org" }];
   const linked = await bouwAgentSnapshot(data, async () => { throw new Error("Mag geen externe links ophalen"); });
   assert.equal(linked.exported.chapters[0].attachments[0].file, null);
+  assert.equal(linked.exported.chapters[0].attachments[0].access, "external");
+  assert.equal("public_url" in linked.exported.chapters[0].attachments[0], false, "links krijgen geen publieke downloadroute");
   data.bijlagen[0].url = "javascript:alert(1)";
   await assert.rejects(() => bouwAgentSnapshot(data));
+  data.bijlagen[0].url = "http://example.org";
+  await assert.rejects(() => bouwAgentSnapshot(data), "http-links horen al bij het voorstel te worden geweigerd");
 });
 
 test("alle leesqueries gebruiken dezelfde read-only transactie; rollback en release bij fouten", async () => {

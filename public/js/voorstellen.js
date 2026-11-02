@@ -93,9 +93,15 @@ function bestandLink(b) {
   return `<p><a class="knop tweede klein" href="/api/bestand?sleutel=${encodeURIComponent(b.bestand_sleutel)}" download>Bestand openen: ${escapeHtml(b.bestandsnaam || "")}</a></p>`;
 }
 
+// Goedkeuren van een bestandsbijlage is publiceren: de beoordelaar moet dat zien.
+function publiekeNoot(b) {
+  if (!b || b.soort === "link") return "";
+  return `<p class="hulp"><strong>Let op:</strong> na goedkeuring kan iedereen dit bestand downloaden via Fin en via een vaste link, zonder inloggen.</p>`;
+}
+
 function vergelijkingHtml(v) {
   if (v.soort === "bijlage_toevoegen") {
-    return `<p>Nieuwe bijlage:</p>${bijlageSamenvatting(v.bijlage)}${bestandLink(v.bijlage)}`;
+    return `<p>Nieuwe bijlage:</p>${bijlageSamenvatting(v.bijlage)}${bestandLink(v.bijlage)}${publiekeNoot(v.bijlage)}`;
   }
   if (v.soort === "bijlage_verwijderen") {
     return `<p>Deze bijlage vervalt na goedkeuring (ze blijft bewaard in de geschiedenis):</p>${bijlageSamenvatting(v.basis_bijlage)}`;
@@ -107,6 +113,7 @@ function vergelijkingHtml(v) {
     return rij("Soort", o.soort, n.soort) + rij("Titel", o.titel, n.titel) + rij("Omschrijving", o.omschrijving, n.omschrijving)
       + rij("Datum", datumNL(o.datum), datumNL(n.datum)) + rij("Webadres", o.url, n.url)
       + (nieuwBestand ? `<p class="hulp">Bestand</p><pre class="vergelijking"><del>${escapeHtml(o.bestandsnaam || "")}</del> <ins>${escapeHtml(n.bestandsnaam || "")}</ins></pre>${bestandLink(n)}` : "")
+      + publiekeNoot(n)
       + `<details class="vv-blok"><summary>Hele bijlage na de wijziging</summary>${bijlageSamenvatting(n)}</details>`;
   }
   if (v.soort === "nieuw_hoofdstuk") {
